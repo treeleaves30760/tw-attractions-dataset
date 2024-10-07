@@ -14,7 +14,7 @@ load_dotenv()
 INPUT_FOLDER = 'input_image'
 OUTPUT_FOLDER = 'dataset'
 API_KEY = os.getenv('OPENAI_API_KEY')
-QA_AMOUNT = 10
+QA_AMOUNT = 2
 
 # 初始化 OpenAI 客戶端
 client = OpenAI(api_key=API_KEY)
