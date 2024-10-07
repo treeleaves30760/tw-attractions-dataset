@@ -14,6 +14,7 @@ load_dotenv()
 INPUT_FOLDER = 'input_image'
 OUTPUT_FOLDER = 'dataset'
 API_KEY = os.getenv('OPENAI_API_KEY')
+QA_AMOUNT = 10
 
 # 初始化 OpenAI 客戶端
 client = OpenAI(api_key=API_KEY)
@@ -47,13 +48,30 @@ def query_gpt4(image_path, question):
     return response.choices[0].message.content
 
 
-def get_next_file_number(folder_path, prefix):
-    existing_files = glob.glob(os.path.join(folder_path, f'{prefix}-*.json'))
-    if not existing_files:
-        return 1
-    max_number = max(int(os.path.splitext(os.path.basename(f))[
-                     0].split('-')[1]) for f in existing_files)
-    return max_number + 1
+def process_image(image_path, output_folder):
+    # 創建圖片對應的輸出資料夾
+    image_name = os.path.splitext(os.path.basename(image_path))[0]
+    image_output_folder = os.path.join(output_folder, image_name)
+    os.makedirs(image_output_folder, exist_ok=True)
+
+    questions = [
+        ("這是台灣哪一個景點？", "A"),
+        ("這是哪一個景點？", "B")
+    ]
+
+    for question, prefix in questions:
+        for i in range(QA_AMOUNT):  # 每個問題生成兩個 JSON 文件
+            result = query_gpt4(image_path, question)
+            output_file = os.path.join(
+                image_output_folder, f'{prefix}-{i+1:06d}.json')
+            data = {
+                "image_path": image_path,
+                "question": question,
+                "answer": result
+            }
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+            print(f"Processed {image_path}, saved to {output_file}")
 
 
 def process_images():
@@ -64,37 +82,7 @@ def process_images():
                 relative_path = os.path.relpath(root, INPUT_FOLDER)
                 output_folder = os.path.join(OUTPUT_FOLDER, relative_path)
                 os.makedirs(output_folder, exist_ok=True)
-
-                next_number_a = get_next_file_number(output_folder, 'A')
-                next_number_b = get_next_file_number(output_folder, 'B')
-
-                # 處理第一個問題「這是台灣哪一個景點？」
-                result_taiwan = query_gpt4(image_path, "這是台灣哪一個景點？")
-                output_file_a = os.path.join(
-                    output_folder, f'A-{next_number_a:06d}.json')
-                data_a = {
-                    "image_path": image_path,
-                    "question": "這是台灣哪一個景點？",
-                    "answer": result_taiwan
-                }
-                with open(output_file_a, 'w', encoding='utf-8') as f:
-                    json.dump(data_a, f, ensure_ascii=False, indent=4)
-                print(f"Processed {image_path}, saved to {output_file_a}")
-
-                time.sleep(1)  # 避免超過API速率限制
-
-                # 處理第二個問題「這是哪一個景點？」
-                result_general = query_gpt4(image_path, "這是哪一個景點？")
-                output_file_b = os.path.join(
-                    output_folder, f'B-{next_number_b:06d}.json')
-                data_b = {
-                    "image_path": image_path,
-                    "question": "這是哪一個景點？",
-                    "answer": result_general
-                }
-                with open(output_file_b, 'w', encoding='utf-8') as f:
-                    json.dump(data_b, f, ensure_ascii=False, indent=4)
-                print(f"Processed {image_path}, saved to {output_file_b}")
+                process_image(image_path, output_folder)
 
 
 if __name__ == "__main__":
