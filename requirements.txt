@@ -3,3 +3,4 @@ openai
 python-dotenv
 flickrapi
 tqdm
+tiktoken
