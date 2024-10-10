@@ -1,3 +1,5 @@
 .env
 
 .conda/
+
+.DS_Store

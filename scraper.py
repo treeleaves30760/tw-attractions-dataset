@@ -11,7 +11,7 @@ KEY = os.getenv('FLICKER_API_KEY')
 SECRET = os.getenv('FLICKER_API_SECRET')
 
 
-def download_images(searchword, limitnum=10):
+def download_images(searchword, limitnum=1000):
     flickr = flickrapi.FlickrAPI(
         api_key=KEY, secret=SECRET, format='parsed-json')
 
