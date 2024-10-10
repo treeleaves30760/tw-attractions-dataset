@@ -121,6 +121,7 @@ def process_image(image_path, output_folder):
                 answer, input_tokens, output_tokens = query_gpt4(
                     image_path, modified_question)
                 data["qa_pairs"].append({
+                    "question_type": question_type,  # 添加問題類型
                     "question": question,
                     "answer": answer
                 })
@@ -162,7 +163,7 @@ def process_images():
 
 if __name__ == "__main__":
     # 指定要處理的單張圖片
-    single_image_path = "input_image/國立故宮博物院/國立故宮博物院-0.jpg"  # 請替換為實際的圖片路徑
+    single_image_path = "input_image/921地震教育園區/921地震教育園區-18.jpg"
 
     if os.path.exists(single_image_path):
         process_image(single_image_path, OUTPUT_FOLDER)
