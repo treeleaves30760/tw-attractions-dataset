@@ -101,5 +101,5 @@ def process_attraction_data(input_file: str):
 
 # 使用示例
 if __name__ == "__main__":
-    input_file = 'dataset/921地震教育園區-18/921地震教育園區-18_detailed_description_3.json'
+    input_file = 'dataset/台北小巨蛋-37/台北小巨蛋-37_conversation_2.json'
     process_attraction_data(input_file)

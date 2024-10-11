@@ -4,3 +4,4 @@ python-dotenv
 flickrapi
 tqdm
 tiktoken
+huggingface_hub

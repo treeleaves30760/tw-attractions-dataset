@@ -163,7 +163,7 @@ def process_images():
 
 if __name__ == "__main__":
     # 指定要處理的單張圖片
-    single_image_path = "input_image/921地震教育園區/921地震教育園區-18.jpg"
+    single_image_path = "input_image/台北小巨蛋/台北小巨蛋-37.jpg"
 
     if os.path.exists(single_image_path):
         process_image(single_image_path, OUTPUT_FOLDER)
