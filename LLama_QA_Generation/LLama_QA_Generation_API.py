@@ -3,6 +3,9 @@ import json
 import requests
 import wikipedia
 import regex
+import base64
+from PIL import Image
+import io
 
 def get_wiki_knowledge(topic):
     """從維基百科獲取相關知識（繁體中文）"""
@@ -14,8 +17,10 @@ def get_wiki_knowledge(topic):
         return "無法獲取維基百科內容"
 
 def generate_llama_data(image_path, gpt4_description, wiki_content, landmark_name):
-    generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, landmark_name)
-    generate_llama_data_single_turn(image_path, gpt4_description, wiki_content, landmark_name)
+    multi_result = generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, landmark_name)
+    single_result = generate_llama_data_single_turn(image_path, gpt4_description, wiki_content, landmark_name)
+    result = {"multi_turn": multi_result, "detailed_explanation": single_result["detailed_explanation"], "complex_reasoning": single_result["complex_reasoning"]}
+    return result
 
 def generate_llama_data_single_turn(image_path, gpt4_description, wiki_content, landmark_name):
     """使用 API 生成訓練資料（繁體中文）"""
@@ -45,8 +50,8 @@ def generate_llama_data_single_turn(image_path, gpt4_description, wiki_content, 
     "qa_pairs": [
         {{
             "question_type": "{data_type}",
-            "question": "問題1。",
-            "answer": "答案1。"
+            "question": "<問題>",
+            "answer": "<回答>"
         }}
         // 要有多組問答，請使用繁體中文回答，請用逗號分隔
     ]
@@ -54,23 +59,24 @@ def generate_llama_data_single_turn(image_path, gpt4_description, wiki_content, 
 
 請確保輸出僅包含上述格式的 JSON，不要添加任何額外的說明或文字。"""
 
-        # 打開圖片文件
-        with open(image_path, 'rb') as image_file:
-            # 構建請求的表單數據和文件
-            files = {'image': image_file}
-            # 設定請求參數
-            data = {
-                'question': prompt,
-                'max_new_tokens': '3000',
-                'do_sample': 'false'
-            }
+        # 讀取圖片並轉換為 base64
+        with open(image_path, "rb") as image_file:
+            image_base64 = base64.b64encode(image_file.read()).decode('utf-8')
 
-            # 發送 POST 請求到 /chat 端點
-            response = requests.post('http://localhost:8000/chat', files=files, data=data)
+        # 準備請求數據
+        data = {
+            "text": prompt,
+            "image": image_base64,
+            "max_new_tokens": 3000
+        }
+
+        # 發送 POST 請求到 /generate 端點
+        response = requests.post('http://localhost:8000/generate', json=data)
 
         if response.status_code == 200:
-            response_text = response.json().get('response', '')
-            assistant_response = response_text.split("assistant")[1]
+            messages = response.json().get('messages', [])
+            assistant_response = next((msg['content'] for msg in messages if msg['role'] == 'assistant'), '')
+            
             # 嘗試解析回應為 JSON 格式
             try:
                 # 清理回應文字，移除可能的非 JSON 內容
@@ -145,23 +151,24 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
 
 請確保輸出僅包含上述格式的 JSON，不要添加任何額外的說明或文字。"""
 
-        # 打開圖片文件
-        with open(image_path, 'rb') as image_file:
-            # 構建請求的表單數據和文件
-            files = {'image': image_file}
-            # 設定請求參數
-            data = {
-                'question': prompt,
-                'max_new_tokens': '3000',
-                'do_sample': 'false'
-            }
+        # 讀取圖片並轉換為 base64
+        with open(image_path, "rb") as image_file:
+            image_base64 = base64.b64encode(image_file.read()).decode('utf-8')
 
-            # 發送 POST 請求到 /chat 端點
-            response = requests.post('http://localhost:8000/chat', files=files, data=data)
+        # 準備請求數據
+        data = {
+            "text": prompt,
+            "image": image_base64,
+            "max_new_tokens": 3000
+        }
+
+        # 發送 POST 請求到 /generate 端點
+        response = requests.post('http://localhost:8000/generate', json=data)
 
         if response.status_code == 200:
-            response_text = response.json().get('response', '')
-            assistant_response = response_text.split("assistant")[1]
+            messages = response.json().get('messages', [])
+            assistant_response = next((msg['content'] for msg in messages if msg['role'] == 'assistant'), '')
+            
             # 嘗試解析回應為 JSON 格式
             try:
                 # 清理回應文字，移除可能的非 JSON 內容
@@ -177,7 +184,6 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
 
     return results
 
-
 def extract_json(text):
     """從文本中提取 JSON 字串"""
     # 使用 regex 模組的遞歸匹配功能
@@ -187,17 +193,37 @@ def extract_json(text):
     else:
         raise ValueError("未找到有效的 JSON")
 
-def save_to_json(data, landmark_name, data_type):
+def save_to_json(data, landmark_name):
     """將生成的資料保存為 JSON 文件"""
-    if data is None:
-        print(f"未能獲取 {data_type} 類型的資料，跳過保存。")
-        return
-
     os.makedirs(f"dataset/{landmark_name}", exist_ok=True)
-    filename = f"dataset/{landmark_name}/llama_generate_{data_type}.json"
-
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    
+    # 保存多輪對話資料
+    if "multi_turn" in data and data["multi_turn"] is not None:
+        filename = f"dataset/{landmark_name}/llama_generate_multi_turn.json"
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data["multi_turn"], f, ensure_ascii=False, indent=4)
+        print(f"已保存多輪對話資料至 {filename}")
+    
+    # 保存單次對話資料
+    single_turn_data = {
+        "image_path": data.get("multi_turn", {}).get("image_path", ""),
+        "qa_pairs": []
+    }
+    
+    # 添加詳細解釋資料
+    if "detailed_explanation" in data and data["detailed_explanation"] is not None:
+        single_turn_data["qa_pairs"].extend(data["detailed_explanation"].get("qa_pairs", []))
+    
+    # 添加複雜推理資料
+    if "complex_reasoning" in data and data["complex_reasoning"] is not None:
+        single_turn_data["qa_pairs"].extend(data["complex_reasoning"].get("qa_pairs", []))
+    
+    # 保存單次對話資料
+    if single_turn_data["qa_pairs"]:
+        filename = f"dataset/{landmark_name}/llama_generate_single_turn.json"
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(single_turn_data, f, ensure_ascii=False, indent=4)
+        print(f"已保存單次對話資料至 {filename}")
 
 def main(image_path, landmark_name, gpt4_description):
     # 獲取維基百科知識
@@ -207,8 +233,7 @@ def main(image_path, landmark_name, gpt4_description):
     llama_data = generate_llama_data(image_path, gpt4_description, wiki_content, landmark_name)
 
     # 保存資料
-    for data_type, content in llama_data.items():
-        save_to_json(content, landmark_name, data_type)
+    save_to_json(llama_data, landmark_name)
 
     print(f"已完成 {landmark_name} 的資料生成。")
 
