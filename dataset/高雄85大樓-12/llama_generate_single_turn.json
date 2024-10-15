@@ -1,0 +1,75 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓是什麼樣的建築？",
+            "answer": "高雄85大樓是一座摩天大樓，位於高雄市苓雅區，高度為347.5公尺，地上85層，地下5層。它是高雄市的地標建築，同時也是台灣第二高的摩天大樓。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的設計特點是什麼？",
+            "answer": "高雄85大樓的設計特點包括其獨特的貫穿設計，左右兩棟建築在35樓以上合併成單一的高塔，直到85層的尖頂。它還擁有特殊的外型，表現出所在城市的名字「高」（高雄市）。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓有多少個電梯？",
+            "answer": "高雄85大樓共有56台電梯，分成P及S系列。其中S系列是供載貨用。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的觀景台在哪個樓層？",
+            "answer": "高雄85大樓的觀景台位於74樓。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的設計師是誰?",
+            "answer": "高雄85大樓的設計師是東帝士集團東雲建設及建台水泥公司。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少?",
+            "answer": "高雄85大樓的高度是347.5公尺。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少?",
+            "answer": "高雄85大樓的樓層數是85層。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築材料是什麼?",
+            "answer": "高雄85大樓的建築材料是鋼筋混凝土。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的開發商是誰?",
+            "answer": "高雄85大樓的開發商是東帝士集團東雲建設及建台水泥公司。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的設計風格是什麼?",
+            "answer": "高雄85大樓的設計風格是摩天大樓風格。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築年代是什麼?",
+            "answer": "高雄85大樓的建築年代是1997年。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的位置是哪裡?",
+            "answer": "高雄85大樓的位置是高雄市苓雅區。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度排名是多少?",
+            "answer": "高雄85大樓的高度排名是世界第27高。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的設計師是誰?",
+            "answer": "高雄85大樓的設計師是東帝士集團東雲建設及建台水泥公司。"
+        }
+    ]
+}
