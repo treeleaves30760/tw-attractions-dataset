@@ -193,9 +193,9 @@ def extract_json(text):
     else:
         raise ValueError("未找到有效的 JSON")
 
-def save_to_json(data, landmark_name):
+def save_to_json(data, landmark_name, number):
     """將生成的資料保存為 JSON 文件"""
-    os.makedirs(f"dataset/{landmark_name}", exist_ok=True)
+    os.makedirs(f"dataset/{landmark_name}-{number}", exist_ok=True)
     
     # 保存多輪對話資料
     if "multi_turn" in data and data["multi_turn"] is not None:
@@ -225,7 +225,7 @@ def save_to_json(data, landmark_name):
             json.dump(single_turn_data, f, ensure_ascii=False, indent=4)
         print(f"已保存單次對話資料至 {filename}")
 
-def main(image_path, landmark_name, gpt4_description):
+def main(image_path, landmark_name, gpt4_description, number):
     # 獲取維基百科知識
     wiki_content = get_wiki_knowledge(landmark_name)
 
@@ -233,15 +233,16 @@ def main(image_path, landmark_name, gpt4_description):
     llama_data = generate_llama_data(image_path, gpt4_description, wiki_content, landmark_name)
 
     # 保存資料
-    save_to_json(llama_data, landmark_name)
+    save_to_json(llama_data, landmark_name, number)
 
-    print(f"已完成 {landmark_name} 的資料生成。")
+    print(f"已完成 {landmark_name}-{number} 的資料生成。")
 
 if __name__ == "__main__":
     image_folder = "/media/Pluto/andy/taiwan_chatgpt"
     image = "input_image/高雄85大樓/高雄85大樓-12.jpg"
     image_path = os.path.join(image_folder, image)
     landmark_name = "高雄85大樓"
+    number = 12
     gpt4_description = """這張圖片展示的是**高雄85大樓**（85 Sky Tower），位於台灣高雄市苓雅區，是該市著名的地標建築。高雄85大樓是台灣第二高的摩天大樓，也是高雄市的主要觀光景點之一。
 
 以下是圖片中的一些細節描述：
@@ -259,4 +260,4 @@ if __name__ == "__main__":
    - 天空中的白雲與藍天映襯出大樓的宏偉，整體畫面色彩明亮。
 
 高雄85大樓建於1997年，曾是亞洲最高的摩天大樓之一。其樓層數達85層，因此得名。"""
-    main(image_path, landmark_name, gpt4_description)
+    main(image_path, landmark_name, gpt4_description, number)
