@@ -5,3 +5,5 @@ flickrapi
 tqdm
 tiktoken
 huggingface_hub
+wikipedia
+regex
