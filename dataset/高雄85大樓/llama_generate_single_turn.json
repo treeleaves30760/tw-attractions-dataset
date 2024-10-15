@@ -1,0 +1,30 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "大樓的設計元素有哪些？",
+            "answer": "大樓的設計元素包括深色玻璃幕牆、懸空大堂、對稱的塔樓結構、垂直線條、綠色樹木、藍天和白雲等。"
+        },
+        {
+            "question_type": "historical_background",
+            "question": "大樓建於哪一年？",
+            "answer": "大樓建於1997年。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少?",
+            "answer": "高雄85大樓的高度為347.5公尺（不含電信桿）"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少?",
+            "answer": "高雄85大樓有85層樓"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築設計是什麼?",
+            "answer": "高雄85大樓的建築設計以兩個對稱的塔樓構成，中間由一個水平橋梁連接"
+        }
+    ]
+}

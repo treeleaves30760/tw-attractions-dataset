@@ -1,0 +1,49 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是一座摩天大樓，位於高雄市苓雅區，樓高347.5公尺，是高雄市最高的摩天大樓之一"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的樓層數是多少"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓共有85層樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的設計是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的設計是以兩個對稱的塔樓構成，中間由一個水平橋梁連接"
+                    }
+                ]
+            }
+        ]
+    }
+}
