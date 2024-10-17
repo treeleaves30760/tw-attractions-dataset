@@ -1,0 +1,65 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中元素的詳細解釋以及相關的歷史背景。",
+            "answer": "這張圖片展示的是高雄85大樓，位於台灣高雄市苓雅區，是該市著名的地標建築。高雄85大樓是台灣第二高的摩天大樓，也是高雄市的主要觀光景點之一。這座大樓建於1997年，曾是亞洲最高的摩天大樓之一。其樓層數達85層，因此得名。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的歷史背景。",
+            "answer": "高雄85大樓建於1997年，曾是亞洲最高的摩天大樓之一。其樓層數達85層，因此得名。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少?",
+            "answer": "347.5公尺"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓建於哪一年?",
+            "answer": "1997年"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少?",
+            "answer": "85層"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築設計是什麼樣的?",
+            "answer": "高雄85大樓的建築設計是以兩個對稱的塔樓構成，中間由一個水平橋梁連接"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的觀景台在哪一樓層?",
+            "answer": "74樓"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的電梯數量是多少?",
+            "answer": "56台"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的最高電梯速度是多少?",
+            "answer": "750公尺每分鐘"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的觀景台可以看到哪些景色?",
+            "answer": "高雄港、台灣海峽、壽山及高雄市景"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的觀景台最高可以看到哪些地方?",
+            "answer": "屏東縣北大武山"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的觀景台還可以看到哪些地方?",
+            "answer": "海上的小琉球"
+        }
+    ]
+}

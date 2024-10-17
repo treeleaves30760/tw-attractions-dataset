@@ -1,0 +1,70 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the name of the building in the image?",
+            "answer": "The building in the image is called the 85 Sky Tower, also known as the High Sky Tower."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the location of the building?",
+            "answer": "The building is located in Kaohsiung, Taiwan."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the height of the building?",
+            "answer": "The building has a height of 347.5 meters."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the number of floors in the building?",
+            "answer": "The building has 85 floors."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the purpose of the building?",
+            "answer": "The building serves as an office building, hotel, and shopping center."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "When was the building completed?",
+            "answer": "The building was completed in 1997."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "Who designed the building?",
+            "answer": "The building was designed by the architectural firm of C.Y. Lee & Partners."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the name of the company that owns the building?",
+            "answer": "The building is owned by the Kaohsiung City Government."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the name of the hotel located in the building?",
+            "answer": "The hotel located in the building is called the Hyatt Regency Kaohsiung."
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the name of the shopping center located in the building?",
+            "answer": "The shopping center located in the building is called the Kaohsiung 85 Sky Tower Shopping Center."
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓是什麼樣子的建築？",
+            "answer": "高雄85大樓是一座摩天大樓，高達347.5公尺，地上85層，地下5層。它的外觀是深色玻璃幕牆，帶有藍色和綠色的反光效果。它的中間部分有一個明顯的缺口設計，稱為懸空大堂，讓人一眼就能辨認出這座大樓。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築結構是什麼樣子的？",
+            "answer": "高雄85大樓的建築結構是兩個對稱的塔樓構成，中間由一個水平橋梁連接。塔樓的頂部逐漸變細，並帶有一些垂直線條，給人一種向上延伸的動感。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的周圍環境是什麼樣子的？",
+            "answer": "高雄85大樓前方有幾棵茂密的樹木，這些綠色的植物與大樓深色的玻璃幕牆形成了明顯的對比。天空中的白雲與藍天映襯出大樓的宏偉，整體畫面色彩明亮。"
+        }
+    ]
+}

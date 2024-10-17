@@ -1,0 +1,50 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓是哪一年建成的？",
+            "answer": "高雄85大樓建於1997年"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的高度是多少？",
+            "answer": "高雄85大樓的高度為347.5公尺"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的樓層數是多少？",
+            "answer": "高雄85大樓有85層樓"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓是哪個城市的地標建築？",
+            "answer": "高雄85大樓位於高雄市苓雅區"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少?",
+            "answer": "高雄85大樓的高度為347.5公尺（1,140.1英尺)。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓建於哪一年?",
+            "answer": "高雄85大樓建於1997年。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少?",
+            "answer": "高雄85大樓共有85層樓。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的設計師是誰?",
+            "answer": "高雄85大樓的設計師是東帝士集團。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築風格是什麼?",
+            "answer": "高雄85大樓的建築風格是摩天大樓。"
+        }
+    ]
+}

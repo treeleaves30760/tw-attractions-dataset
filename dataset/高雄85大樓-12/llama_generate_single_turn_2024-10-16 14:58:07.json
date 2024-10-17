@@ -1,0 +1,90 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓是哪年建成的？",
+            "answer": "高雄85大樓於1997年建成。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的高度是多少？",
+            "answer": "高雄85大樓的高度為347.5公尺。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的樓層數是多少？",
+            "answer": "高雄85大樓有85層樓。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓是哪個城市的地標建築？",
+            "answer": "高雄85大樓是高雄市的地標建築。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的設計特點是什麼？",
+            "answer": "高雄85大樓的設計特點是其兩個對稱的塔樓構成，以及中間的懸空大堂。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的周圍環境是什麼？",
+            "answer": "高雄85大樓的周圍環境是高雄港和新光碼頭。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少？",
+            "answer": "347.5公尺"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少？",
+            "answer": "85層"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築設計是什麼？",
+            "answer": "高雄85大樓的建築設計是兩個對稱的塔樓構成，中間由一個水平橋梁連接。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的主要用途是什麼？",
+            "answer": "高雄85大樓主要用於辦公、商務和觀光"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的特殊設計是什麼？",
+            "answer": "高雄85大樓的特殊設計是中央塔下方留下一個中空的空間"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的電梯數量是多少？",
+            "answer": "56台"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的觀景台的樓層是多少？",
+            "answer": "74樓"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的最高可見度是多少？",
+            "answer": "屏東縣北大武山"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的電梯製造商是什麼？",
+            "answer": "台灣三菱電梯"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的登高賽是什麼？",
+            "answer": "高雄地區唯一一次的85金典超越巔峰國際登高賽"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的參觀資訊是什麼？",
+            "answer": "高雄85大樓的參觀資訊包括捷運、輕軌、公車、公共自行車租賃系統"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓位於台灣高雄市苓雅區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓以深色玻璃幕牆為主體，帶有藍色和綠色的反光效果，給人現代且科技感十足的印象"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓有多高"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓樓高347.5公尺"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了高雄85大樓的宏偉建築外觀，樓層數達85層，給人一種向上的感覺"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的建築風格是摩天大樓"
+                    }
+                ]
+            }
+        ]
+    }
+}

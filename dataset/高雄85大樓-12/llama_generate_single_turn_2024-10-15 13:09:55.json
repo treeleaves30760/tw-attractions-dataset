@@ -1,0 +1,45 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中元素的詳細解釋",
+            "answer": "這張圖片展示的是高雄85大樓，位於台灣高雄市苓雅區，是該市著名的地標建築。"
+        },
+        {
+            "question_type": "historical_background",
+            "question": "相關的歷史背景",
+            "answer": "高雄85大樓建於1997年，曾是亞洲最高的摩天大樓之一。其樓層數達85層，因此得名。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓是哪一年建成的？",
+            "answer": "1997年"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少？",
+            "answer": "347.5公尺"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓有多少層？",
+            "answer": "85層"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓是哪個城市的地標建築？",
+            "answer": "高雄市"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的設計特點是什麼？",
+            "answer": "高雄85大樓的設計特點是兩個對稱的塔樓構成，中間由一個水平橋梁連接"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓有哪些功能？",
+            "answer": "高雄85大樓是一棟地下5層，地上85層的建築，樓高347.5公尺（不含電信桿）， 斥資新台幣180億元，平均每坪造價約19萬元。整棟建築由二棟側翼撐起中央高樓主建物，原先規劃地下2樓至地上7樓為日本大丸百貨與東帝士旗下的建台水泥合開建台大丸百貨；8樓至12樓規劃為當時台灣最大的魔幻天地室內主題樂園（建台魔幻嘉年華），大樓右側12樓至35樓為展覽廳，左側辦公大樓，37樓起為晶華酒店，大樓內並有部分中、高樓層做為對外販售的套房產品。 "
+        }
+    ]
+}

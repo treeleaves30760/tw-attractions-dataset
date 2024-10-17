@@ -1,0 +1,113 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓是什麼樣的建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是一座摩天大樓，位於高雄市，高達347.5公尺，共有85層樓高，是高雄市最高的建築"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的特色是其獨特的設計，包括一個中空的空間，讓人能夠看到整個城市的景色"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的樓層是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓共有85層樓高"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的電梯是什麼樣的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓共有56台電梯，包括P系列和S系列，P系列是供載貨用的電梯，S系列是供載貨或緊急用電梯"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的觀景台是什麼樣的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的觀景台位於74樓，提供了360度的城市景色"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的登高賽是什麼樣的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓曾舉辦過登高賽，參加者需要從1樓到75樓，296.9公尺的樓高進行比賽"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展示了高雄85大樓的獨特設計和壯麗的城市景色"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的交通資訊是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓附近有捷運紅線三多商圈站和黃線三多商圈站，還有輕軌環狀輕軌高雄展覽館站，公車也可以到達"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的觀光資訊是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是高雄市的著名景點，提供了觀景台和登高賽等活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓的歷史是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓建於1997年，是高雄市最高的建築"
+                    }
+                ]
+            }
+        ]
+    }
+}

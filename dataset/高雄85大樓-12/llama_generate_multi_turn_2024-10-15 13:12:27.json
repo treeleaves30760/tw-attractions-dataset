@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是一座摩天大樓，樓高347.5公尺，地上85層，地下5層，是高雄市的重要地標"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓的建築設計是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的建築設計是特殊的貫穿設計，左右兩棟建築在35樓以上合併成單一的高塔，直到85層的尖頂"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓有哪些功能"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓內有辦公室、酒店、觀景台、餐廳等功能"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓附近有哪些景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓附近有三多商圈、海防碼頭、蓮潭公園等景點"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是一座摩天大樓，樓高347.5公尺，地上85層，地下5層，是高雄市的重要地標"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓的建築設計是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的建築設計是特殊的貫穿設計，左右兩棟建築在35樓以上合併成單一的高塔，直到85層的尖頂"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓有哪些功能"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓內有辦公室、酒店、觀景台、餐廳等功能"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓附近有哪些景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓附近有三多商圈、海防碼頭、蓮潭公園等景點"
+                    }
+                ]
+            }
+        ]
+    }
+}

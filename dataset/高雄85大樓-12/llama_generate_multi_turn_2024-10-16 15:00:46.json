@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展現了高雄85大樓的宏偉建築外觀，包括深色玻璃幕牆和藍色和綠色的反光效果。建築的中間部分有一個明顯的缺口設計，讓人一眼就能辨認出這座大樓。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓是什麼樣的建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是一座摩天大樓，樓高347.5公尺，地上85層、地下5層。它是高雄市的主要觀光景點之一，也是台灣第二高的摩天大樓。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓的開幕時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓建於1997年，曾是亞洲最高的摩天大樓之一。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問高雄85大樓的建築高度是多少"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的建築高度為347.5公尺。"
+                    }
+                ]
+            }
+        ]
+    }
+}

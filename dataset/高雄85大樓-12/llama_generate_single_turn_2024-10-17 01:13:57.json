@@ -1,0 +1,20 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與哪個景點相匹配？",
+            "answer": "這張圖片中的元素與高雄85大樓相匹配。高雄85大樓是一座位於台灣高雄市的摩天大樓，樓高347.5公尺，是高雄市最高的摩天大樓之一。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼？",
+            "answer": "這個景點的特色是其獨特的建築設計，具有兩個對稱的塔樓和一個懸空的大堂。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色?",
+            "answer": "高雄85大樓是高雄市的重要地標建築，曾是亞洲第三高的摩天大樓，現在是高雄市第一高樓和台灣第二高的摩天大樓。它是高雄重要的地標，同時也是旅遊景點之一。"
+        }
+    ]
+}

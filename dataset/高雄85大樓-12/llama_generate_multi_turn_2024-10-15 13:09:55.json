@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是一座摩天大樓，樓高347.5公尺，地上85層，地下5層，是高雄市的重要地標"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓有哪些特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的特色包括其獨特的設計，中空的空間和觀景台等"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓有哪些地方可以去"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓內有許多地方可以去，包括觀景台、展覽廳、辦公室等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓附近有哪些景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓附近有許多景點，包括高雄港、壽山公園等"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是一座摩天大樓，高雄市的主要觀光景點之一，樓高347.5公尺，地上85層、地下5層，曾是台灣最高的摩天大樓，現在是高雄市的第一高樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的特色包括其獨特的設計，具有深色玻璃幕牆和懸空大堂的結構，還有其對外觀景觀的展望台，提供了豐富的觀景體驗"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓位於高雄市苓雅區，靠近高雄港和新光碼頭"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個景點開放時間是什麼時候"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的開放時間通常是早上九點至晚上十點，但建議您先確認最新的開放時間和票價"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼樣的餐廳"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓內有多家餐廳和咖啡廳，提供各種美食和飲品"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點附近有什麼樣的景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓附近有高雄港、新光碼頭和其他觀光景點"
+                    }
+                ]
+            }
+        ]
+    }
+}

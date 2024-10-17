@@ -1,0 +1,55 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the name of the building in the image?",
+            "answer": "高雄85大樓"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the location of the building?",
+            "answer": "高雄市苓雅區"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "How many floors does the building have?",
+            "answer": "85"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the height of the building?",
+            "answer": "347.5公尺"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "What is the purpose of the building?",
+            "answer": "辦公室、酒店、商場"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓是什麼樣的建築？",
+            "answer": "高雄85大樓是一座摩天大樓，位於高雄市苓雅區，高雄85大樓是高雄市的主要觀光景點之一。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的設計特點是什麼？",
+            "answer": "高雄85大樓的設計特點是兩個對稱的塔樓構成，中間有水平橋梁連接，塔樓的頂部逐漸變細，並帶有一些垂直線條。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少？",
+            "answer": "高雄85大樓共有85層樓，高雄85大樓的樓層數是高雄市最高的摩天大樓之一。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少？",
+            "answer": "高雄85大樓的高度為347.5公尺（1,140.1英尺），高雄85大樓的高度是高雄市最高的摩天大樓之一。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的開幕時間是什麼？",
+            "answer": "高雄85大樓在1997年完工。"
+        }
+    ]
+}

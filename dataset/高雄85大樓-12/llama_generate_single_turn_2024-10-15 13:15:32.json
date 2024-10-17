@@ -1,0 +1,35 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓是哪一年建成的？",
+            "answer": "高雄85大樓建於1997年"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的樓層數是多少？",
+            "answer": "高雄85大樓有85層樓"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的高度是多少？",
+            "answer": "高雄85大樓的高度為347.5公尺"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓是什麼樣的建築？",
+            "answer": "高雄85大樓是一座摩天大樓，位於高雄市苓雅區，樓高347.5公尺，是高雄市的標誌性建築，也是台灣第二高的摩天大樓。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的設計特色是什麼？",
+            "answer": "高雄85大樓的設計特色是其獨特的貫穿設計，左右兩棟建築在35樓以上合併成單一的高塔，直到85層的尖頂。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的觀景台可以看到什麼景象？",
+            "answer": "高雄85大樓的觀景台可以俯瞰高雄港、台灣海峽、壽山及高雄市景，能見度高時，可看見屏東縣北大武山，夏天能見度全盛時甚至可遠望海上的小琉球。"
+        }
+    ]
+}

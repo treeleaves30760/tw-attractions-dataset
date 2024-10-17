@@ -1,0 +1,35 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素是什麼？",
+            "answer": "這張圖片中的元素是高雄85大樓，位於高雄市苓雅區，高度347.5公尺，是高雄市的地標建築。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的特色是什麼？",
+            "answer": "高雄85大樓的特色是其獨特的設計，具有兩個對稱的塔樓結構，中間有一個懸空的空間。它也是臺灣第二高的摩天大樓，具有現代和科技感的外觀。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的建築設計是什麼？",
+            "answer": "高雄85大樓的建築設計是由兩個對稱的塔樓構成，中間的懸空空間使得大樓具有特殊的視覺效果。它的設計是為了展示高雄市的城市景觀和地標建築。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓是哪一年建成的？",
+            "answer": "1997年"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少？",
+            "answer": "85層"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少？",
+            "answer": "347.5公尺"
+        }
+    ]
+}

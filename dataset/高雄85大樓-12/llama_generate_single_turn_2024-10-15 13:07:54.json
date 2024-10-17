@@ -1,0 +1,85 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓是哪一年建成的？",
+            "answer": "高雄85大樓建於1997年。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的建築高度是多少？",
+            "answer": "高雄85大樓的建築高度為347.5公尺（不含電信桿）。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的樓層數是多少？",
+            "answer": "高雄85大樓共有85層樓。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的設計特點是什麼？",
+            "answer": "高雄85大樓的設計特點是兩個對稱的塔樓構成，中間由一個水平橋梁連接。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的建築材料是什麼？",
+            "answer": "高雄85大樓主要採用深色玻璃幕牆。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的環境狀況是什麼？",
+            "answer": "高雄85大樓位於高雄市苓雅區，緊鄰著高雄港和新光碼頭。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少?",
+            "answer": "347.5公尺"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少?",
+            "answer": "85"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的設計者是誰?",
+            "answer": "東帝士集團東雲建設及建台水泥公司"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的開幕時間是什麼?",
+            "answer": "1997年"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的主要功能是什麼?",
+            "answer": "旅館、商場、辦公室"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的最高使用樓層是多少?",
+            "answer": "79"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的電梯數量是多少?",
+            "answer": "56"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的觀景台所在樓層是多少?",
+            "answer": "74"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的電梯製造商是誰?",
+            "answer": "三菱電梯"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的登高賽比賽時間是什麼?",
+            "answer": "2003年3月22日"
+        }
+    ]
+}

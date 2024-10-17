@@ -1,0 +1,30 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓是什麼樣的建築？",
+            "answer": "高雄85大樓是一座摩天大樓，位於高雄市苓雅區，樓高347.5公尺，地上85層，地下5層。它是高雄市的地標建築，也是台灣第二高的摩天大樓。"
+        },
+        {
+            "question_type": "historical_background",
+            "question": "高雄85大樓的歷史背景是什麼？",
+            "answer": "高雄85大樓建於1997年，是由東帝士集團東雲建設及建台水泥公司聯合投資興建的。它最初命名為TC Tower，後來改名為高雄85大樓。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少?",
+            "answer": "347.5公尺"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少?",
+            "answer": "85層"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築設計是什麼樣的?",
+            "answer": "高雄85大樓的建築設計是以兩個對稱的塔樓構成，中間由一個水平橋梁連接"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是一座摩天大樓，樓高347.5公尺，地上85層，地下5層。它是高雄市的地標建築，位於高雄港邊，附近有許多商業區和觀光景點。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "高雄85大樓有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的特色之一是其獨特的設計，樓頂有一個懸空大堂，讓人一眼就能辨認出這座大樓。另外，高雄85大樓也是高雄市最高的摩天大樓之一，提供了優越的觀景平台，讓人可以欣賞到高雄港和周圍的景色。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色之一是高雄85大樓的建築設計，樓頂的懸空大堂和優越的觀景平台。另外，照片中還可以看到高雄港和周圍的景色，讓人可以欣賞到高雄的美景。"
+                    }
+                ]
+            }
+        ]
+    }
+}

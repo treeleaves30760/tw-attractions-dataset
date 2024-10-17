@@ -1,0 +1,40 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "高雄85大樓的建築設計特色是什麼？",
+            "answer": "高雄85大樓的建築設計特色是其特殊的貫穿設計，左右兩棟建築在35樓以上合併成單一的高塔，直到85層的尖頂，而在中央塔下方留下一個中空的空間。大樓的外型表現出所在城市的名字：「高」（高雄市）。"
+        },
+        {
+            "question_type": "historical_background",
+            "question": "高雄85大樓的歷史背景是什麼？",
+            "answer": "高雄85大樓建於1997年，曾是亞洲最高的摩天大樓之一。其樓層數達85層，因此得名。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的高度是多少?",
+            "answer": "347.5公尺"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的樓層數是多少?",
+            "answer": "85層"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的建築設計是什麼樣?",
+            "answer": "高雄85大樓的建築設計是以兩個對稱的塔樓構成，中間由一個水平橋梁連接"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的外觀是什麼樣?",
+            "answer": "高雄85大樓的外觀是深色玻璃幕牆，帶有藍色和綠色的反光效果"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "高雄85大樓的周圍環境是什麼樣?",
+            "answer": "高雄85大樓前方有幾棵茂密的樹木，這些綠色的植物與大樓深色的玻璃幕牆形成了明顯的對比"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/高雄85大樓/高雄85大樓-12.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓是高雄市著名的地標建築，樓高347.5公尺，地上85層、地下5層，曾是亞洲第三高的摩天大樓。它的設計以深色玻璃幕牆為主體，帶有藍色和綠色的反光效果，給人現代且科技感十足的印象。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點還有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的建築結構非常特別，兩個對稱的塔樓構成，中間由一個水平橋梁連接。塔樓的頂部逐漸變細，並帶有一些垂直線條，給人一種向上延伸的動感。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點還有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "高雄85大樓的周圍環境也非常優雅，前方有幾棵茂密的樹木，這些綠色的植物與大樓深色的玻璃幕牆形成了明顯的對比。天空中的白雲與藍天映襯出大樓的宏偉，整體畫面色彩明亮。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是高雄85大樓"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展示了高雄85大樓的宏偉建築，顯示了其獨特的設計和優雅的環境。"
+                    }
+                ]
+            }
+        ]
+    }
+}
