@@ -1,0 +1,52 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是它擁有多層樓的寶塔式建築物，呈現左右對稱的排列，屋頂呈現典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點還有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有天空的特色，藍天白雲的背景為建築物增添了明亮的色彩對比，天氣晴朗，雲層分布稀疏，整體感覺非常開闊和平靜。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點還有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有地面的特色，地面是寬闊的廣場，呈現淺色石板鋪設，規律的方形圖案和整潔的設計使得整個區域感覺非常整潔有序。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點還有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有植物的特色，在圖片中央的主路沿線可以看到一些綠樹和植被，這些植被點綴著整體空間，使場景更具生機。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與佛光山佛陀紀念館的特色是什麼？",
+            "answer": "佛光山佛陀紀念館是一座座多層樓的寶塔式建築物，代表佛教的信仰和文化。塔身外牆是鏽石，極具印度風格。佛陀紀念館占地50公頃，自安基至竣工，外觀設計圖便繪製了百餘張，後經一再修改，成為現在除了主體建築正館外，成「前有八塔，後有大佛，南有靈山，北有祇園」的格局。主建築位於中軸線上，從東至西依序有「禮敬大廳」、「八塔」、「萬人照相台」、「菩提廣場」、佛光山佛陀紀念館本館及「佛光大佛」等。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與佛光山佛陀紀念館的特色是什麼？",
+            "answer": "佛光山佛陀紀念館是一座座多層樓的寶塔式建築物，代表佛教的信仰和文化。塔身外牆是鏽石，極具印度風格。佛陀紀念館占地50公頃，自安基至竣工，外觀設計圖便繪製了百餘張，後經一再修改，成為現在除了主體建築正館外，成「前有八塔，後有大佛，南有靈山，北有祇園」的格局。主建築位於中軸線上，從東至西依序有「禮敬大廳」、「八塔」、「萬人照相台」、「菩提廣場」、佛光山佛陀紀念館本館及「佛光大佛」等。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館是一座什麼樣的建築？",
+            "answer": "佛光山佛陀紀念館是一座佛教文化園區，紀念佛陀並展示佛教教義。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格是什麼？",
+            "answer": "佛光山佛陀紀念館的建築風格是典型的東亞建築風格，屋頂呈現橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物有多少層？",
+            "answer": "佛光山佛陀紀念館的建築物有多層樓的寶塔式建築物，總共有八座寶塔。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的高度是多少？",
+            "answer": "佛光山佛陀紀念館的建築物的高度是108公尺。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的重量是多少？",
+            "answer": "佛光山佛陀紀念館的建築物的重量是1,780公噸。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的面積是多少？",
+            "answer": "佛光山佛陀紀念館的建築物的面積是50公頃。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的設計者是誰？",
+            "answer": "佛光山佛陀紀念館的建築物的設計者是釋星雲。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的開放時間是什麼？",
+            "answer": "佛光山佛陀紀念館的建築物的開放時間是每天上午9點至下午6點。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的地址是什麼？",
+            "answer": "佛光山佛陀紀念館的建築物的地址是高雄市大樹區。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的電話號碼是什麼？",
+            "answer": "佛光山佛陀紀念館的建築物的電話號碼是+886-7-611-1111。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的電子郵件地址是什麼？",
+            "answer": "佛光山佛陀紀念館的建築物的電子郵件地址是info@fo-guanshan.org。"
+        }
+    ]
+}

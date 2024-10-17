@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有佛光大佛，四十八個地宮，八塔，立體浮雕，名家書法碑牆，石雕等特色"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間為平日上午9點至下午6點，週六日及例假日上午9點至下午7點，禮敬大廳開放時間為平日上午9點至下午6點，週六日及例假日上午9點至下午7點"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點交通方便嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館交通方便，近台鐵鳳山站，近高雄捷運大東站，近高雄客運鳳山站，近東南客運鳳山站，近高鐵左營站"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於高雄市大樹區，地址為高雄市大樹區中正路300號"
+                    }
+                ]
+            }
+        ]
+    }
+}

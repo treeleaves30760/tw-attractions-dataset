@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於臺灣高雄市大樹區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間為每周一至周五，上午九點至下午六點，週六日及例假日則延長至下午七點半"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館交通方便嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館交通方便，附近有高雄捷運大東站、鳳山國中站，搭乘高雄客運8009路、8010路、8010區間車、東南客運大樹祈福線至佛陀紀念館"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的特色包括其建築風格、佛教文化展示、豐富的藝術品收藏、教育活動等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的歷史"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的歷史可以追溯到1998年，當時佛光山寺的創辦人釋星雲大師開始籌劃建設佛陀紀念館，2003年安基典禮，2011年竣工"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間為每周一至周五，上午九點至下午六點，週六日及例假日則延長至下午七點半"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館交通方便嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館交通方便，附近有高雄捷運大東站、鳳山國中站，搭乘高雄客運8009路、8010路、8010區間車、東南客運大樹祈福線至佛陀紀念館"
+                    }
+                ]
+            }
+        ]
+    }
+}

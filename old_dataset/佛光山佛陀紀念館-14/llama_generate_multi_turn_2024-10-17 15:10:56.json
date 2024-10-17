@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座大型的佛教文化中心，內有許多佛陀的雕像和壁畫，以及一個大型的佛塔。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館有哪些特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館有許多特色，包括一個大型的佛塔，許多佛陀的雕像和壁畫，以及一個大型的佛教文化中心。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座大型的佛教文化中心，內有許多佛陀的雕像和壁畫，以及一個大型的佛塔。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館有哪些特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館有許多特色，包括一個大型的佛塔，許多佛陀的雕像和壁畫，以及一個大型的佛教文化中心。"
+                    }
+                ]
+            }
+        ]
+    }
+}

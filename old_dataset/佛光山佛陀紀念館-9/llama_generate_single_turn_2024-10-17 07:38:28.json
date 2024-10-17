@@ -1,0 +1,55 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與佛光山佛陀紀念館的特色相匹配的是什麼？",
+            "answer": "佛光山佛陀紀念館是一座佛教文化園區，紀念佛陀並展示佛教教義。這張圖片可能拍攝於該園區的主廣場，寶塔代表佛教的信仰和文化。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築風格與哪個國家或地區相似？",
+            "answer": "佛光山佛陀紀念館的建築風格與印度相似，尤其是其塔形建築和金色屋頂。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的內部裝飾與哪個宗教或文化有關？",
+            "answer": "佛光山佛陀紀念館的內部裝飾與佛教有關，尤其是其壁畫、雕塑和裝飾品。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的外部景觀與哪個景點相似？",
+            "answer": "佛光山佛陀紀念館的外部景觀與其他佛教寺廟或景點相似，例如佛光山本院或其他佛教文化園區。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築設計與哪個建築風格相似？",
+            "answer": "佛光山佛陀紀念館的建築設計與中國傳統建築風格相似，尤其是其塔形建築和金色屋頂。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館是什麼樣的地方?",
+            "answer": "佛光山佛陀紀念館是位於高雄市大樹區的一個佛教文化園區，紀念佛陀並展示佛教教義。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格是什麼?",
+            "answer": "佛光山佛陀紀念館的建築風格是典型的東亞建築風格，建築物呈現左右對稱的排列，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的庭院設計是什麼?",
+            "answer": "佛光山佛陀紀念館的庭院設計是寬闊的廣場，呈現淺色石板鋪設，規律的方形圖案和整潔的設計，使得整個區域感覺非常整潔有序。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的植物設計是什麼?",
+            "answer": "佛光山佛陀紀念館的植物設計是沿著主路的兩側有綠樹和植被，點綴著整個空間，使場景更具生機。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的歷史背景是什麼?",
+            "answer": "佛光山佛陀紀念館的歷史背景是釋星雲法師於1998年至印度菩提伽耶傳授國際三壇大戒，之後於2003年安基典禮，歷經9年於2011年12月25日竣工。"
+        }
+    ]
+}

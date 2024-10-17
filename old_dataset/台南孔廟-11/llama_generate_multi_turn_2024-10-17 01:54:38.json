@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是全臺最古老的孔廟之一，建於1665年，代表了儒家文化在台灣的傳承"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是中國傳統的重簷歇山頂，屋頂裝飾著兩條綠色的龍，象徵吉祥、守護和權威"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟每年舉辦許多活動，包括祭孔儀式、文化節慶和教育活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的開放時間是每天早上9點到下午5點"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是全臺最古老的孔廟之一，建於1665年，代表了儒家文化在台灣的傳承"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是中國傳統的重簷歇山頂，屋頂裝飾著兩條綠色的龍，象徵吉祥、守護和權威"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟每年舉辦許多活動，包括祭孔儀式、文化節慶和教育活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的開放時間是每天早上9點到下午5點"
+                    }
+                ]
+            }
+        ]
+    }
+}

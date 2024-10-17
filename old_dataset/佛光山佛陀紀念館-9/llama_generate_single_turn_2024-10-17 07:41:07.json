@@ -1,0 +1,85 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的主體建築是多層樓的寶塔式建築物，呈現左右對稱的排列，兩側共有八座寶塔，四座位於左邊，四座位於右邊。這些寶塔的屋頂呈現典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。",
+            "answer": "佛光山佛陀紀念館的主體建築是多層樓的寶塔式建築物，呈現左右對稱的排列，兩側共有八座寶塔，四座位於左邊，四座位於右邊。這些寶塔的屋頂呈現典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的天空是藍天白雲的背景，晴朗的天氣，雲層分布稀疏。",
+            "answer": "佛光山佛陀紀念館的天空是藍天白雲的背景，晴朗的天氣，雲層分布稀疏。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的地面是寬闊的廣場，呈現淺色石板鋪設，規律的方形圖案和整潔的設計使得整個區域感覺非常整潔有序。",
+            "answer": "佛光山佛陀紀念館的地面是寬闊的廣場，呈現淺色石板鋪設，規律的方形圖案和整潔的設計使得整個區域感覺非常整潔有序。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的植物在圖片中央的主路沿線可以看到一些綠樹和植被，這些植被點綴著整體空間，使場景更具生機。",
+            "answer": "佛光山佛陀紀念館的植物在圖片中央的主路沿線可以看到一些綠樹和植被，這些植被點綴著整體空間，使場景更具生機。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館是一個佛教文化園區，紀念佛陀並展示佛教教義。",
+            "answer": "佛光山佛陀紀念館是一個佛教文化園區，紀念佛陀並展示佛教教義。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館是什麼樣的建築？",
+            "answer": "佛光山佛陀紀念館是一座多層樓的寶塔式建築，呈現左右對稱的排列，四座位於左邊，四座位於右邊。建築的屋頂呈現典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格是什麼？",
+            "answer": "佛光山佛陀紀念館的建築風格是典型的東亞建築風格，具有多層樓的寶塔式建築，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物有多少層？",
+            "answer": "佛光山佛陀紀念館的建築物有多層樓的寶塔式建築。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的屋頂是什麼顏色？",
+            "answer": "佛光山佛陀紀念館的屋頂是橙黃色的瓦片。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的頂端裝飾是什麼？",
+            "answer": "佛光山佛陀紀念館的頂端裝飾是金色的。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築風格是典型的東亞建築風格，具有多層樓的寶塔式建築，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物有多少座塔？",
+            "answer": "佛光山佛陀紀念館的建築物有八座塔。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築物是多層樓的寶塔式建築。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的屋頂是什麼顏色？",
+            "answer": "佛光山佛陀紀念館的建築物的屋頂是橙黃色的瓦片。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物的頂端裝飾是什麼？",
+            "answer": "佛光山佛陀紀念館的建築物的頂端裝飾是金色的。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築物是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築物是典型的東亞建築風格，具有多層樓的寶塔式建築，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        }
+    ]
+}

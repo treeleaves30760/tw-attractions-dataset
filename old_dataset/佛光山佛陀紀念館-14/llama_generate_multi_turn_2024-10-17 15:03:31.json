@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於台灣高雄市大樹區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座融合佛教文化與現代建築設計的建築物，內部設有多個展覽館，展示佛教藝術、歷史文物和宗教文物，同時也是佛教信徒和旅客的重要景點"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館舉辦多種活動，包括佛陀誕辰慶祝活動、佛教藝術展覽、文化教育活動等，同時也提供參觀者欣賞佛陀紀念館內部的美景和佛教藝術作品"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間為平日09:00-18:00，週六日及例假日09:00-18:00，休館日為每週二"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的照片展現了一座宏偉的佛塔，周圍是綠草如茵的山坡，背景是藍天白雲，整個景象充滿著寧靜和祥和的氣氛"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座融合佛教文化與現代建築設計的建築物，內部設有多個展覽館，展示佛教藝術、歷史文物和宗教文物，同時也是佛教信徒和旅客的重要景點"
+                    }
+                ]
+            }
+        ]
+    }
+}

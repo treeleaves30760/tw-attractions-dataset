@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是台灣最古老的孔廟之一，建於1665年，被稱為「全臺首學」，代表了儒家文化在台灣的根基和傳承"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我還想知道這個景點的歷史"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的歷史可以追溯到1665年，當時是明鄭時期，鄭經建造了這座孔廟，後來在清朝時期，孔廟多次整修和擴建，直到今天成為了一個重要的歷史和文化景點"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是台灣最古老的孔廟之一，建於1665年，被稱為「全臺首學」，代表了儒家文化在台灣的根基和傳承"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我還想知道這個景點的歷史"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的歷史可以追溯到1665年，當時是明鄭時期，鄭經建造了這座孔廟，後來在清朝時期，孔廟多次整修和擴建，直到今天成為了一個重要的歷史和文化景點"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館",
+            "answer": "佛光山佛陀紀念館位於臺灣高雄市大樹區，占地50公頃，2011年落成。該館是釋星雲法師為弘揚人間佛教而創建的文化園區，內含多座多層樓的寶塔式建築物，呈現左右對稱的排列，兩側共有八座寶塔，四座位於左邊，四座位於右邊。這些寶塔的屋頂呈現典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築風格",
+            "answer": "佛光山佛陀紀念館的建築風格是典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的規模",
+            "answer": "佛光山佛陀紀念館占地50公頃，2011年落成。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的功能",
+            "answer": "佛光山佛陀紀念館是一座文化園區，內含多座多層樓的寶塔式建築物，呈現左右對稱的排列，兩側共有八座寶塔，四座位於左邊，四座位於右邊。這些寶塔的屋頂呈現典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的特色",
+            "answer": "佛光山佛陀紀念館的特色是典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築設計",
+            "answer": "佛光山佛陀紀念館的建築設計是典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築材料",
+            "answer": "佛光山佛陀紀念館的建築材料是典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築風格的特點",
+            "answer": "佛光山佛陀紀念館的建築風格的特點是典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館是什麼樣的建築?",
+            "answer": "佛光山佛陀紀念館是一座佛教文化園區，紀念佛陀並展示佛教教義。它位於台灣高雄市大樹區，占地50公頃，2011年落成。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格是什麼?",
+            "answer": "佛光山佛陀紀念館的建築風格是東亞建築風格，具有典型的佛塔形狀，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築內容是什麼?",
+            "answer": "佛光山佛陀紀念館內部設有四個常設展，包括佛教地宮還原館、佛教節慶館、佛光山宗史館和佛陀一生館。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築外觀是什麼?",
+            "answer": "佛光山佛陀紀念館的建築外觀是八座多層樓的寶塔式建築物，呈現左右對稱的排列，兩側共有八座寶塔，四座位於左邊，四座位於右邊。"
+        }
+    ]
+}

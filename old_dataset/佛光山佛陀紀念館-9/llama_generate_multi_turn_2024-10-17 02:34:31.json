@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於臺灣高雄市大樹區，占地50公頃，2011年落成"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的特色是有多座多層樓的寶塔式建築物，屋頂呈現典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館有哪些展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館有四個常設展，包括佛教地宮還原館、佛教節慶館、佛光山宗史館和佛陀一生館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間是平日上午9點至下午6點，週六日及例假日上午9點至下午6點"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於臺灣高雄市大樹區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的交通方式是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館可搭乘台鐵至新左營車站轉搭高雄客運E02哈佛快線至佛陀紀念館，或搭乘高雄捷運至捷運大東站、捷運鳳山國中站轉搭東南客運大樹祈福線至佛陀紀念館"
+                    }
+                ]
+            }
+        ]
+    }
+}

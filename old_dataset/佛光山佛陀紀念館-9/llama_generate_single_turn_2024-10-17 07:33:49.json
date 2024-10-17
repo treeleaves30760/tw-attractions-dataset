@@ -1,0 +1,75 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築風格是什麼？",
+            "answer": "佛光山佛陀紀念館的建築風格是東亞建築風格，特點是多層樓的寶塔式建築物，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築內部有什么特點？",
+            "answer": "佛光山佛陀紀念館的建築內部有四個常設展，四處展覽廳，重點展示引進海内外專題展覽和館藏珍品主題展。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築外部有什么特點？",
+            "answer": "佛光山佛陀紀念館的建築外部有四座多層樓的寶塔式建築物，兩側共有八座寶塔，四座位於左邊，四座位於右邊。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築周圍有什么特點？",
+            "answer": "佛光山佛陀紀念館的建築周圍有四座多層樓的寶塔式建築物，兩側共有八座寶塔，四座位於左邊，四座位於右邊。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築與周圍環境有什么關係？",
+            "answer": "佛光山佛陀紀念館的建築與周圍環境相互輝映，周圍環境的綠樹和植被點綴著整個空間，使場景更具生機。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築與佛教文化有什么關係？",
+            "answer": "佛光山佛陀紀念館的建築與佛教文化緊密相關，佛光山佛陀紀念館是一座佛教文化園區，紀念佛陀並展示佛教教義。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築與歷史有什么關係？",
+            "answer": "佛光山佛陀紀念館的建築與歷史緊密相關，佛光山佛陀紀念館是佛光山寺開山至今的歷史紀念館。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築與文化有什么關係？",
+            "answer": "佛光山佛陀紀念館的建築與文化緊密相關，佛光山佛陀紀念館是一座文化藝術園區，展示佛教藝術文化。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築與教育有什么關係？",
+            "answer": "佛光山佛陀紀念館的建築與教育緊密相關，佛光山佛陀紀念館是一座教育園區，提供各種教育活動。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館是什麼樣的建築？",
+            "answer": "佛光山佛陀紀念館是一座多層樓的寶塔式建築，呈現左右對稱的排列，四座位於左邊，四座位於右邊。這些寶塔的屋頂呈現典型的東亞建築風格，屋頂上覆蓋著橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格是什麼？",
+            "answer": "佛光山佛陀紀念館的建築風格是典型的東亞建築風格，具有多層樓的寶塔式建築，屋頂呈現橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築有哪些特點？",
+            "answer": "佛光山佛陀紀念館的建築具有多層樓的寶塔式建築，屋頂呈現橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格與其他建築相比有哪些不同？",
+            "answer": "佛光山佛陀紀念館的建築風格與其他建築相比，具有多層樓的寶塔式建築，屋頂呈現橙黃色的瓦片，並且頂端有金色的裝飾。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格與東亞建築風格有哪些相似之處？",
+            "answer": "佛光山佛陀紀念館的建築風格與東亞建築風格相似之處，在於屋頂呈現橙黃色的瓦片，並且頂端有金色的裝飾。"
+        }
+    ]
+}

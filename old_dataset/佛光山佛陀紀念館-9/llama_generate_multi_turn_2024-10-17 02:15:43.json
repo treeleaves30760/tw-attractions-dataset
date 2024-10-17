@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是其建築風格和宗教意義"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多活動，如佛陀紀念館的開放時間、交通資訊等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛陀紀念館的開放時間為每週六日及例假日上午9時至下午6時，平日上午9時至下午5時"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的交通資訊是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛陀紀念館的交通資訊包括自行開車、搭乘台鐵、搭乘高雄捷運、搭乘公車等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的交通資訊是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛陀紀念館的交通資訊包括自行開車、搭乘台鐵、搭乘高雄捷運、搭乘公車等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼違建問題"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛陀紀念館曾經有違建問題，但已經得到解決"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的違建問題是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛陀紀念館曾經有違建問題，但已經得到解決"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的違建問題是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛陀紀念館曾經有違建問題，但已經得到解決"
+                    }
+                ]
+            }
+        ]
+    }
+}

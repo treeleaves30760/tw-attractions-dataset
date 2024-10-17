@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的名稱是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的地址是中華民國臺灣臺南市中西區孔廟街"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的開放時間是每天上午8點至下午5點"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的特色是其獨特的建築風格和豐富的歷史文化遺產"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是中國傳統的重簷歇山頂"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的歷史文化遺產是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的歷史文化遺產包括孔子五代祖先的神龕、文昌帝君的神龕、魁星的神龕等"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "台南孔廟是什麼時候建造的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟建於1665年"
+                    },
+                    {
+                        "role": "user",
+                        "content": "台南孔廟的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是中國傳統的重簷歇山頂"
+                    },
+                    {
+                        "role": "user",
+                        "content": "台南孔廟的屋頂上有什麼裝飾"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的屋頂上有兩條綠色的龍"
+                    },
+                    {
+                        "role": "user",
+                        "content": "台南孔廟的建築群中有哪些重要建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築群中包括大成殿、崇聖祠、明倫堂、文昌閣、入德之門等"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "台南孔廟的歷史有哪些"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的歷史可以追溯到1665年"
+                    },
+                    {
+                        "role": "user",
+                        "content": "台南孔廟的建築風格有哪些變化"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格在歷史發展過程中有所變化"
+                    },
+                    {
+                        "role": "user",
+                        "content": "台南孔廟的屋頂上有什麼裝飾"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的屋頂上有兩條綠色的龍"
+                    },
+                    {
+                        "role": "user",
+                        "content": "台南孔廟的建築群中有哪些重要建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築群中包括大成殿、崇聖祠、明倫堂、文昌閣、入德之門等"
+                    }
+                ]
+            }
+        ]
+    }
+}

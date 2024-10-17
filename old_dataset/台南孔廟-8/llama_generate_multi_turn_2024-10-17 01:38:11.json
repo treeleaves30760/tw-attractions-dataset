@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-8.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是一座古老的孔廟，建築風格是中國傳統的重簷歇山頂，屋頂上有兩條綠色的龍，代表著吉祥、守護和權威。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是，背景是台南孔廟的建築，前景是個小女孩站在台南孔廟的台階上，穿著一件粉紅色的旗袍，身後是台南孔廟的建築。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟的歷史"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟建於1665年，是台灣最古老的孔廟之一。它曾經是全台唯一的入學場所，故被稱為「全臺首學」。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟的建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是中國傳統的重簷歇山頂，屋頂上有兩條綠色的龍，代表著吉祥、守護和權威。"
+                    }
+                ]
+            }
+        ]
+    }
+}

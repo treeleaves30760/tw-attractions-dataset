@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-8.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是台灣最古老的孔廟之一，建於1665年，被稱為「全臺首學」，代表了儒家文化在台灣的根基和傳承"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟有哪些特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的特色包括其古典建築風格、豐富的歷史和文化遺產，以及它的重要地位在台灣的儒家文化中"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示了台南孔廟的正門，門前有兩根柱子支撐著屋頂，門上方有裝飾的雕刻，門旁還有一個小庭院"
+                    }
+                ]
+            }
+        ]
+    }
+}

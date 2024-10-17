@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於台灣高雄市大樹區，占地50公頃，2011年落成"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間為平日上午9點至下午6點，週六日及例假日上午9點至下午6點"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的特色包括多座寶塔式建築、藍天白雲的背景、寬闊的廣場和綠樹的點綴"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築風格是典型的東亞建築風格"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是台灣最古老的孔廟之一，建於1665年，被稱為「全臺首學」，代表了儒家文化在台灣的根基和傳承"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片中可以看到台南孔廟的主殿，該建築具有典型的中國傳統建築風格，屋頂是重簷歇山頂，裝飾著兩條綠色的龍，象徵吉祥、守護和權威"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的歷史"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的歷史可以追溯到1665年，該年鄭經建立了台南孔廟，後來在清朝時期進行了多次修復和擴建，直到現在仍然是台灣最古老的孔廟之一"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是典型的中國傳統建築風格，屋頂是重簷歇山頂，裝飾著兩條綠色的龍，象徵吉祥、守護和權威"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的規模"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟占地9007平方公尺，建物面積2169.9平方公尺"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的開放時間是每天早上9點至下午5點"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是台灣最古老的孔廟之一，建於1665年，被稱為「全臺首學」，代表了儒家文化在台灣的根基和傳承"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的歷史"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的歷史可以追溯到1665年，該年鄭經建立了台南孔廟，後來在清朝時期進行了多次修復和擴建，直到現在仍然是台灣最古老的孔廟之一"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是典型的中國傳統建築風格，屋頂是重簷歇山頂，裝飾著兩條綠色的龍，象徵吉祥、守護和權威"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的規模"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟占地9007平方公尺，建物面積2169.9平方公尺"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的開放時間是每天早上9點至下午5點"
+                    }
+                ]
+            }
+        ]
+    }
+}

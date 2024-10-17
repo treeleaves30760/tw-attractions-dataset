@@ -1,0 +1,95 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築風格是什麼?",
+            "answer": "佛光山佛陀紀念館的建築風格融合了中國傳統建築和現代主義元素，具有豐富的文化內涵和藝術價值。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的內部裝潢是什麼樣子的?",
+            "answer": "佛光山佛陀紀念館的內部裝潢精緻且富有藝術感，內部設有多個展覽廳和展示區，展出許多珍貴的文物和藝術作品。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的外部環境是什麼樣子的?",
+            "answer": "佛光山佛陀紀念館的外部環境優雅且美麗，四周的花園綠草如茵，空氣清新，環境優雅，景色優美。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "佛光山佛陀紀念館的建築高度是多少?",
+            "answer": "佛光山佛陀紀念館的建築高度為108公尺。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館是什麼樣的建築？",
+            "answer": "佛光山佛陀紀念館是一座佛教建築，佔地50公頃，包括一座高108公尺的佛光大佛，四座塔，和一座佛陀紀念館。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築風格是印度風格，包括佛光大佛、四座塔和佛陀紀念館。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的內部有什么？",
+            "answer": "佛光山佛陀紀念館的內部包括佛光大佛、四座塔和佛陀紀念館，還有許多佛教文物和藝術品。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的開放時間是什麼？",
+            "answer": "佛光山佛陀紀念館的開放時間是每天上午9點至下午6點。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的交通方便嗎？",
+            "answer": "佛光山佛陀紀念館交通方便，可以乘坐台鐵、公車或開車前往。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的周邊環境是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的周邊環境是美麗的山坡和森林，提供了自然的景觀和空氣。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的歷史是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的歷史可以追溯到1998年，當時釋星雲大師開始建設這座紀念館。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築設計是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築設計是由釋星雲大師和其他建築師共同設計的。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築材料是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築材料包括石材、鋼筋混凝土和玻璃等。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築高度是多少？",
+            "answer": "佛光山佛陀紀念館的建築高度為108公尺。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築面積是多少？",
+            "answer": "佛光山佛陀紀念館的建築面積為50公頃。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築風格是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築風格是印度風格。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築設計是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築設計是由釋星雲大師和其他建築師共同設計的。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "佛光山佛陀紀念館的建築材料是什麼樣的？",
+            "answer": "佛光山佛陀紀念館的建築材料包括石材、鋼筋混凝土和玻璃等。"
+        }
+    ]
+}

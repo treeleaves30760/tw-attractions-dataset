@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於台灣高雄市大樹區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座佛教文化的重要中心，內有多項展覽，包括佛教地宮還原館、佛教節慶館、佛光山宗史館、佛陀一生館等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片呈現了佛光山佛陀紀念館的外觀，展現了佛教建築的莊嚴與和平的氣氛。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館舉辦各種活動，如佛陀一生館、佛教節慶館、佛光山宗史館等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

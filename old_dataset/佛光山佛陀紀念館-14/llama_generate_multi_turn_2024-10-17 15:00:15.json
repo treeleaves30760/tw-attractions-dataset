@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於臺灣高雄市大樹區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座充滿文化和歷史意義的建築物，內部設有佛陀大佛、八塔和佛光山的歷史文物等，還有許多美麗的庭院和花園，提供了豐富的視覺和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點還有什麼其他地方可以去"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館附近還有許多其他景點可以去，例如佛光山的寺廟、佛光山的教育中心、佛光山的文化中心等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是佛光山佛陀紀念館的建築物和庭院，照片中可以看到佛陀大佛、八塔和佛光山的歷史文物等，還有許多美麗的庭院和花園，提供了豐富的視覺和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片還有什麼其他地方可以看"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片中還可以看到佛光山佛陀紀念館的庭院和花園，照片中可以看到許多美麗的花朵和綠草，還有許多鳥類和動物可以看到。"
+                    }
+                ]
+            }
+        ]
+    }
+}

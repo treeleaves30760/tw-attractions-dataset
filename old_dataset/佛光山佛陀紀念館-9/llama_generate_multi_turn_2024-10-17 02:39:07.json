@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座融合佛教文化和人文藝術的建築，內部設有多個展廳，展出許多珍貴的文物和藝術作品。它還提供各種活動和服務，包括博物館、圖書館、茶室和餐廳等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道佛光山佛陀紀念館的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間是每周一至周五上午9點至下午6點，週六日及節假日上午9點至下午6點。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是它展現了佛光山佛陀紀念館的宏偉建築和美麗的庭園。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道佛光山佛陀紀念館的交通資訊"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的交通資訊是可以乘坐高雄捷運或公車前往。"
+                    }
+                ]
+            }
+        ]
+    }
+}

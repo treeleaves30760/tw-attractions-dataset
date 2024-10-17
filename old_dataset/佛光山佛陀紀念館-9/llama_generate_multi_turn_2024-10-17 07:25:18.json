@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於台灣高雄市大樹區，占地50公頃，2011年落成。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築風格是東方建築風格，結合中式和印度式建築元素，具有典型的佛教建築特色。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的建築高度是多少"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築高度為108公尺。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的建築內部裝飾是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築內部裝飾以中式和印度式裝飾為主，包括壁畫、雕刻、瓷磚等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的建築外觀是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築外觀是以佛教建築為主，具有典型的佛教建築特色。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的建築外觀有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築外觀具有典型的佛教建築特色，包括佛塔、佛殿等建築結構。"
+                    }
+                ]
+            }
+        ]
+    }
+}

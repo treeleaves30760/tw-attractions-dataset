@@ -1,0 +1,40 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "台南孔廟的主殿是哪一座?",
+            "answer": "台南孔廟的主殿是大成殿"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "台南孔廟的建築風格是哪一種?",
+            "answer": "台南孔廟的建築風格是中國傳統的重簷歇山頂"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "台南孔廟的屋頂裝飾有哪些元素?",
+            "answer": "台南孔廟的屋頂裝飾有兩條綠色的龍和其他裝飾元素"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "台南孔廟的柱子和大門有什么特點?",
+            "answer": "台南孔廟的柱子和大門都是紅色的"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "台南孔廟的柵欄有什么特點?",
+            "answer": "台南孔廟的柵欄是紅色的"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "台南孔廟的遊客有什么特點?",
+            "answer": "台南孔廟的遊客正在拍攝建築"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "台南孔廟在當地的文化和歷史中扮演了什麼樣的角色?",
+            "answer": "台南孔廟是台灣最早的文廟之一，建於1665年，被稱為「全臺首學」，代表了儒家文化在台灣的根基和傳承。它是全台唯一的入學之所，培養了許多有真才實學的學者。孔廟還是祭孔儀式的舉辦地，為台灣的文化和歷史做出了重要貢獻。"
+        }
+    ]
+}

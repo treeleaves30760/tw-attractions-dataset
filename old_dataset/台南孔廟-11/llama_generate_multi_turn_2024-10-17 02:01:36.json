@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的特色之一是其豐富的歷史和文化內涵。它是台灣最古老的孔廟之一，建於1665年，是一座具有豐富歷史和文化價值的建築。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的開放時間是每天早上9點至下午5點。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了台南孔廟的建築外觀，展示了其豐富的歷史和文化內涵。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點附近有什麼地方可以去"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟附近有許多景點可供遊客前往。包括忠義國小、南門路步行街、臺南孔子廟文化園區等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

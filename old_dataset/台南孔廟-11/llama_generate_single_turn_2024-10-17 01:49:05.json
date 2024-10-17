@@ -1,0 +1,40 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中，前景中的人們是從哪個方向走來的？",
+            "answer": "這張圖片中，前景中的人們是從大成殿正門方向走來的。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中，前景中的人們是走向哪個方向的？",
+            "answer": "這張圖片中，前景中的人們是走向大成殿正門的方向。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中，前景中的人們是走進哪個建築的？",
+            "answer": "這張圖片中，前景中的人們是走進大成殿的。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "台南孔廟的歷史",
+            "answer": "台南孔廟建於1665年，是臺灣最古老的孔廟之一，代表了儒家文化在臺灣的根基和傳承。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "台南孔廟的建築",
+            "answer": "台南孔廟的建築風格是中國傳統的重簷歇山頂，屋頂上有兩條綠色的龍，代表吉祥、守護和權威。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "台南孔廟的歷史事件",
+            "answer": "台南孔廟曾經被日本人佔領和改建，但在戰後被中華民國政府收回並進行修復和恢復。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "台南孔廟的文化意義",
+            "answer": "台南孔廟是臺灣的文化遺產和歷史標誌，代表了儒家文化和中國傳統的重要性。"
+        }
+    ]
+}

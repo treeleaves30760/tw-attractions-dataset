@@ -1,0 +1,41 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是一座歷史悠久的建築，具有豐富的文化意義。它是全台最早的孔廟，也是台灣最大的孔廟之一。建築物的設計和裝飾充滿了中國傳統的風格，包括重簷歇山頂、龍柱、雕刻等元素。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了台南孔廟的正門，門上方有一個裝飾性的龍柱，下方是大門。門上方還有一個牌匾，上面寫著「全台首學」的字樣。這個照片也顯示了附近的建築物和環境，包括一棵大樹和一些人站在門口。"
+                    }
+                ]
+            }
+        ]
+    }
+}

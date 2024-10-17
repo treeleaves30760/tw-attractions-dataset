@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於臺灣高雄市大樹區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座具有歷史和文化意義的建築，內部有許多佛教藝術品和文物"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片拍攝的是佛光山佛陀紀念館的外觀，展現了其宏偉的建築風格和美麗的環境"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座具有歷史和文化意義的建築，內部有許多佛教藝術品和文物，同時也是一個觀光景點，吸引了許多遊客前來參觀"
+                    }
+                ]
+            }
+        ]
+    }
+}

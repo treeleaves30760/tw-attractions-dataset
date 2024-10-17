@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館是一座以佛陀為主題的紀念館，內部有許多佛教藝術品和文物，包括佛陀的雕像、壁畫、雕塑等。館內還設有多個展覽廳，展示佛教的歷史和文化。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於臺灣高雄市大樹區。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是佛光山佛陀紀念館的主建築，呈現了佛教的建築風格。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築風格是佛教的建築風格，融合了中國和印度的建築元素。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是一座歷史悠久的建築，具有豐富的文化遺產和建築藝術。它是全台最大的孔廟，也是台灣最古老的孔廟之一。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的回答，請問這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是典型的中國傳統建築，具有豐富的裝飾和雕刻。它的建築結構包括大成殿、崇聖祠、明倫堂和文昌閣等等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的回答，請問這個景點的歷史背景是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的歷史背景可以追溯到明朝，當時是明鄭時期的建築。它是台灣最早的孔廟之一，也是全台最大的孔廟。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟有很多活動，包括祭孔儀式、文昌祈福儀式、文學講座等等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的回答，請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的開放時間是每天早上9點到下午5點。"
+                    }
+                ]
+            }
+        ]
+    }
+}

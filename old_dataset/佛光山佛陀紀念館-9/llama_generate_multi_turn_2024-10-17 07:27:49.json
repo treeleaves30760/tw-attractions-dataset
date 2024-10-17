@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於高雄市大樹區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間是平日上午9點至下午6點，週六日及例假日上午9點至下午6點"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的交通方便嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館交通方便，附近有高雄火車站，還有高雄捷運可以直達"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館有八座塔，代表八正道，內有佛陀一生事蹟的展覽館，還有佛光大佛等特色"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的特色是八座塔，代表八正道，內有佛陀一生事蹟的展覽館，還有佛光大佛等特色"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的特色是八座塔，代表八正道，內有佛陀一生事蹟的展覽館，還有佛光大佛等特色"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的特色是八座塔，代表八正道，內有佛陀一生事蹟的展覽館，還有佛光大佛等特色"
+                    }
+                ]
+            }
+        ]
+    }
+}

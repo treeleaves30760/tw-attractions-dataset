@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/台南孔廟/台南孔廟-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟是一座具有豐富歷史和文化意義的建築物，建築物外觀是中國傳統的重簷歇山頂，屋頂上裝飾著兩條綠色的龍，屋頂的裝飾與建築物的整體風格相呼應，內部則有許多精美的雕刻和裝飾，整個建築物充滿著傳統中國建築的氣息"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟的歷史有多久了"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟建於1665年，是台灣最古老的孔廟之一，歷史悠久"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的特色包括其豐富的歷史和文化意義，建築物的中國傳統設計，精美的雕刻和裝飾，以及其重要的文化地位"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中是台南孔廟"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的建築風格是中國傳統的重簷歇山頂"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問台南孔廟的屋頂上裝飾著什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "台南孔廟的屋頂上裝飾著兩條綠色的龍"
+                    }
+                ]
+            }
+        ]
+    }
+}

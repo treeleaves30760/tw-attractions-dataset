@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於臺灣高雄市大樹區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間為每天上午9點至下午6點，週二休館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的交通方式是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館可由高雄市區或旗山方向的國道10號下嶺口交流道，右轉台29線即可抵達"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的特色包括其獨特的建築設計、豐富的藝術收藏、以及豐富的佛教文化資源"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館地址是高雄市大樹區佛光山佛陀紀念館"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的特色包括其獨特的建築設計、豐富的藝術收藏、以及豐富的佛教文化資源"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館地址是高雄市大樹區佛光山佛陀紀念館"
+                    }
+                ]
+            }
+        ]
+    }
+}

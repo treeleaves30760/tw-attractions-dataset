@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-9.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築風格是東亞建築風格"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館的建築風格有哪些特點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築風格具有典型的東亞建築特點，包括屋頂的設計、牆壁的裝飾等"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館的建築風格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築風格是東亞建築風格"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館的建築風格有哪些特點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築風格具有典型的東亞建築特點，包括屋頂的設計、牆壁的裝飾等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "佛光山佛陀紀念館的建築風格有哪些特點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的建築風格具有典型的東亞建築特點，包括屋頂的設計、牆壁的裝飾等"
+                    }
+                ]
+            }
+        ]
+    }
+}

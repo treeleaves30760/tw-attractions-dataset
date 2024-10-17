@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/andy/taiwan_chatgpt/input_image/佛光山佛陀紀念館/佛光山佛陀紀念館-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是佛光山佛陀紀念館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於高雄市大樹區，占地50公頃，2011年落成。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館有許多特色，包括佛陀大佛、八塔、四聖塔、佛光大佛平台等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間為平日上午9:00至下午6:00，週六日及例假日上午9:00至下午6:00。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館交通方便嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館交通方便，附近有高雄捷運鳳山國中站、台鐵鳳山站和高雄客運鳳山站等交通樞紐。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館位於高雄市大樹區，占地50公頃，2011年落成。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館有許多特色，包括佛陀大佛、八塔、四聖塔、佛光大佛平台等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館的開放時間為平日上午9:00至下午6:00，週六日及例假日上午9:00至下午6:00。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問佛光山佛陀紀念館交通方便嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "佛光山佛陀紀念館交通方便，附近有高雄捷運鳳山國中站、台鐵鳳山站和高雄客運鳳山站等交通樞紐。"
+                    }
+                ]
+            }
+        ]
+    }
+}
