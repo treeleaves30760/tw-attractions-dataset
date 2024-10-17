@@ -11,11 +11,11 @@ KEY = os.getenv('FLICKER_API_KEY')
 SECRET = os.getenv('FLICKER_API_SECRET')
 
 
-def download_images(searchword, limitnum=1000):
+def download_images(searchword, limitnum=3000):
     flickr = flickrapi.FlickrAPI(
         api_key=KEY, secret=SECRET, format='parsed-json')
 
-    os.makedirs(f'./input_image/{searchword}', exist_ok=True)
+    os.makedirs(f'/media/Pluto/stanley_hsu/TW_attraction/images/{searchword}', exist_ok=True)
 
     page = 1
     photos_downloaded = 0
@@ -37,7 +37,7 @@ def download_images(searchword, limitnum=1000):
                     try:
                         url = photo.get('url_c')
                         if url:
-                            filename = f"./input_image/{searchword}/{searchword}-{photos_downloaded}.jpg"
+                            filename = f"/media/Pluto/stanley_hsu/TW_attraction/images/{searchword}/{searchword}-{photos_downloaded}.jpg"
                             urlretrieve(url, filename)
                             photos_downloaded += 1
                             pbar.update(1)
