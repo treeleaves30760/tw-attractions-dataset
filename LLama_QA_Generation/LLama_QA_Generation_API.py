@@ -56,7 +56,7 @@ def generate_llama_data_single_turn(image_path, gpt4_description, wiki_content, 
             "question": "<問題>",
             "answer": "<回答>"
         }}
-        // 要有多組問答，請使用繁體中文回答，請用逗號分隔
+        // 生成多組問答，每一組回答都需要有詳細的回覆，請使用繁體中文回答，請用逗號分隔
     ]
 }}
 
@@ -131,7 +131,7 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
                     "role": "assistant",
                     "content": "這是{landmark_name}"
                 }},
-                // 請根據上述資料繼續生成多輪對話，請使用繁體中文回答，請用逗號分隔
+                // 請生成多輪對話，對話的方向可以參考上述資料，且需要十分的多樣化，請使用繁體中文回答，請用逗號分隔
             ]
         }},
         {{
@@ -149,10 +149,9 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
                     "role": "user",
                     "content": "請問這個照片有什麼特色"
                 }}
-                // 請根據上述資料繼續生成多輪對話，請使用繁體中文回答，請用逗號分隔
+                // 請繼續生成多輪對話，對話方向與圖片中的景點有關，請使用繁體中文回答，請用逗號分隔
             ]
         }}
-        // 請繼續生成多組對話，請使用繁體中文回答，請用逗號分隔
     ]
 }}
 
@@ -166,7 +165,7 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
         data = {
             "text": prompt,
             "image": image_base64,
-            "max_new_tokens": 3000
+            "max_new_tokens": 6000
         }
 
         # 發送 POST 請求到 /generate 端點
@@ -239,9 +238,7 @@ def save_to_json(data, landmark_name, number):
             json.dump(single_turn_data, f, ensure_ascii=False, indent=4)
         print(f"已保存單次對話資料至 {filename}")
 
-def main(image_path, landmark_name, gpt4_description, number):
-    # 獲取維基百科知識
-    wiki_content = get_wiki_knowledge(landmark_name)
+def main(image_path, landmark_name, gpt4_description, number, wiki_content):
 
     # 生成 Llama 資料
     llama_data = generate_llama_data(image_path, gpt4_description, wiki_content, landmark_name)
