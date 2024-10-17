@@ -6,6 +6,7 @@ import regex
 import base64
 from PIL import Image
 import io
+import time
 
 def get_wiki_knowledge(topic):
     """從維基百科獲取相關知識（繁體中文）"""
@@ -26,7 +27,9 @@ def generate_llama_data_single_turn(image_path, gpt4_description, wiki_content, 
     """使用 API 生成訓練資料（繁體中文）"""
     data_types = {
         "detailed_explanation": "請提供這張圖片中元素的詳細解釋，以及相關的歷史背景。",
-        "complex_reasoning": "請分析這個地標的重要性，以及它對文化和社會的影響。"
+        "detailed_explanation": "請詳細解釋這張圖片中的元素，以及這個景點與之相匹配的特色。",
+        "complex_reasoning": "請分析這個地標的重要性，以及它對文化和社會的影響。",
+        "complex_reasoning": "這個景點在當地的文化和歷史中扮演了什麼樣的角色？"
     }
 
     results = {}
@@ -95,7 +98,7 @@ def generate_llama_data_single_turn(image_path, gpt4_description, wiki_content, 
 def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, landmark_name):
     """使用 API 生成訓練資料（繁體中文）"""
     data_types = {
-        "multi_turn": "請針對這張圖片和相關知識生成一段多輪對話。",
+        "multi_turn": "請針對這張圖片和相關知識生成一段多輪對話，對話內容包含詢問景點的名稱與相關資訊。",
     }
 
     results = {}
@@ -128,7 +131,7 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
                     "role": "assistant",
                     "content": "這是{landmark_name}"
                 }},
-                // 請根據上述資料生成多輪對話，請使用繁體中文回答，請用逗號分隔
+                // 請根據上述資料繼續生成多輪對話，請使用繁體中文回答，請用逗號分隔
             ]
         }},
         {{
@@ -136,13 +139,17 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
             "conversation": [
                 {{
                     "role": "user",
-                    "content": "請問這是什麼景點"
+                    "content": "請問圖片中是什麼景點"
                 }},
                 {{
                     "role": "assistant",
                     "content": "這個景點是{landmark_name}"
                 }},
-                // 請根據上述資料生成多輪對話，請使用繁體中文回答，請用逗號分隔
+                {{
+                    "role": "user",
+                    "content": "請問這個照片有什麼特色"
+                }}
+                // 請根據上述資料繼續生成多輪對話，請使用繁體中文回答，請用逗號分隔
             ]
         }}
         // 請繼續生成多組對話，請使用繁體中文回答，請用逗號分隔
@@ -191,15 +198,22 @@ def extract_json(text):
     if json_match:
         return json_match.group(0)
     else:
-        raise ValueError("未找到有效的 JSON")
+        # raise ValueError("未找到有效的 JSON")
+        print("未找到有效的 JSON")
+        return ""
 
 def save_to_json(data, landmark_name, number):
     """將生成的資料保存為 JSON 文件"""
     os.makedirs(f"dataset/{landmark_name}-{number}", exist_ok=True)
     
+    # 獲取當前時間戳  
+    timestamp = time.time()
+    struct_time = time.gmtime(timestamp)  
+    formatted_time = time.strftime("%Y-%m-%d %H:%M:%S", struct_time) 
+    
     # 保存多輪對話資料
     if "multi_turn" in data and data["multi_turn"] is not None:
-        filename = f"dataset/{landmark_name}/llama_generate_multi_turn.json"
+        filename = f"dataset/{landmark_name}-{number}/llama_generate_multi_turn_{formatted_time}.json"
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data["multi_turn"], f, ensure_ascii=False, indent=4)
         print(f"已保存多輪對話資料至 {filename}")
@@ -220,7 +234,7 @@ def save_to_json(data, landmark_name, number):
     
     # 保存單次對話資料
     if single_turn_data["qa_pairs"]:
-        filename = f"dataset/{landmark_name}/llama_generate_single_turn.json"
+        filename = f"dataset/{landmark_name}-{number}/llama_generate_single_turn_{formatted_time}.json"
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(single_turn_data, f, ensure_ascii=False, indent=4)
         print(f"已保存單次對話資料至 {filename}")
@@ -260,4 +274,5 @@ if __name__ == "__main__":
    - 天空中的白雲與藍天映襯出大樓的宏偉，整體畫面色彩明亮。
 
 高雄85大樓建於1997年，曾是亞洲最高的摩天大樓之一。其樓層數達85層，因此得名。"""
-    main(image_path, landmark_name, gpt4_description, number)
+    for i in range(10):
+        main(image_path, landmark_name, gpt4_description, number)
