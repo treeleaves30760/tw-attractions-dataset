@@ -11,11 +11,11 @@ KEY = os.getenv('FLICKER_API_KEY')
 SECRET = os.getenv('FLICKER_API_SECRET')
 
 
-def download_images(searchword, limitnum=50):
+def download_images(category ,searchword, limitnum=50):
     flickr = flickrapi.FlickrAPI(
         api_key=KEY, secret=SECRET, format='parsed-json')
 
-    os.makedirs(f'/media/Pluto/stanley_hsu/TW_attraction/images/{searchword}', exist_ok=True)
+    os.makedirs(f'/media/Pluto/stanley_hsu/TW_attraction/images/{category}/{searchword}', exist_ok=True)
 
     page = 1
     photos_downloaded = 0
@@ -37,7 +37,7 @@ def download_images(searchword, limitnum=50):
                     try:
                         url = photo.get('url_c')
                         if url:
-                            filename = f"/media/Pluto/stanley_hsu/TW_attraction/images/{searchword}/{searchword}-{photos_downloaded}.jpg"
+                            filename = f"/media/Pluto/stanley_hsu/TW_attraction/images/{category}/{searchword}/{searchword}-{photos_downloaded}.jpg"
                             urlretrieve(url, filename)
                             photos_downloaded += 1
                             pbar.update(1)
@@ -57,8 +57,11 @@ def download_images(searchword, limitnum=50):
 
 
 if __name__ == '__main__':
-    with open('TW_Attractions_List.json', 'r', encoding='utf-8') as file:
+    with open('TW_List.json', 'r', encoding='utf-8') as file:
         attractions = json.load(file)
 
     for attraction in attractions['TW_Attractions']:
-        download_images(attraction)
+        download_images('TW_Attractions', attraction)
+    
+    for attraction in attractions['TW_Foods']:
+        download_images('TW_Foods', attraction)
