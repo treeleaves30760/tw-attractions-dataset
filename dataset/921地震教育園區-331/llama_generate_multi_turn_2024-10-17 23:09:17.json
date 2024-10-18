@@ -1,0 +1,68 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-331.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示了921地震教育園區內的一個展示區域，展示了一個模擬建築物的模型，模擬了一個地震發生時的場景。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個展區是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個展區是模擬一個建築物在地震發生時的場景，展現了地震對建築物的影響。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個展區是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個展區使用了模型和視覺效果來模擬建築物在地震發生時的場景，讓參觀者可以更好地了解地震對建築物的影響。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個展區是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個展區展示了地震對建築物的影響，讓參觀者可以更好地了解地震的危害。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個展區是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個展區使用了模型和視覺效果來展示地震對建築物的影響，讓參觀者可以更好地了解地震的危害。"
+                    }
+                ]
+            }
+        ]
+    }
+}

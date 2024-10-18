@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-24.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的主要功能是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要是教育園區，提供教育、參觀和對地震的了解"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是現代化的建築設計，包括大面積的玻璃幕牆和寬敞的戶外空間，還有架設的帆布遮陽結構"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的位置在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台灣的921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每周一至周五，9:00至17:00"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是現代化的建築設計，包括大面積的玻璃幕牆和寬敞的戶外空間，還有架設的帆布遮陽結構"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的主要功能是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要是教育園區，提供教育、參觀和對地震的了解"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的位置在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台灣的921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每周一至周五，9:00至17:00"
+                    }
+                ]
+            }
+        ]
+    }
+}

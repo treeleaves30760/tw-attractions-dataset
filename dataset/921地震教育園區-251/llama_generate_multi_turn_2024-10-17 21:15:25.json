@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-251.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以921地震為主題，展現地震科學、地震體驗與防災教育，包含車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間為每周日至周四，9:00至17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的門票價格"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票價格為成人新臺幣100元，小孩及學生新臺幣50元"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的建築和景觀，展示了地震科學、地震體驗與防災教育等主題"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間為每周日至周四，9:00至17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的門票價格"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票價格為成人新臺幣100元，小孩及學生新臺幣50元"
+                    }
+                ]
+            }
+        ]
+    }
+}

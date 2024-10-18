@@ -1,0 +1,40 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的地面上有類似地震波形的圖案，可能是哪個景點的一部分？",
+            "answer": "這張圖片中的地面上有類似地震波形的圖案，可能是921地震教育園區的一部分。這個景點位於台灣，旨在教育大眾有關地震的知識和防災意識。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的主要特色是什麼？",
+            "answer": "這個景點的主要特色是展示地震科學、地震體驗與防災教育，讓訪客了解地震的特性及其影響，並建立正確的防災觀念。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的建築特色是什麼？",
+            "answer": "這個景點的建築特色是依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的展示主題是什麼？",
+            "answer": "這個景點的展示主題包括地震科學、地震體驗與防災教育，讓訪客了解地震的特性及其影響，並建立正確的防災觀念。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的開放時間是什麼？",
+            "answer": "這個景點的開放時間為2004年9月21日開始對外開放參觀，2007年全區開放參觀。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的地址是什麼？",
+            "answer": "這個景點的地址位於台灣，地理位置為光復新村。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這張照片中的地震波形圖在921地震教育園區的文化和歷史中扮演了什麼樣的角色？",
+            "answer": "這張照片中的地震波形圖是921地震教育園區的一部分，展示了地震波的形狀，幫助參觀者了解地震的特性及其影響。"
+        }
+    ]
+}

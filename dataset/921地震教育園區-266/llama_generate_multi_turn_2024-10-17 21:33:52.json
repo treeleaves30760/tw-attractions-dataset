@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-266.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築風格非常獨特，具有現代感，屋頂結構特別，整齊的步道也很吸引人"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色在於它所拍攝的建築物的獨特設計，屋頂的結構以及整齊的步道，讓人感受到這個景點的特別之處"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築風格非常獨特，具有現代感，屋頂結構特別，整齊的步道也很吸引人"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色在於它所拍攝的建築物的獨特設計，屋頂的結構以及整齊的步道，讓人感受到這個景點的特別之處"
+                    }
+                ]
+            }
+        ]
+    }
+}

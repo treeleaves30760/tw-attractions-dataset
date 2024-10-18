@@ -1,0 +1,40 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中所展示的景點是什麼？",
+            "answer": "這張圖片中所展示的景點是國立自然科學博物館的921地震教育園區。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼？",
+            "answer": "這個景點的特色是以震後地震遺址為主題，展示相關歷史和防災知識，並且以藝術化的方式呈現，讓參觀者能夠體驗和學習。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的建築設計有什麼特別之處？",
+            "answer": "這個景點的建築設計特別之處在於，整個建築是沿著斷層而建，並且沒有樑、柱系統，使用82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的展覽內容有哪些？",
+            "answer": "這個景點的展覽內容包括地震科學、地震體驗與防災教育，展示主題有「地球科學」、「車籠埔斷層」、「地震科學」、「照片紀實」、「蓋亞劇場」等。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的教育目標是什麼？",
+            "answer": "這個景點的教育目標是幫助大眾建立正確的地震防災觀念，並且提供教育資源給專家和學生使用。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的建築設計得獎紀錄有哪些？",
+            "answer": "這個景點的建築設計曾經榮獲遠東建築獎、台灣建築獎、第三屆WA中國建築首獎等獎項。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色？",
+            "answer": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館，全館座落地震遺址之上，沿斷層而建，以充滿特色的建築與遺址做藝術化的結合；並將部分地震後留下的毀壞教室、斷層剖面完好如初地作為教材展示，教室進行結構性補強。"
+        }
+    ]
+}

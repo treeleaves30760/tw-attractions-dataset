@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-333.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以921大地震為主題，展現了地震科學、地震體驗與防災教育，同時也展示了地震後留下的毀壞教室、斷層剖面等特點"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點還有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展館"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的建築設計和內容，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點還有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有許多特色，包括地震科學、地震體驗與防災教育，同時也展示了地震後留下的毀壞教室、斷層剖面等特點"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與921地震教育園區的特色有何關係？",
+            "answer": "這張圖片中的模型是921地震教育園區的展品之一，展示了地震的影響和地震防災的重要性。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的模型與哪個展館有關？",
+            "answer": "這張圖片中的模型是地震工程教育館的一部分，展示了建築物結構與樓房安全的重要性。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的模型與哪個主題有關？",
+            "answer": "這張圖片中的模型與「毀壞教室展示區」、「安全的家」、「先進樓房減震技術」、「公共安全」、「遊戲角」等主題有關。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色？",
+            "answer": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館，展示內容包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+        }
+    ]
+}

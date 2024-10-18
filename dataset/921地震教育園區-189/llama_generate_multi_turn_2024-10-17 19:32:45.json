@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-189.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個以地震教育為主題的景點，設施包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色包括其獨特的建築設計，利用原本光復國中活動中心改建成的影像館，以及集結了921地震相關照片及影音資料的展示。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個以地震教育為主題的景點，設施包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色包括其獨特的建築設計，利用原本光復國中活動中心改建成的影像館，以及集結了921地震相關照片及影音資料的展示。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示的是921地震教育園區的景色，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等設施。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個以地震教育為主題的景點，設施包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色包括其獨特的建築設計，利用原本光復國中活動中心改建成的影像館，以及集結了921地震相關照片及影音資料的展示。"
+                    }
+                ]
+            }
+        ]
+    }
+}

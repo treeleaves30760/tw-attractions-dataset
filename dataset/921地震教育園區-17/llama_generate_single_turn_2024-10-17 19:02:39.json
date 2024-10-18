@@ -1,0 +1,35 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中顯示的建築物是什麼？",
+            "answer": "這張圖片中顯示的建築物是921地震教育園區的一部分，該園區位於台灣台中市霧峰區光復新村，為紀念1999年921大地震而設立，展示地震的影響及防災教育。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點與921地震教育園區有何關係？",
+            "answer": "這個景點是921地震教育園區的一部分，位於園區內，展示地震的影響及防災教育，讓人們了解和體驗地震的威力和防災的重要性。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中顯示的文字「Collapsed Student Artwork Gallery」和「段塊文化空間」代表什麼？",
+            "answer": "這張圖片中顯示的文字「Collapsed Student Artwork Gallery」和「段塊文化空間」代表這個景點是展示學生藝術作品的空間，同時也是紀念921地震的文化空間。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的展示內容包括哪些？",
+            "answer": "這個景點的展示內容包括地震科學、地震體驗與防災教育，讓人們了解和體驗地震的威力和防災的重要性。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的建築設計與車籠埔斷層保存館有何關係？",
+            "answer": "這個景點的建築設計與車籠埔斷層保存館有關係，因為這個景點也是位於車籠埔斷層上，展示了地震的影響和防災教育。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色?",
+            "answer": "921地震教育園區是為了紀念1999年921大地震而設立的教育園區，展示地震的影響及防災教育。它是一個教育園區，通過展示地震的影響及防災教育，幫助大眾建立正確的地震防災觀念。"
+        }
+    ]
+}

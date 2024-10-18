@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-357.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以921大地震為主題，展現了地震的影響和人類對抗地震的努力"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有斷層館、影像館、防災教育館和重建記錄館等展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以921大地震為主題，展現了地震的影響和人類對抗地震的努力"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有斷層館、影像館、防災教育館和重建記錄館等展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-179.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您剛剛提到921地震教育園區，請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色之一是其建築設計，特別是車籠埔斷層保存館，使用82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您提到車籠埔斷層保存館，請問這個館內展示什麼呢"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "車籠埔斷層保存館內展示了「地球科學」、「車籠埔斷層」、「地震科學」、「照片紀實」、「蓋亞劇場」等主題。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，最後再問一個問題，921地震教育園區的地址是哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展現了921地震教育園區的建築設計和內部景觀，特別是車籠埔斷層保存館的獨特設計。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您提到車籠埔斷層保存館，請問這個館內展示什麼呢"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "車籠埔斷層保存館內展示了「地球科學」、「車籠埔斷層」、「地震科學」、「照片紀實」、「蓋亞劇場」等主題。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，最後再問一個問題，921地震教育園區的地址是哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-242.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色有什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是地震科學、地震體驗與防災教育，讓人們了解和體驗地震的力量。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展覽內容包括哪些？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "展覽內容包括地震科學、地震體驗與防災教育等多個方面。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色有什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是地震科學、地震體驗與防災教育，讓人們了解和體驗地震的力量。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展覽內容包括哪些？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "展覽內容包括地震科學、地震體驗與防災教育等多個方面。"
+                    }
+                ]
+            }
+        ]
+    }
+}

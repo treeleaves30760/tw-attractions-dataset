@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-231.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是由國立自然科學博物館規劃與營運，旨在教育公眾了解地震的影響與防災的重要性。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點特色是保存了921地震時的殘骸，並將部分地震後留下的毀壞教室、斷層剖面完好如初地作為教材展示，教室進行結構性補強。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是保存了921地震時的殘骸，並將部分地震後留下的毀壞教室、斷層剖面完好如初地作為教材展示，教室進行結構性補強。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點特色是保存了921地震時的殘骸，並將部分地震後留下的毀壞教室、斷層剖面完好如初地作為教材展示，教室進行結構性補強。"
+                    }
+                ]
+            }
+        ]
+    }
+}

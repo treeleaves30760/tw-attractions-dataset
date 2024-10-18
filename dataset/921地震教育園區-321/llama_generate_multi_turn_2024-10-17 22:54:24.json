@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-321.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你告訴我，這個景點的主要內容是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的主要內容是展示921大地震的歷史和教學，包括地震科學、地震體驗和防災教育等內容。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你告訴我，關於這個景點的更多資訊可以在哪裡查詢呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "你可以在網路上搜尋『921地震教育園區』或『國立自然科學博物館』查詢更多資訊。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你告訴我，這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示的是921大地震的毀壞情況，包括了地震後留下的毀壞教室、斷層剖面等景象。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你告訴我，這個照片的攝影角度是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "攝影角度是從地震教育園區的正面攝影。"
+                    }
+                ]
+            }
+        ]
+    }
+}

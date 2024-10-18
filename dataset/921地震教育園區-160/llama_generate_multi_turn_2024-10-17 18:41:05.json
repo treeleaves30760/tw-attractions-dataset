@@ -1,0 +1,113 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-160.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的位置在哪裡？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間為每天08:00-17:00，除非特殊情況。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的門票費用是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票費用為成人新台幣100元，學生新台幣50元。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的交通方式是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點附近有臺中火車站和霧峰火車站，還有公車可以前往。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以地震科學、地震體驗和防災教育為主題，還有許多特殊的建築和展覽。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了一朵盛開的粉紅色睡蓮，周圍環繞著幾片綠色的荷葉，水面上還有一些浮動的元素，並且能看到水面反射。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間為每天08:00-17:00，除非特殊情況。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的門票費用是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票費用為成人新台幣100元，學生新台幣50元。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的交通方式是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點附近有臺中火車站和霧峰火車站，還有公車可以前往。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以地震科學、地震體驗和防災教育為主題，還有許多特殊的建築和展覽。"
+                    }
+                ]
+            }
+        ]
+    }
+}

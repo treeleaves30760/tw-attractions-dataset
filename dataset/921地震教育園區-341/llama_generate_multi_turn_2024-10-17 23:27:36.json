@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-341.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區，位於台中市霧峰區光復新村，展示921地震的遺址、文物、圖像、圖書等資料，提供地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以原操場為地震博物館，保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，提供地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你們的回答，我還有什麼問題嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "沒有了，謝謝你們的提問。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的毀壞教室、斷層剖面等地震遺址，提供了地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你們的回答，我還有什麼問題嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "沒有了，謝謝你們的提問。"
+                    }
+                ]
+            }
+        ]
+    }
+}

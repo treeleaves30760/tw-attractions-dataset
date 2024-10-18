@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-11.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你是什麼意思？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個地震博物館，展示了921年台中地震的歷史和影響，還有關於地震防災的教育資源。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，你說的有道理。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你是什麼意思？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個地震博物館，展示了921年台中地震的歷史和影響，還有關於地震防災的教育資源。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，你說的有道理。"
+                    }
+                ]
+            }
+        ]
+    }
+}

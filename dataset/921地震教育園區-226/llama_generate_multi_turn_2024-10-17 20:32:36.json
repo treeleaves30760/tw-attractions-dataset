@@ -1,0 +1,105 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-226.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以震後地震遺址及蒐集相關文物、圖像、圖書等資料為主，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有哪些展覽館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等五個展覽館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間為每天9:00-17:00，休館日為每周一。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村，靠近國立自然科學博物館。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區內的車籠埔斷層保存館，展現了震後地震遺址及蒐集相關文物、圖像、圖書等資料。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以震後地震遺址及蒐集相關文物、圖像、圖書等資料為主，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有哪些展覽館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等五個展覽館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間為每天9:00-17:00，休館日為每周一。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村，靠近國立自然科學博物館。"
+                    }
+                ]
+            }
+        ]
+    }
+}

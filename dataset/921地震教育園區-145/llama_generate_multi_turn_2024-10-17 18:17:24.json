@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-145.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點特色是展示921大地震相關的資料與體驗，包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點有什麼樣的展覽呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等五個展覽館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的地址和開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台灣臺中市霧峰區光復新村，開放時間為每日08:00至17:00"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示921大地震相關的資料與體驗，包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點有什麼樣的展覽呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等五個展覽館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的地址和開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台灣臺中市霧峰區光復新村，開放時間為每日08:00至17:00"
+                    }
+                ]
+            }
+        ]
+    }
+}

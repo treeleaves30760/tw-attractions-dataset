@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-347.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震時的地震遺址，並提供了地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的在於提高公眾對地震的認識，並提供了地震防災的教育。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了921地震教育園區內的土堆和圍欄，旁邊有一面展牌，可能提供了與這個地點相關的資訊。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的背景"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的背景是921地震教育園區內的土堆和圍欄，旁邊有一面展牌，可能提供了與這個地點相關的資訊。"
+                    }
+                ]
+            }
+        ]
+    }
+}

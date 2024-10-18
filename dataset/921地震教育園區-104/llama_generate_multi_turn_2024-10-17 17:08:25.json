@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-104.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是由國立自然科學博物館設立的，主要展示地震相關的知識和科技，包括地震科學、地震體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多活動，包括地震體驗、防災教育、科學展覽等等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示的是921地震教育園區的建築外觀，建築的外觀為混凝土結構，展現出簡約和功能性的設計。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是其建築設計，融合了地震防災的元素，展現出地震防災的重要性。"
+                    }
+                ]
+            }
+        ]
+    }
+}

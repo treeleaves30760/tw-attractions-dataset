@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-361.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址在哪裡？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的票價是多少？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的票價是成人新台幣150元，兒童新台幣80元"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展現了921地震教育園區的建築設計和地震遺址的保存"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以地震科學、地震體驗和防災教育為主題，展現了921地震的歷史和教訓"
+                    }
+                ]
+            }
+        ]
+    }
+}

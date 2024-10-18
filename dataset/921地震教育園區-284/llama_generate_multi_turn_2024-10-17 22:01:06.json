@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-284.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個教育性的景點，主要展示921地震的歷史、地震科學、地震防災教育等內容。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示了921地震的歷史和地震科學知識，同時也提供了地震防災教育。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的建築物和地震的影響。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片是哪個景點的照片？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片是921地震教育園區的照片。"
+                    }
+                ]
+            }
+        ]
+    }
+}

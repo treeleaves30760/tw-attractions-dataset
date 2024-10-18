@@ -1,0 +1,35 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片顯示的是什麼地方？",
+            "answer": "這張圖片顯示的是921地震教育園區，是一個專門教育和展示有關地震的知識和科技的地方。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個園區是用來做什麼的？",
+            "answer": "這個園區是用來教育和展示有關地震的知識和科技，讓參觀者了解地震的影響和防災知識。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個園區的建築外觀是什麼樣子的？",
+            "answer": "這個園區的建築外觀為混凝土結構，展現出簡約和功能性的設計。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個園區的標識是什麼樣子的？",
+            "answer": "這個園區的標識顯示著「地震工程教育館」的字樣，表明這個地方與地震工程有關。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個園區是哪一年開放參觀的？",
+            "answer": "這個園區於2004年9月21日開放參觀。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色?",
+            "answer": "921地震教育園區是國立自然科學博物館的一部分，專注於教育和展示有關地震的知識和科技。它是為了悼念1999年台灣921地震而設立的，並提供參觀者對地震影響和防災知識的了解。"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-220.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示地震科學、地震體驗與防災教育，同時也保存了921地震的遺址和文物，讓人們能夠了解和體驗大自然力量的威力。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築風格是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築風格是現代主義和結構主義的混合，具有強烈的現代感和科技感。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主題是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的主題是地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展覽內容包括哪些部分?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的展覽內容包括地震科學、地震體驗與防災教育等部分。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的館藏包括哪些?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的館藏包括地震相關文物、圖像、圖書等資料。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展現了921地震教育園區的建築風格和地震遺址。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天9:00-17:00，周一休息。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的門票價格是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票價格是成人新臺幣100元，兒童新臺幣50元。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-342.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區有哪些展覽館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區的主題是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的主題是地球科學、車籠埔斷層、地震科學、照片紀實、蓋亞劇場"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展現了一個有結構殘損的水泥柱，柱子周圍有暴露的鋼筋和碎裂的混凝土，背景中有透明的隔斷，可能是展示區的設計，並且有一些裝置或說明牌位於前面，顯示出關於結構安全或地震教育的資訊"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這張照片是哪個展覽館的照片"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片可能是車籠埔斷層保存館的照片"
+                    }
+                ]
+            }
+        ]
+    }
+}

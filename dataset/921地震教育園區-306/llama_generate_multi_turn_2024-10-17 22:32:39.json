@@ -1,0 +1,105 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-306.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示921地震造成的影響和災後重建的努力，包括地震科學、地震體驗與防災教育等主題。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特別之處"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特別之處是座落於921地震發生地點，地震遺址上建造的建築物，具有獨特的設計和歷史意義。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼優點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的優點是可以讓參觀者了解921地震的歷史和影響，同時也能夠學習到防災和減災的知識。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼缺點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的缺點是有些區域的建築物仍然有危險，需要進行修復和維護。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示921地震教育園區的建築物和地震遺址，具有歷史和教育意義。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示921地震造成的影響和災後重建的努力，包括地震科學、地震體驗與防災教育等主題。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特別之處"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特別之處是座落於921地震發生地點，地震遺址上建造的建築物，具有獨特的設計和歷史意義。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼優點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的優點是可以讓參觀者了解921地震的歷史和影響，同時也能夠學習到防災和減災的知識。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼缺點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的缺點是有些區域的建築物仍然有危險，需要進行修復和維護。"
+                    }
+                ]
+            }
+        ]
+    }
+}

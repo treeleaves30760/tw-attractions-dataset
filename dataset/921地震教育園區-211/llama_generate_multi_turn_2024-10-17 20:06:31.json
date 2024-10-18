@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-211.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震的遺址，讓人們能夠親身體驗和學習"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有很多特色，例如它的建築設計很特別，還有很多展覽和活動"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是它的建築設計很特別，還有很多展覽和活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有很多特色，例如它的建築設計很特別，還有很多展覽和活動"
+                    }
+                ]
+            }
+        ]
+    }
+}

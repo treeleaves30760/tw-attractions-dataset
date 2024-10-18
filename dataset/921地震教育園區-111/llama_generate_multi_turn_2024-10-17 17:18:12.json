@@ -1,0 +1,105 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-111.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼地方？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "它位於臺中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以其獨特的建築設計為特色，整個建築物都是以混凝土和木材為主，並且有許多地震相關的展覽和體驗活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有多個展覽館，包括斷層館、影像館、防災教育館和重建記錄館，展覽內容涵蓋了地震科學、地震體驗和防災教育等多個方面"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼體驗活動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供多種體驗活動，包括地震體驗劇場和防災體驗區，讓參觀者可以親身體驗地震的力量和防災的重要性"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼紀念品？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多紀念品可供購買，包括地震相關的紀念品、紀念品和紀念品等"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以其獨特的建築設計為特色，整個建築物都是以混凝土和木材為主，並且有許多地震相關的展覽和體驗活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有多個展覽館，包括斷層館、影像館、防災教育館和重建記錄館，展覽內容涵蓋了地震科學、地震體驗和防災教育等多個方面"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼體驗活動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供多種體驗活動，包括地震體驗劇場和防災體驗區，讓參觀者可以親身體驗地震的力量和防災的重要性"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼紀念品？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多紀念品可供購買，包括地震相關的紀念品、紀念品和紀念品等"
+                    }
+                ]
+            }
+        ]
+    }
+}

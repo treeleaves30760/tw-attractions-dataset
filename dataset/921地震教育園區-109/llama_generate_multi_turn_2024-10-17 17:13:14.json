@@ -1,0 +1,113 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-109.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有很多特色，比如車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每周一至周五上午9點至下午5點，週六、日和公眾假期上午9點至下午6點。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的電話號碼是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的電話號碼是04-2359-1101。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的網址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的網址是http://www.lyes.tw。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有很多特色，比如車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每周一至周五上午9點至下午5點，週六、日和公眾假期上午9點至下午6點。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的電話號碼是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的電話號碼是04-2359-1101。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的網址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的網址是http://www.lyes.tw。"
+                    }
+                ]
+            }
+        ]
+    }
+}

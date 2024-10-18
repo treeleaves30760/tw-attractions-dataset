@@ -1,0 +1,60 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-352.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的內部景觀，包括一座與地震相關的土堆和一位成年人和一個小孩正在觀察這座土堆。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個教育園區，旨在教育公眾有關於921地震的影響和防災知識。園區內有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主題是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的主題是教育公眾有關於921地震的影響和防災知識。園區內的各個展館都與這個主題有關。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村。"
+                    }
+                ]
+            }
+        ]
+    }
+}

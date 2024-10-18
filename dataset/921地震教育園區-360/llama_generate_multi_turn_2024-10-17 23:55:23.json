@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-360.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展館?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有五個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的建築物和周圍的環境，讓觀眾可以了解這個景點的特點和美觀。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築物是什麼樣子的?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築物是現代化的，具有多樣化的設計，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

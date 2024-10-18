@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-349.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是它展示了921地震教育園區的建築設計和內容，讓人們可以更深入地了解這個地震教育園區的內容和價值。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特殊之處"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特殊之處在於它拍攝了921地震教育園區的外觀和內部景觀，讓人們可以更好地了解這個地震教育園區的設計和內容。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是位於台中市霧峰區的921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天早上9點至下午5點，周末和假日開放時間可能有所不同，請參考官方網站或聯繫園區人員查詢最新信息。"
+                    }
+                ]
+            }
+        ]
+    }
+}

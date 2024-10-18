@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-308.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要是用來教導人們了解921地震的相關資訊，包括地震的科學知識、地震的影響以及防災的重要性。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台中市霧峰區光復新村，地址是：921地震教育園區，台中市霧峰區光復新村1鄰1號。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點，週一至週日都開放。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的電話號碼是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的電話號碼是：04-2321-2000。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的建築外觀，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台中市霧峰區光復新村，地址是：921地震教育園區，台中市霧峰區光復新村1鄰1號。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點，週一至週日都開放。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的電話號碼是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的電話號碼是：04-2321-2000。"
+                    }
+                ]
+            }
+        ]
+    }
+}

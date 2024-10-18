@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-366.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以921地震的歷史和教訓為主題，展示了地震的科學知識、地震的體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個長長的走廊，牆上懸掛著多幅照片和資料，看起來像是一個展覽空間。照片主要描繪了與地震相關的場景，並且有一些顯示器顯示著影片或信息。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供了地震科學、地震體驗和防災教育的活動。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了地震的科學知識、地震的體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個長長的走廊，牆上懸掛著多幅照片和資料，看起來像是一個展覽空間。照片主要描繪了與地震相關的場景，並且有一些顯示器顯示著影片或信息。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供了地震科學、地震體驗和防災教育的活動。"
+                    }
+                ]
+            }
+        ]
+    }
+}

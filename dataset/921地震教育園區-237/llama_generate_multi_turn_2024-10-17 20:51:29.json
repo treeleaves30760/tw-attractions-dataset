@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-237.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個場館構成，提供多樣化的展覽內容，讓參觀者可以深入了解地震的科學知識、體驗地震的實際情況、學習防災和避難知識等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有多個展覽，包括地震科學、地震體驗與防災教育等，提供參觀者多樣化的展覽內容"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是拍攝了921地震教育園區的建築物和景觀，展現了地震教育園區的美麗和豐富的內容"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片是什麼時候拍攝的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片拍攝時間不明"
+                    }
+                ]
+            }
+        ]
+    }
+}

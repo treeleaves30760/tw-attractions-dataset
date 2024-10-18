@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-270.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是由國立自然科學博物館設立於臺中市霧峰區光復新村的地震博物館，座落於車籠埔斷層上，展示地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色是座落於車籠埔斷層上，展示地震科學、地震體驗與防災教育"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的車籠埔斷層保存館，展示主題 — 「地球科學」、「車籠埔斷層」、「地震科學」、「照片紀實」、「蓋亞劇場」"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的地震工程教育館，展示主題 — 「毀壞教室展示區」、「安全的家」、「先進樓房減震技術」、「公共安全」、「遊戲角」"
+                    }
+                ]
+            }
+        ]
+    }
+}

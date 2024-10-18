@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-298.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以921地震的教育為主，提供了許多與地震相關的資訊和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您能夠介紹一下這個景點的內容嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包括了地震科學、地震體驗與防災教育等多方面的內容。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片是921地震教育園區的內部景觀，展示了地震遺址的真實情況。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築設計是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築設計以斷層為主題，利用原有的地震遺址和建築結構，創造出一個獨特的建築樣貌。"
+                    }
+                ]
+            }
+        ]
+    }
+}

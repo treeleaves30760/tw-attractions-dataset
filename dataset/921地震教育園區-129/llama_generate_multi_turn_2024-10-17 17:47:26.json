@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-129.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的主要功能是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要功能是教育人們了解地震的影響以及安全知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的歷史有多久？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是2001年2月13日正式定名為921地震教育園區"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以車籠埔斷層保存館為主，展示主題包括地球科學、車籠埔斷層、地震科學、照片紀實和蓋亞劇場"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有哪些展館？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "有斷層館、工程館、影像館、防災館和重建館"
+                    }
+                ]
+            }
+        ]
+    }
+}

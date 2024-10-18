@@ -1,0 +1,20 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中顯示的景點是哪一個?",
+            "answer": "921地震教育園區"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼?",
+            "answer": "921地震教育園區是一個地震博物館，展示了921地震的相關資料和教學內容，包括地震科學、地震體驗和防災教育。它是以921地震為主題的教育園區，旨在讓參觀者了解地震的威力和防災的重要性。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色？",
+            "answer": "這個景點在當地的文化和歷史中扮演了教育和紀念的角色。它是一個地震博物館，展示了921地震的歷史和教學內容，幫助大眾建立正確的地震防災觀念。"
+        }
+    ]
+}

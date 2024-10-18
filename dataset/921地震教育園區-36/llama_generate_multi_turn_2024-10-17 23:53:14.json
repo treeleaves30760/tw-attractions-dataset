@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-36.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是有許多紀念性的設施和與地震相關的教育展示。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，很有趣"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "您很歡迎"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的現代建築元素和開放的綠地。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，很有趣"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "您很歡迎"
+                    }
+                ]
+            }
+        ]
+    }
+}

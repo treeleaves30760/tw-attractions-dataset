@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-328.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以地震科學、地震體驗與防災教育為主題，展出地震的歷史、地震的影響以及防災的方法，還有許多互動的活動讓參觀者能夠更深入地了解地震的知識。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你給的資訊，還有什麼其他的特色嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有許多其他的特色，例如地震體驗區、防災教育館等等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片中有個牛的雕塑，看起來是由自然材料製成，旁邊有一輛老式的手推車，並且背景中有棕櫚樹以及其他設施。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你給的資訊，還有什麼其他的特色嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片還有許多其他的特色，例如地震的歷史、地震的影響以及防災的方法等等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

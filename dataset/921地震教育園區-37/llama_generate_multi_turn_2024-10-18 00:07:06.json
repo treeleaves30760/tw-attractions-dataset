@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-37.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的特色。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是保存了921地震的歷史和重建過程，旨在提高民眾對地震的認識和防災意識。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的開放時間。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是9:00-17:00，周一至周日。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的入口，左側有一組樓梯通往上層，樓梯旁邊有金屬扶手。牆面是淺灰色的，地面有一部分是紅色的，並有白色的曲線。在入口處的牆上，標記了「921地震教育園區」和「Exhibition of 921 Earthquake Reconstruction Records」的字樣。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的地址。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村。"
+                    }
+                ]
+            }
+        ]
+    }
+}

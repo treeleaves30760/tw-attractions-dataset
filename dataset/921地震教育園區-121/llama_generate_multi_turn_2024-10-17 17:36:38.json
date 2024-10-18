@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-121.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以保存和展示921大地震的遺址和相關文物為主，還有許多展示主題，如地震科學、地震體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點是什麼樣的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展館，提供了豐富的資訊和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個專門用來展示和教育人們關於地震的知識，並保存地震災害留下的痕跡的博物館。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以保存和展示921大地震的遺址和相關文物為主，還有許多展示主題，如地震科學、地震體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點是什麼樣的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展館，提供了豐富的資訊和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個專門用來展示和教育人們關於地震的知識，並保存地震災害留下的痕跡的博物館。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-153.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色呢?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要是展示921大地震的相關資料，包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是921地震教育園區？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多活動，包括地震科學教育、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示的是921地震教育園區內的螢幕，螢幕上顯示的是一幅關於火山的動畫畫面，觀眾們坐在椅子上，正專注地觀看螢幕上的內容"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要是展示921大地震的相關資料，包括地震科學、地震體驗與防災教育"
+                    }
+                ]
+            }
+        ]
+    }
+}

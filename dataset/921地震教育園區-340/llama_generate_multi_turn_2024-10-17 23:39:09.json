@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-340.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以921地震為主題的教育園區，提供了許多關於地震的資訊和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，如地震博物館、地震體驗館、防災教育館等等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片是展示了921地震教育園區的某個景點，該景點可能是地震博物館或是地震體驗館等等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點的開放時間是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天從上午9點到下午5點。"
+                    }
+                ]
+            }
+        ]
+    }
+}

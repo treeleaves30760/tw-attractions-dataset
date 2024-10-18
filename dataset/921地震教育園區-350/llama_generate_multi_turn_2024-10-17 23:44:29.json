@@ -1,0 +1,113 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-350.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，包括地震科學、地震體驗與防災教育等等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的門票價格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票價格是成人新台幣100元，學生新台幣50元"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼優惠活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多優惠活動，包括團體優惠、學生優惠等等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，包括地震科學、地震體驗與防災教育等等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的門票價格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票價格是成人新台幣100元，學生新台幣50元"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼優惠活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多優惠活動，包括團體優惠、學生優惠等等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村"
+                    }
+                ]
+            }
+        ]
+    }
+}

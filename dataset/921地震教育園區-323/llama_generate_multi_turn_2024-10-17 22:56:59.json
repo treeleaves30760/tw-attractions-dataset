@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-323.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區，位於台中市霧峰區光復新村，展示地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，您介紹得很好。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "歡迎您的來訪，希望您能在此獲得有用的資訊。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區，位於台中市霧峰區光復新村，展示地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片中顯示的是園區內的建築物，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，很有幫助。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "歡迎您的來訪，希望您能在此獲得有用的資訊。"
+                    }
+                ]
+            }
+        ]
+    }
+}

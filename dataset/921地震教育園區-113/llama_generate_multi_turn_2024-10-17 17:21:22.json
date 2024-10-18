@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-113.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震後的地震遺址，展現了地震的破壞和復原的過程。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我還想知道更多資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有多個展館，包括地震科學館、防災教育館等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我知道了。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "歡迎你來到921地震教育園區，希望你能從這裡獲得更多對地震的了解和防災知識。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了地震後的地震遺址，包括斷層、毀壞教室等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我還想知道更多資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片還展示了地震的破壞和復原的過程，以及地震科學和防災知識。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我知道了。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "歡迎你來到921地震教育園區，希望你能從這裡獲得更多對地震的了解和防災知識。"
+                    }
+                ]
+            }
+        ]
+    }
+}

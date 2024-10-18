@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-316.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色包括獨特的建築設計，例如曲線形狀與高挑的屋頂，以及保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色還有什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等多個展館，提供參觀者全面性的地震教育體驗。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中顯示的特色包括獨特的建築設計，例如曲線形狀與高挑的屋頂，以及保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中還有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中還顯示了車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等多個展館，提供參觀者全面性的地震教育體驗。"
+                    }
+                ]
+            }
+        ]
+    }
+}

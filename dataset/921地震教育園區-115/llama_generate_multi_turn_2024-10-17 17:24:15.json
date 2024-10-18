@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-115.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您說這是921地震教育園區，這個景點的特色有哪些呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館，展區包含車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等五個展區，提供多元的教育內容。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您說這個景點的特色有哪些呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色包括多元的教育內容、豐富的資訊、豐富的體驗、豐富的互動、豐富的視聽資訊。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色包括多元的教育內容、豐富的資訊、豐富的體驗、豐富的互動、豐富的視聽資訊。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您說這個照片的特色有哪些呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色包括多元的教育內容、豐富的資訊、豐富的體驗、豐富的互動、豐富的視聽資訊。"
+                    }
+                ]
+            }
+        ]
+    }
+}

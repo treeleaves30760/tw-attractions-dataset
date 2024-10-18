@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-28.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色有什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的介紹。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "歡迎!"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片是展示了921地震教育園區的建築設計，特別是屋頂下方的遮陽蓬和周圍的結構。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的拍攝角度很特別，很像在看一面鏡子。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "是的，照片的拍攝角度很特別，好像是在看一面鏡子。這種拍攝角度可以讓觀眾從不同的角度看待景點，增加了視覺上的趣味。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片是展示了921地震教育園區的建築設計，特別是屋頂下方的遮陽蓬和周圍的結構。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的拍攝角度很特別，很像在看一面鏡子。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "是的，照片的拍攝角度很特別，好像是在看一面鏡子。這種拍攝角度可以讓觀眾從不同的角度看待景點，增加了視覺上的趣味。"
+                    }
+                ]
+            }
+        ]
+    }
+}

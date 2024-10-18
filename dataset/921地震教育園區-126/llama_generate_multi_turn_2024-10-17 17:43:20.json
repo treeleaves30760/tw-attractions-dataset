@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-126.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區是什麼嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館的一個分館，位於臺中市霧峰區光復新村，該館以921地震為主題，展現地震的影響及預防知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示的是921地震教育園區內部的建築環境，包括一條紅色跑道、多條步道、圍欄和一些展示牌，建築的設計也十分獨特，使用了大量的玻璃和金屬材料，搭配現代感的屋頂結構"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區是什麼嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館的一個分館，位於臺中市霧峰區光復新村，該館以921地震為主題，展現地震的影響及預防知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示的是921地震教育園區內部的建築環境，包括一條紅色跑道、多條步道、圍欄和一些展示牌，建築的設計也十分獨特，使用了大量的玻璃和金屬材料，搭配現代感的屋頂結構"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-137.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色是以地震科學、地震體驗與防災教育為主題，展示了921大地震的歷史和教學"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我們知道這是921地震教育園區了"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的拍攝角度是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的拍攝角度是從地震教育園區的入口處拍攝的，拍攝的角度是從下往上拍攝的"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我們知道這個照片是從地震教育園區的入口處拍攝的了"
+                    }
+                ]
+            }
+        ]
+    }
+}

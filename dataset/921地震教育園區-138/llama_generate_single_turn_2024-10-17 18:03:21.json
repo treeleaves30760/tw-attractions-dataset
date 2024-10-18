@@ -1,0 +1,35 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中有什麼元素？",
+            "answer": "這張圖片中有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個場館。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點與哪些特色相匹配？",
+            "answer": "這個景點與地震科學、地震體驗和防災教育等特色相匹配。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的成立目的是什麼？",
+            "answer": "921地震教育園區的成立目的是以教育和紀念1999年921大地震為主要目的，旨在讓人們了解地震的危害和防災的重要性，同時也希望通過這個園區來紀念921大地震的受難者，並為未來的地震災害做好準備。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的展覽內容包括哪些？",
+            "answer": "921地震教育園區的展覽內容包括地震科學、地震體驗和防災教育等多個方面，讓參觀者可以了解地震的科學知識、體驗地震的危害和學習防災的方法。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的建築設計有什么特點？",
+            "answer": "921地震教育園區的建築設計以車籠埔斷層為中心，利用原有的建築結構和地形，創造出一個獨特的景觀和體驗。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的重建記錄館有什么內容？",
+            "answer": "921地震教育園區的重建記錄館記錄了921大地震災後的重建歷程，包括政策和法制、安置和重建等方面的內容。"
+        }
+    ]
+}

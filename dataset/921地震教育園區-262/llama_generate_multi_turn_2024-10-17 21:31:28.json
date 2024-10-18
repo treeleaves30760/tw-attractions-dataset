@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-262.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是有許多展示地震科學、地震體驗與防災教育的設施"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的設計是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的設計是現代化的，適合行人通行"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的環境是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的環境是綠樹與山丘"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼時候開放"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是2004年9月21日開始對外開放參觀"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是有許多展示地震科學、地震體驗與防災教育的設施"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的設計是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的設計是現代化的，適合行人通行"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的環境是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的環境是綠樹與山丘"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片是什麼時候拍攝的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的拍攝時間不是明確的"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-274.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有著獨特的建築設計，展現了地震的科學知識和歷史故事。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你能夠幫助我了解更多關於921地震的資訊嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個教育基地，旨在讓人們了解921地震的歷史、地震科學和防災知識。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的獨特建築設計和地震的科學知識。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你能夠幫助我了解更多關於921地震的資訊嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個教育基地，旨在讓人們了解921地震的歷史、地震科學和防災知識。"
+                    }
+                ]
+            }
+        ]
+    }
+}

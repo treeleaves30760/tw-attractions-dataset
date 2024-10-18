@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-355.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以現代設計為主，建築物的屋頂呈現出尖錐形，並有玻璃窗面，展出多種不同顏色的宣傳海報，可能是關於地震知識或防災的資訊"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築物採用什麼樣的材料"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "牆面和地面的材料都是混凝土"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築物有什麼樣的特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "建築物的屋頂呈現出尖錐形，並有玻璃窗面"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以現代設計為主，建築物的屋頂呈現出尖錐形，並有玻璃窗面，展出多種不同顏色的宣傳海報，可能是關於地震知識或防災的資訊"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築物採用什麼樣的材料"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "牆面和地面的材料都是混凝土"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築物有什麼樣的特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "建築物的屋頂呈現出尖錐形，並有玻璃窗面"
+                    }
+                ]
+            }
+        ]
+    }
+}

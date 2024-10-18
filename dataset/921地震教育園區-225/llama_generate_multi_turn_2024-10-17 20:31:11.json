@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-225.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問921地震教育園區是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是由國立自然科學博物館設立，位於臺中市霧峰區光復新村，是一座以地震科學、地震體驗與防災教育為主題的博物館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問921地震教育園區有哪些展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有多個展覽館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問921地震教育園區的建築特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的建築特色是採用特殊的混凝土結構設計，整體呈現出曲線的外觀。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中顯示了一個受損的建築結構，周圍有一些綠色植被和金屬支柱。建築物的外觀顯示出明顯的破壞痕跡，樓梯的排列不整齊，部分區域似乎被摧毀或移位。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中有什麼展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中顯示的是車籠埔斷層保存館，展覽主題包括地震科學、地震體驗與防災教育。"
+                    }
+                ]
+            }
+        ]
+    }
+}

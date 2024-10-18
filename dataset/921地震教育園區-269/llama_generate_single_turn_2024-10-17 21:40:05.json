@@ -1,0 +1,30 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中顯示的建築風格是什麼?",
+            "answer": "這張圖片中顯示的建築風格是現代且流線型的設計，可能是用混凝土和玻璃材質建造，展現出與自然光的良好整合。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖中展示的面板內容是什麼?",
+            "answer": "圖中展示的面板內容是與地震相關的資訊，這通常是教育園區的一部分，展示了地震科學、地震體驗與防災教育等內容。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圓形結構代表什麼意思?",
+            "answer": "圓形結構很有可能代表著地震波或與地震相關的主題，展現出地震的威力和影響。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片與哪個景點最匹配?",
+            "answer": "這張圖片與921地震教育園區最匹配，園區的設計特徵包括現代流線型建築風格、展示面板、圓形結構等，都是教育園區的一部分，展示了地震科學、地震體驗與防災教育等內容。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色？",
+            "answer": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館，保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+        }
+    ]
+}

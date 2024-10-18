@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-269.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的建築風格是現代且流線型的，可能是用混凝土和玻璃材質建造，展現出與自然光的良好整合。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中有展示與地震相關的資訊，這通常是教育園區的一部分。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中還有什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中還可以看到幾個圓形的設計元素，這很有可能代表著地震波或與地震相關的主題。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼人群？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中有參觀者在館內走動，這表明這裡是一個開放的學習空間，吸引公眾來了解921地震的影響與防災知識。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展現了現代且流線型的建築風格，展示了與自然光的良好整合，以及一些與地震相關的展覽。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中有展示與地震相關的資訊，這通常是教育園區的一部分。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中還有什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中還可以看到幾個圓形的設計元素，這很有可能代表著地震波或與地震相關的主題。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼人群？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中有參觀者在館內走動，這表明這裡是一個開放的學習空間，吸引公眾來了解921地震的影響與防災知識。"
+                    }
+                ]
+            }
+        ]
+    }
+}

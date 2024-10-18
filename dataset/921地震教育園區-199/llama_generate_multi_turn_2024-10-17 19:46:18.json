@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-199.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以地震科學、地震體驗與防災教育為主題，展示內容包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示主題 — 「地球科學」、「車籠埔斷層」、「地震科學」、「照片紀實」、「蓋亞劇場」"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示主題 — 「震起的台灣」、「重返九二一」、「真情劇場」、「大地劇場」、「地震調查局」、「新生的力量」"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的是宣導地震防災和提升公眾對於地震的認識"
+                    }
+                ]
+            }
+        ]
+    }
+}

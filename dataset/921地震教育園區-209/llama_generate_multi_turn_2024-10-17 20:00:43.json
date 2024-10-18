@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-209.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你說這是921地震教育園區，請問這個園區是什麼樣子"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個以地震教育為主題的景點，園區內設有多個展館，包括斷層館、影像館、防災館和重建記錄館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你說這個園區內有多個展館，請問每個展館的內容都有什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "斷層館展示了921地震的相關資料和照片，影像館則播放了921地震的影像和錄音，防災館提供了防災的知識和教學，重建記錄館則記錄了921地震後的重建歷程"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你說這個園區內有多個展館，請問這個園區的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間是每天上午9點至下午5點，園區內設有多個展館，包括斷層館、影像館、防災館和重建記錄館等"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的景象，包括了斷層館、影像館、防災館和重建記錄館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你說這個照片展示了921地震教育園區的景象，請問這個照片的拍攝位置是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片的拍攝位置是921地震教育園區內的斷層館，展示了921地震的相關資料和照片"
+                    }
+                ]
+            }
+        ]
+    }
+}

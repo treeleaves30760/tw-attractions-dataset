@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-325.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是其獨特的建築設計和地震教育內容"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個地震教育園區，展示了921大地震的歷史和教學內容"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的獨特建築設計和地震教育內容"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個地震教育園區，展示了921大地震的歷史和教學內容"
+                    }
+                ]
+            }
+        ]
+    }
+}

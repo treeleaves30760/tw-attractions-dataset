@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-359.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以地震為主題的教育園區，展示了921地震的歷史和教學內容。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是其獨特的建築設計和地震教育內容。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是它展現了地震教育園區的建築設計和地震教育內容。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的主要目的什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的主要目的在於教育和防災意識。"
+                    }
+                ]
+            }
+        ]
+    }
+}

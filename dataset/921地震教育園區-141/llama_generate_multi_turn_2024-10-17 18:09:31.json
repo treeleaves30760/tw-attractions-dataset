@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-141.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區的主要功能是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區主要功能是教育公眾理解地震及其防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區有哪些展館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展示了921地震教育園區的內部景觀，包括標誌、互動活動、展館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有哪些展館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展示了921地震教育園區的車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館"
+                    }
+                ]
+            }
+        ]
+    }
+}

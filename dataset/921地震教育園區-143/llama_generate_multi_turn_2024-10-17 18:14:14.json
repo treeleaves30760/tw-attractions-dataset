@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-143.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要展示921大地震的歷史，同時也提供地震防災教育的資訊。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我還想知道更多關於這個景點的資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是由國立自然科學博物館管理的博物館，位於臺中市霧峰區光復新村。它是用來紀念和教育人們關於921大地震的歷史的。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，還有什麼其他的資訊可以提供給我？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "除了展示921大地震的歷史之外，該園區還提供了地震防災教育的資訊。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的建築風格和景觀。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我還想知道更多關於這個景點的資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是用來紀念和教育人們關於921大地震的歷史的。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，還有什麼其他的資訊可以提供給我？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "除了展示921大地震的歷史之外，該園區還提供了地震防災教育的資訊。"
+                    }
+                ]
+            }
+        ]
+    }
+}

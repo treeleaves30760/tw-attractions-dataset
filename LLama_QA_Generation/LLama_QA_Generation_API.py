@@ -125,7 +125,7 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
             "conversation": [
                 {{
                     "role": "user",
-                    "content": "請問這是什麼景點"
+                    "content": "請問這是什麼景點，請簡短介紹一下。"
                 }},
                 {{
                     "role": "assistant",
@@ -139,7 +139,7 @@ def generate_llama_data_multi_turn(image_path, gpt4_description, wiki_content, l
             "conversation": [
                 {{
                     "role": "user",
-                    "content": "請問圖片中是什麼景點"
+                    "content": "請問圖片中是什麼景點，請簡短介紹一下。"
                 }},
                 {{
                     "role": "assistant",

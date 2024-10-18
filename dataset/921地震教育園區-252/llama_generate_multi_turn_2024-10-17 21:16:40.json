@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-252.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區以地震科學、地震體驗與防災教育為主題，展示主題包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區的開放時間嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區開放時間是周一至周日，09:00-17:00，周末及節假日不休息。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示了一個教室的情景，裡面有許多學生正在專心上課，穿著紅色的外套，並且有老師在黑板前上課。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區的地址嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村。"
+                    }
+                ]
+            }
+        ]
+    }
+}

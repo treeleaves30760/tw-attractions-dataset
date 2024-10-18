@@ -1,0 +1,105 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-186.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館的一個分館，主要展示關於921地震的相關資訊，包括地震的原因、地震的影響、地震的防災措施等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的地址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村，地址是光復路一段1號。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間是每天上午9點至下午5點，周一至周日。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的電話號碼是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的電話號碼是04-2359-3131。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展現了921地震教育園區的內部結構，包括地殼、地幔和地核等層次。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色是它的獨特建築設計和地震教育的內容。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的地址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村，地址是光復路一段1號。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間是每天上午9點至下午5點，周一至周日。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，請問這個景點的電話號碼是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的電話號碼是04-2359-3131。"
+                    }
+                ]
+            }
+        ]
+    }
+}

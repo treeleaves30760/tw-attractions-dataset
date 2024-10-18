@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-358.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以地震科學、地震體驗與防災教育為主題，提供參觀者了解地震的科學知識、體驗地震的感受，並學習防災的知識和技能。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供多種活動，包括地震科學展覽、地震體驗劇場、防災教育活動、工作坊等，讓參觀者可以在實體環境中體驗地震的影響和學習防災的知識和技能。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是拍攝了921地震教育園區的景觀，展現了地震科學、地震體驗與防災教育的主題。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以地震科學、地震體驗與防災教育為主題，提供參觀者了解地震的科學知識、體驗地震的感受，並學習防災的知識和技能。"
+                    }
+                ]
+            }
+        ]
+    }
+}

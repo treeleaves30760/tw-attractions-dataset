@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-134.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼時候開放的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "2004年9月21日"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包括斷層保存館、工程館、影像館、防災館、重建館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的在於什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "教育公眾有關地震的影響及防災知識"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中有地震後的土地變形、防護棚、毯子和預鑄預力混凝板"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中有地震體驗劇場、毀壞教室展示區、安全的家、先進樓房減震技術、公共安全、遊戲角"
+                    }
+                ]
+            }
+        ]
+    }
+}

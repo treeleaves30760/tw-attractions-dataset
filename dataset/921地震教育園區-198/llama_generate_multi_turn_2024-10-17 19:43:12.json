@@ -1,0 +1,52 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-198.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的建築設計和地震遺址的保存，還有許多展示主題和體驗活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你可以告訴我更多關於921地震教育園區的資訊嗎"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台灣臺中市，旨在紀念和普及921地震的相關知識。園區內有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。園區還提供許多體驗活動和展示主題，讓參觀者可以了解地震的科學和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "不客氣"
+                    }
+                ]
+            }
+        ]
+    }
+}

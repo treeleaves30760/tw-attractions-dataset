@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-268.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您剛剛提到的921地震教育園區是什麼地方？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村，園區以保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您剛剛提到的921地震教育園區的主題是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的主題包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您剛剛提到的921地震教育園區有哪些展館？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示了一堆倒塌的建築物殘骸，顯示了明顯的結構損壞，如碎裂的磚塊和混凝土，並且可能覆蓋著一些綠色的植物。這種場景確實與921地震教育園區的主題相關，因為該園區是為了紀念1999年921大地震而設立的，並且展示了地震造成的災害和破壞。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您剛剛提到的921地震教育園區的展館是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的展館包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    }
+                ]
+            }
+        ]
+    }
+}

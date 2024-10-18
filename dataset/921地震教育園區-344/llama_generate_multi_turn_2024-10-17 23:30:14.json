@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-344.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以展示921地震的相關資料和體驗為主，包括地震科學、地震體驗與防災教育等方面"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的介紹，請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有個獨特的建築設計，利用原本的光復國中活動中心改建成的影像館，集結了921地震相關照片及影音資料展示"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的介紹，請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有個防災教育館，可以了解救災及避難知識建立正確的防災觀念"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的介紹，請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以展示921地震的相關資料和體驗為主，包括地震科學、地震體驗與防災教育等方面"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的介紹，請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有個獨特的建築設計，利用原本的光復國中活動中心改建成的影像館，集結了921地震相關照片及影音資料展示"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的介紹，請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有個防災教育館，可以了解救災及避難知識建立正確的防災觀念"
+                    }
+                ]
+            }
+        ]
+    }
+}

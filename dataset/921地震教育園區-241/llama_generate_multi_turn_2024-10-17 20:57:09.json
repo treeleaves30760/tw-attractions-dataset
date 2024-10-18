@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-241.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個地震教育園區的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個地震教育園區的特色是展示地震科學、地震體驗與防災教育，讓參觀者了解地震的知識，並提高防災意識。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個地震教育園區的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個地震教育園區位於臺中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個地震教育園區的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個地震教育園區的開放時間是每周一至週五，9:00至17:00。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的入口，照片中有園區的入口和地震教育館的建築。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片中有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片中有地震教育館的展覽，展覽內容包括地震科學、地震體驗與防災教育。"
+                    }
+                ]
+            }
+        ]
+    }
+}

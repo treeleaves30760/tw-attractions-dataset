@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-283.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震的遺址，展現了地震對於建築物的影響"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多展覽，包括地震科學、地震體驗、防災教育等"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了921地震教育園區的鳥瞰圖"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震的遺址，展現了地震對於建築物的影響"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多展覽，包括地震科學、地震體驗、防災教育等"
+                    }
+                ]
+            }
+        ]
+    }
+}

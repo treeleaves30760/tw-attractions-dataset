@@ -1,0 +1,40 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的結構裝置是什麼？",
+            "answer": "圖片中的結構裝置是921地震教育園區的展示內容之一，展示的是抗震設計和技術，類似於地震教育的展示館。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的鋼筋顏色代表什麼？",
+            "answer": "圖片中的鋼筋顏色代表不同的設計或材料，可能是用於展示不同抗震技術的示範。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "背景牆的破壞痕跡是什麼？",
+            "answer": "背景牆的破壞痕跡是模擬地震後的景象，強調抗震的重要性，可能是用於展示地震的危害和防災的必要性。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "展示牌上的標示牌是什麼？",
+            "answer": "展示牌上的標示牌是介紹不同部分的功能及其在抗震中的角色，可能是用於教育和解釋地震和抗震的知識。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片應該是哪個景點的展示內容？",
+            "answer": "這張圖片應該是921地震教育園區的展示內容之一，展示的是抗震設計和技術，類似於地震教育的展示館。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這張圖片所在的景點在當地的文化和歷史中扮演了什麼樣的角色?",
+            "answer": "這張圖片所在的景點921地震教育園區是一個教育性的博物館，旨在提高公眾對地震的認識，並展示建築的抗震設計和技術。它是國立自然科學博物館的一部分，位於台中市霧峰區光復新村。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的主要目的為何?",
+            "answer": "主要目的為教育和宣傳，讓人們了解地震的危害以及如何應對地震災害。"
+        }
+    ]
+}

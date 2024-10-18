@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-230.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是921地震教育園區？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個園區有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個園區的特色包括地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個園區有哪些展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個園區有斷層館、影像館、防災館、重建館等展覽。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了一個室內空間，牆壁上有破損的痕跡，地板看起來是混凝土材質，並且有一些裂縫。左側的牆面上貼有一塊大型的展示板，展示了多張圖片，這些圖片似乎與教學或活動有關，板子上也有中文的文字，並寫著「老師好！」。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片是什麼地方？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片是921地震教育園區。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-248.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要是用來紀念和教育人們有關於921地震的歷史及其影響，園區內有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村，地址是：921地震教育園區，光復新村，霧峰區，臺中市，臺灣 436，電話：04-2493-1133"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的外觀，園區內有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村，地址是：921地震教育園區，光復新村，霧峰區，臺中市，臺灣 436，電話：04-2493-1133"
+                    }
+                ]
+            }
+        ]
+    }
+}

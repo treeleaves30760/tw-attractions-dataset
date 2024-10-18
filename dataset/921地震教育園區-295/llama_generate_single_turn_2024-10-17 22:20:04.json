@@ -1,0 +1,35 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中顯示的景點是哪個景點?",
+            "answer": "這張圖片顯示的是國立自然科學博物館921地震教育園區。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼?",
+            "answer": "國立自然科學博物館921地震教育園區的特色包括展示與地震相關的科學知識、體驗與防災教育，以及保存地震遺址、蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的建築風格是什麼?",
+            "answer": "國立自然科學博物館921地震教育園區的建築風格是現代主義建築風格，具有簡潔、功能性和實用的特點。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的環境是什麼?",
+            "answer": "國立自然科學博物館921地震教育園區的環境是位於臺中市霧峰區光復新村的車籠埔斷層上，周圍是自然生態環境。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的其他特徵是什麼?",
+            "answer": "國立自然科學博物館921地震教育園區還有其他特徵，如斷層剖面、震後地震遺址、文物、圖像、圖書等資料的展示。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色?",
+            "answer": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館，展示內容包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+        }
+    ]
+}

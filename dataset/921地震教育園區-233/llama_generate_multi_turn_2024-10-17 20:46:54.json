@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-233.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的地是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的地是教育和科學"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的歷史背景是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的歷史背景是921大地震後的重建"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的建築結構和內部環境"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的拍攝地點是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的拍攝地點是921地震教育園區"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與哪個景點相匹配?",
+            "answer": "這張圖片中的元素與國立自然科學博物館的921地震教育園區相匹配。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼?",
+            "answer": "這個景點的特色是展示921地震的影響和地震相關的教育，包括地震科學、地震體驗與防災教育。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色？",
+            "answer": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館，展示地震科學、地震體驗與防災教育，幫助大眾建立正確的地震防災觀念。"
+        }
+    ]
+}

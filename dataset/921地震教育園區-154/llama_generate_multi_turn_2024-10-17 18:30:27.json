@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-154.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的主要目的什麼呢?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要目的在於教育公眾有關地震的知識，並提供互動式的體驗活動，讓參觀者了解地震的成因、影響及如何自我防範"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色在於它的建築設計是依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "每周一至周五 09:00-17:00"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色在於它的建築設計是依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "每周一至周五 09:00-17:00"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與哪個景點相匹配？",
+            "answer": "921地震教育園區。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼？",
+            "answer": "921地震教育園區主要是為了提高公眾對地震及災害防救的認識與教育，園區內展示了許多與921地震相關的資料和設備，讓參觀者能夠深入了解地震的原因、影響和防救措施。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的螢幕上呈現的是什麼？",
+            "answer": "螢幕上呈現的是一幅關於火山的動畫畫面，伴隨著中英文的字幕。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的觀眾們在看什麼？",
+            "answer": "觀眾們正在專注地觀看螢幕上的內容。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的椅子是什麼樣子的？",
+            "answer": "椅子是黑色的，呈現出一種簡潔的設計。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的地板是什麼樣子的？",
+            "answer": "地板是黑色的，呈現出一種簡潔的設計。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的天花板是什麼樣子的？",
+            "answer": "天花板是黑色的，呈現出一種簡潔的設計。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的牆壁是什麼樣子的？",
+            "answer": "牆壁是黑色的，呈現出一種簡潔的設計。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的燈光是什麼樣子的？",
+            "answer": "燈光是白色的，呈現出一種清晰的光線。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "圖片中的空間是什麼樣子的？",
+            "answer": "空間是黑色的，呈現出一種簡潔的設計。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色？",
+            "answer": "921地震教育園區是一個以地震科學、地震體驗與防災教育為主題的博物館，位於台中市霧峰區光復新村。它是國立自然科學博物館的一部分，旨在提高公眾對地震及災害防救的認識與教育。園區內設有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館，展示地震的科學、體驗和防災教育。它也是921地震的紀念地，並且提供了教育和防災的資源。"
+        }
+    ]
+}

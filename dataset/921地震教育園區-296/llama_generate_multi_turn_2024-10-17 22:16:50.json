@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-296.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道更多關於這個景點的資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個教育園區，主要針對地震相關的科學知識和防災教育。園區內設有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個教育園區，主要針對地震相關的科學知識和防災教育。園區內設有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道更多關於這個景點的資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個教育園區，主要針對地震相關的科學知識和防災教育。園區內設有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個教育園區，主要針對地震相關的科學知識和防災教育。園區內設有多個展館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    }
+                ]
+            }
+        ]
+    }
+}

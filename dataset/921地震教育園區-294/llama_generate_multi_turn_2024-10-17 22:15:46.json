@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-294.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼叫做921地震教育園區"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "它是位於臺中市霧峰區光復新村的地震博物館，主要展示地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼叫做地震科學"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "地震科學是研究地震的原因、過程和結果的科學領域，包括地震的發生機制、地震波的傳播、地震的影響等方面"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼叫做地震體驗"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "地震體驗是指通過實驗或模擬來體驗地震的感受和影響，讓人們更好地了解地震的危害和重要性"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼叫做防災教育"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "防災教育是指通過教育和宣傳來提高人們對地震防災的認識和能力，幫助人們準備和應對地震的危機"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的建築結構和內部裝修，讓人們可以更好地了解地震的危害和重要性"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼叫做建築結構"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "建築結構是指建築物的支撐和承重系統，包括牆壁、屋頂、地基等部分"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼叫做內部裝修"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "內部裝修是指建築物內部的裝飾和配置，包括牆壁、地板、天花板等部分"
+                    }
+                ]
+            }
+        ]
+    }
+}

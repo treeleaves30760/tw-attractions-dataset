@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-212.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您，我想知道這個景點的特色。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是，它是以921地震為主題的教育園區，提供了多種教育資源和活動，讓人們可以了解和體驗地震的相關知識和經驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，我想知道這個景點的地址。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台中市霧峰區光復新村，地址是：台中市霧峰區光復新村路，電話是：04-2323-1234。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您，我想知道這個景點的特色。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是，它是以921地震為主題的教育園區，提供了多種教育資源和活動，讓人們可以了解和體驗地震的相關知識和經驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，我想知道這個景點的地址。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台中市霧峰區光復新村，地址是：台中市霧峰區光復新村路，電話是：04-2323-1234。"
+                    }
+                ]
+            }
+        ]
+    }
+}

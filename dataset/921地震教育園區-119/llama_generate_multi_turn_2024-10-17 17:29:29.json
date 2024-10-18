@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-119.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個以地震科學、地震體驗與防災教育為主題的博物館。館內展示了許多地震相關的文物、圖像和資料，並設有多個展覽廳，包括斷層館、影像館、防災館和重建館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個博物館的主要目的是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要目的是讓人們了解和體驗地震的威力，並培養防災意識。館內的各個展覽廳都有不同的主題和內容，讓參觀者可以從不同角度了解地震的影響。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼特別的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中展示了多個展覽廳，包括斷層館、影像館、防災館和重建館。每個展覽廳都有不同的主題和內容，讓參觀者可以從不同角度了解地震的影響。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個博物館的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個博物館的特色是它的多元化展覽內容和互動體驗。館內的各個展覽廳都有不同的主題和內容，讓參觀者可以從不同角度了解地震的影響。"
+                    }
+                ]
+            }
+        ]
+    }
+}

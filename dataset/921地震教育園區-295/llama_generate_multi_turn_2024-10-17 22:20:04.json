@@ -1,0 +1,137 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-295.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是921地震教育園區？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以地震科學、地震體驗與防災教育為主題，展示內容包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點在哪裡？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的門票費用是多少？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票費用是成人新臺幣100元，兒童新臺幣50元。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有地震體驗活動、防災教育活動和科學教育活動。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的電話號碼是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的電話號碼是04-23323211。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以地震科學、地震體驗與防災教育為主題，展示內容包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中這個景點的建築特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築特色是以曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中這個景點的展示內容是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的展示內容包括地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中這個景點的門票費用是多少？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的門票費用是成人新臺幣100元，兒童新臺幣50元。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中這個景點的電話號碼是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的電話號碼是04-23323211。"
+                    }
+                ]
+            }
+        ]
+    }
+}

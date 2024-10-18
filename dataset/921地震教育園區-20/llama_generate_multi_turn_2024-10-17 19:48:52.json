@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-20.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你可以告訴我更多關於921地震教育園區的資訊嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個地震博物館，位於台中市霧峰區光復新村，該館坐落於921地震的斷層上，展示了921地震的歷史、地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區的地址嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的地址是台中市霧峰區光復新村，靠近台中市政府。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區的開放時間嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間是每周一至週日，9:00-17:00。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區的門票價格嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的門票價格是成人新臺幣80元，學生新臺幣40元。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的受損建築和毀壞教室，這些都是921地震的遺址和教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區的開放時間嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間是每周一至週日，9:00-17:00。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區的門票價格嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的門票價格是成人新臺幣80元，學生新臺幣40元。"
+                    }
+                ]
+            }
+        ]
+    }
+}

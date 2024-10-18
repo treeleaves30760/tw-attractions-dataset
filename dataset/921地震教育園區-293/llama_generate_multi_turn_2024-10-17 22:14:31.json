@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-293.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以震後地震遺址及蒐集相關文物、圖像、圖書等資料為主，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色還有什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等多個展館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以震後地震遺址及蒐集相關文物、圖像、圖書等資料為主，作為認識、暸解及體驗大自然力量的活教材。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以震後地震遺址及蒐集相關文物、圖像、圖書等資料為主，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色還有什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等多個展館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以震後地震遺址及蒐集相關文物、圖像、圖書等資料為主，作為認識、暸解及體驗大自然力量的活教材。"
+                    }
+                ]
+            }
+        ]
+    }
+}

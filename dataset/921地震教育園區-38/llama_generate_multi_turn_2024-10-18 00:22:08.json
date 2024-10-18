@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-38.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主要目的什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要目的在於紀念1999年的921大地震，並提高民眾對地震的認識與防災意識。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築風格和展示的設施符合921地震教育園區的特徵。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "是的，正確。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示的是一個現代化的建築內部，從設計上看起來像是921地震教育園區。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個建築風格與展示的設施符合921地震教育園區的特徵。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "是的，正確。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-303.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示921地震相關的資訊和體驗，包括地震科學、地震體驗和防災教育等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的目的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的在於提供民眾對地震的認識與防災教育，並且展示921地震所造成的地質改變。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展現了921地震教育園區內的一個地震模擬區，讓人們可以體驗地震的威力和震後的重建過程。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村。"
+                    }
+                ]
+            }
+        ]
+    }
+}

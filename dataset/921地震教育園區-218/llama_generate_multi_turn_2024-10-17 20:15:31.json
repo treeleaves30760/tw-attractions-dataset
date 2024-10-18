@@ -1,0 +1,76 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-218.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是具有流線型和現代感的建築風格，使用大量的玻璃和木材，充足的自然光線照射進來，簡約的裝飾，展板和座椅等設施，提供豐富的展示內容和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築風格是現代化的，具有流線型和現代感的設計，使用大量的玻璃和木材，充足的自然光線照射進來，簡約的裝飾，展板和座椅等設施，提供豐富的展示內容和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是台中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每周二到星期日，9:00至17:00。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的入場費用是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的入場費用是成人新台幣100元，學生新台幣50元。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的交通工具是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的交通工具是公車、捷運、自行車、步行等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

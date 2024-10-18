@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-267.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您好，謝謝您的回答。您能夠告訴我更多關於921地震教育園區的資訊嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館，主要以921大地震進行教育與紀念，包含地震相關的展覽和戶外設施。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的回答，還有什麼可以幫助我了解更多關於921地震教育園區的資訊呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "您可以去921地震教育園區的官方網站了解更多資訊，或是前往現場參觀，了解更多關於地震的資訊。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片中有個杯子，杯子上有咖啡的泡沫，杯子下面還有個杯子，杯子裡面有透明的飲料，杯子上面有個藍色的吸管，杯子旁邊還有個黃色的碗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您好，謝謝您的回答。您能夠告訴我更多關於這張照片的資訊嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片可能是在921地震教育園區拍攝的，背景是牆上的一幅標語，上面寫著「FREE TAIWAN」和中文的「台灣加油」。這張照片可能是在一間咖啡店或餐廳內拍攝的。"
+                    }
+                ]
+            }
+        ]
+    }
+}

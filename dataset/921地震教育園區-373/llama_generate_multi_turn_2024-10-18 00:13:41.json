@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-373.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼叫做921地震教育園區呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館的一個分館，位於臺中市霧峰區光復新村，原為臺中縣立光復國民中學校地，因車籠埔斷層通過，地震造成操場部分隆起，也造成校舍及校園毀壞。園區土地保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "園區第一期工程由TVBS關懷台灣文教基金會認養規劃興建，國立自然科學博物館負責之後的規劃與營運。園區座落地震遺址之上，沿斷層而建，以充滿特色的建築與遺址做藝術化的結合；並將部分地震後留下的毀壞教室、斷層剖面完好如初地作為教材展示，教室進行結構性補強。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有哪些展覽呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "園區分為幾個展覽館，包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示了921地震教育園區的建築設計，包括圓弧形的結構和大型窗戶。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築設計是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築設計是現代風格，融合自然元素和地震教育的概念。"
+                    }
+                ]
+            }
+        ]
+    }
+}

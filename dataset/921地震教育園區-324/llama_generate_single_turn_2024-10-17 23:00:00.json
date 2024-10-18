@@ -1,0 +1,60 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素是什麼？",
+            "answer": "這張圖片展示的是921地震教育園區內的兩幅航拍圖，左側顯示的是某個運動場和周圍環境的概況，右側則顯示了另一個運動場的狀況，明顯有裂縫的跡象。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點與921地震教育園區有什麼關係？",
+            "answer": "這個景點是921地震教育園區的一部分，主要用於提高公眾對地震的認識和防災意識，並展示921地震對地形的影響。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼？",
+            "answer": "這個景點的特色是展示921地震對地形的影響，讓參觀者了解地震的力量和危險，並提高防災意識。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點是哪一年開放的？",
+            "answer": "這個景點於2004年9月21日開放。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的建築風格是什麼？",
+            "answer": "這個景點的建築風格是以921地震的特點為設計靈感，使用混凝土和鋼筋等材料，具有強大的抗震能力。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的內容包括哪些？",
+            "answer": "這個景點的內容包括地震科學、地震體驗與防災教育等方面。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的目的在於什麼？",
+            "answer": "這個景點的目的在於提高公眾對地震的認識和防災意識，並展示921地震對地形的影響。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的建築設計是什麼？",
+            "answer": "這個景點的建築設計是以921地震的特點為設計靈感，使用混凝土和鋼筋等材料，具有強大的抗震能力。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的展覽內容包括哪些？",
+            "answer": "這個景點的展覽內容包括地震科學、地震體驗與防災教育等方面。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的建築材料是什麼？",
+            "answer": "這個景點的建築材料是混凝土和鋼筋。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色?",
+            "answer": "921地震教育園區是一個以教育為主題的景點，主要用於提高公眾對地震的認識和防災意識，並展示921地震對地形的影響。它是國立自然科學博物館的一部分，位於臺中市霧峰區光復新村，沿斷層而建，以充滿特色的建築與遺址做藝術化的結合。全館座落地震遺址之上，展示主題包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+        }
+    ]
+}

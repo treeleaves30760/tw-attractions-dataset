@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-18.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個地震教育園區是什麼樣的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個地震教育園區是一個紀念性場所，設立以紀念1999年921地震的影響與教訓。它展示了地震科學、地震體驗與防災教育，讓參觀者了解和體驗大自然力量的活教材。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個地震教育園區裡面有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個地震教育園區的特色包括：車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。這些展館展示了地震科學、地震體驗、防災教育和重建歷程。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展示了921地震教育園區的車籠埔斷層保存館，這個展館是以原操場興建，沒有樑、柱系統，全館都是82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個車籠埔斷層保存館的特色有什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個車籠埔斷層保存館的特色包括：曲線設計、複雜結構、特殊性和困難度均屬國內外首見。它展示了地震科學、地震體驗和防災教育。"
+                    }
+                ]
+            }
+        ]
+    }
+}

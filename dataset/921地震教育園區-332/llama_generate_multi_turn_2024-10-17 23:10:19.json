@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-332.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個以921大地震為主題的教育園區，園區內有多個展館，包括斷層館、影像館、防災館和重建館等，園區內還有許多地震相關的資料和設備，讓遊客可以了解和體驗地震的威力和影響。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村，地址是921地震教育園區，光復新村，霧峰區，臺中市。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼時候"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間是每天上午9點到下午5點，園區內的各個展館也有不同的開放時間，遊客可以根據自己的時間來參觀。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有許多特色，包括斷層館、影像館、防災館和重建館等，園區內還有許多地震相關的資料和設備，讓遊客可以了解和體驗地震的威力和影響。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村，地址是921地震教育園區，光復新村，霧峰區，臺中市。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼時候"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間是每天上午9點到下午5點，園區內的各個展館也有不同的開放時間，遊客可以根據自己的時間來參觀。"
+                    }
+                ]
+            }
+        ]
+    }
+}

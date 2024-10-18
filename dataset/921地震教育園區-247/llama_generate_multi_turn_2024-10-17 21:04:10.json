@@ -1,0 +1,68 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-247.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了現代化建築的特點，具有明亮的玻璃牆和曲線設計，地面是光滑的紅色表面，周圍則有一些圖文展示，可能與地震相關的數據和歷史。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主要功能是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要功能是提供地震教育和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的歷史背景是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台中市霧峰區光復新村，原為台中縣立光復國民中學校地，因車籠埔斷層通過，地震造成操場部分隆起，也造成校舍及校園毀壞。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築設計是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "建築設計以曲線為主題，具有獨特的風格，地面是光滑的紅色表面，周圍則有一些圖文展示，可能與地震相關的數據和歷史。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展示內容是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "展示內容包括地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "特色包括現代化建築設計、地震教育和體驗、歷史背景、獨特的建築風格、展示內容等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

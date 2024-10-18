@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-312.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以921地震為主題，展示了地震科學、地震體驗與防災教育，同時也保存了地震後留下的毀壞教室、斷層剖面等遺址"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點有什麼特別的地方呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築風格是現代的，同時也保存了地震後留下的遺址，讓參觀者可以親身體驗和了解地震的威力和影響"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點適合哪些人呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點適合那些對地震科學和防災教育感興趣的人，同時也適合那些想要體驗和了解地震的威力和影響的人"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以921地震為主題，展示了地震科學、地震體驗與防災教育，同時也保存了地震後留下的毀壞教室、斷層剖面等遺址"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點有什麼特別的地方呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築風格是現代的，同時也保存了地震後留下的遺址，讓參觀者可以親身體驗和了解地震的威力和影響"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點適合哪些人呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點適合那些對地震科學和防災教育感興趣的人，同時也適合那些想要體驗和了解地震的威力和影響的人"
+                    }
+                ]
+            }
+        ]
+    }
+}

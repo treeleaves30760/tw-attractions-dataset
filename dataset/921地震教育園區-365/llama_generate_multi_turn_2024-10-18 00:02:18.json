@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-365.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您可以告訴我更多關於921地震教育園區的資訊嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館，沿斷層而建，以充滿特色的建築與遺址做藝術化的結合；並將部分地震後留下的毀壞教室、斷層剖面完好如初地作為教材展示，教室進行結構性補強。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個照片的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片中的柱子顯示出損壞的混凝土和暴露的鋼筋，這可能是用於教育目的的展示，說明地震對建築物結構的影響。旁邊有一塊石板，上面有詳細描述，可能介紹了柱子的特性及其在地震中的表現。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片中的柱子顯示出損壞的混凝土和暴露的鋼筋，這可能是用於教育目的的展示，說明地震對建築物結構的影響。旁邊有一塊石板，上面有詳細描述，可能介紹了柱子的特性及其在地震中的表現。"
+                    }
+                ]
+            }
+        ]
+    }
+}

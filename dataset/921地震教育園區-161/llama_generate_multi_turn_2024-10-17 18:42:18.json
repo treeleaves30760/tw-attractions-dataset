@@ -1,0 +1,76 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-161.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區，主要特色是保存了921地震的遺址，展示了地震科學、地震體驗與防災教育等內容。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片中有哪些展覽館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包含車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展覽館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天9:00至17:00，逢星期一休館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的電話是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的電話是04-2458-1111。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的官方網站是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的官方網站是https://www.npm.gov.tw/921。"
+                    }
+                ]
+            }
+        ]
+    }
+}

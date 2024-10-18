@@ -1,0 +1,44 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-299.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區，照片中展示了921地震教育園區內的建築物受損情況，包括斷層、樓層傾斜和掉落的建築材料等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片是拍攝在哪個國家"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片是拍攝在臺灣"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片拍攝的時間是什麼時候"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片中沒有顯示拍攝時間"
+                    }
+                ]
+            }
+        ]
+    }
+}

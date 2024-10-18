@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-2.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要是以地震科學、地震體驗與防災教育為主題，讓參觀者可以了解和體驗地震的影響，並學習如何預防和應對地震。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，你有什麼建議"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "如果你想深入了解921地震教育園區，可以參觀車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的建議"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了921地震教育園區的車籠埔斷層保存館，展現了地震的破壞力和人類的智慧和創造力。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，你有什麼建議"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "如果你想深入了解921地震教育園區，可以參觀車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的建議"
+                    }
+                ]
+            }
+        ]
+    }
+}

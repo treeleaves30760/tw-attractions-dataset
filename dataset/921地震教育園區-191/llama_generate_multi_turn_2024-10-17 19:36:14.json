@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-191.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主題是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的主題是地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有哪些展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色是完整的車籠埔斷層保存館、真實情境的地震工程教育館、完整的地震影像館、防災教育館和重建記錄館"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區內的車籠埔斷層保存館，展現了完整的斷層保存館內部"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間為每週一至週日08:30-17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的門票價格是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的門票價格為成人新台幣120元、兒童新台幣60元"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-229.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，例如有地震科學、地震體驗與防災教育的展示內容，還有許多真實的情境讓參觀者正視建築物結構與樓房安全的重要。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天9:00至17:00，中午休息一小時。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點附近有什麼好吃的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點附近有許多好吃的餐廳和小吃店，例如有在地道的台式小吃和國際餐廳等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點附近有什麼好玩的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點附近有許多好玩的活動，例如有地震體驗館和防災教育館等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，例如有地震科學、地震體驗與防災教育的展示內容，還有許多真實的情境讓參觀者正視建築物結構與樓房安全的重要。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天9:00至17:00，中午休息一小時。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點附近有什麼好吃的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點附近有許多好吃的餐廳和小吃店，例如有在地道的台式小吃和國際餐廳等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點附近有什麼好玩的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點附近有許多好玩的活動，例如有地震體驗館和防災教育館等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

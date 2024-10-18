@@ -1,0 +1,105 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-140.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的建築物和地震相關的展品"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以地震科學、地震體驗和防災教育為主題，展示了地震相關的資料和體驗"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有斷層館、工程館、影像館、防災館和重建館等展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有地震體驗和防災教育的活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼資訊"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是台中市霧峰區光復新村，電話是04-2353-1111"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的建築物和地震相關的展品"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有斷層館、工程館、影像館、防災館和重建館等展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有地震體驗和防災教育的活動"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼資訊"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是台中市霧峰區光復新村，電話是04-2353-1111"
+                    }
+                ]
+            }
+        ]
+    }
+}

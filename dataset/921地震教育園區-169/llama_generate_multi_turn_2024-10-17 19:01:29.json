@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-169.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以921地震的教訓為主題，展現了地震的科學知識、地震體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有斷層館、影像館、防災館和重建館等展覽館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的斷層館是一座特殊的建築物，使用了82根預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有地震體驗劇場、防災教育活動等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的斷層館，展現了地震的科學知識和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼展覽館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了斷層館、影像館、防災館和重建館等展覽館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色建築"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的斷層館是一座特殊的建築物，使用了82根預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了地震體驗劇場、防災教育活動等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

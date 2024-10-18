@@ -1,0 +1,121 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-379.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以921地震為主題，展現了地震的歷史、科學和教育意義，讓參觀者了解地震的影響和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包括了車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館，提供多種體驗和教育資源"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供多種活動，包括體驗地震的實際感受、了解地震科學和防災知識、參觀地震相關的展覽和體驗地震的教育課程"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是它以地震為主題，提供多種體驗和教育資源，讓參觀者了解地震的影響和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼優點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的優點是它提供了多種體驗和教育資源，讓參觀者了解地震的影響和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼缺點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的缺點是它可能對一些人來說太過沉重或令人不適"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼其他資訊"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的其他資訊包括了它的地址、開放時間、票價和交通資訊"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點包括了車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館，提供多種體驗和教育資源"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是它以地震為主題，提供多種體驗和教育資源，讓參觀者了解地震的影響和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼優點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的優點是它提供了多種體驗和教育資源，讓參觀者了解地震的影響和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼缺點"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的缺點是它可能對一些人來說太過沉重或令人不適"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼其他資訊"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的其他資訊包括了它的地址、開放時間、票價和交通資訊"
+                    }
+                ]
+            }
+        ]
+    }
+}

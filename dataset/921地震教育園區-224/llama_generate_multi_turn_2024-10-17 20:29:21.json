@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-224.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以921大地震為主題，展現了地震的危害、災後的重建以及防災教育等方面，具有豐富的教育內容和歷史意義"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供了多種活動，包括地震體驗、防災教育、重建記錄館等，讓參觀者可以了解和體驗地震的影響和防災的重要性"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點，周日休息"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了地震的危害和災後的重建，具有豐富的教育內容和歷史意義"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼活動"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供了多種活動，包括地震體驗、防災教育、重建記錄館等，讓參觀者可以了解和體驗地震的影響和防災的重要性"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點，周日休息"
+                    }
+                ]
+            }
+        ]
+    }
+}

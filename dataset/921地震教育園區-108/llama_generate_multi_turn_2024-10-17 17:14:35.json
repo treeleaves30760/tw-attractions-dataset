@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-108.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震的遺址，展現了地震的破壞力和重建過程，還有許多互動體驗和教育展覽，讓參觀者能夠更深入地了解地震的影響和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震的遺址，展現了地震的破壞力和重建過程，還有許多互動體驗和教育展覽，讓參觀者能夠更深入地了解地震的影響和防災知識"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點保存了什麼遺址"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震的遺址"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震的遺址，展現了地震的破壞力和重建過程，還有許多互動體驗和教育展覽，讓參觀者能夠更深入地了解地震的影響和防災知識"
+                    }
+                ]
+            }
+        ]
+    }
+}

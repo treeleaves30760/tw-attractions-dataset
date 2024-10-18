@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-112.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區是什麼地方？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台中市霧峰區光復新村，主要目的是為了紀念1999年的九二一大地震，並提供地震相關的教育和資訊。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你給我的回覆，我還想知道更多關於這個景點的資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "您可以在網路上查詢更多關於921地震教育園區的資訊。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的回覆，我會去查詢更多資訊。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片中顯示的景點有綠樹成蔭、整理過的草地，還有幾棟建築物，其設計風格簡約。標誌上的文字顯示「921地震教育園區」，進一步確認了這是該景點。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你給我的回覆，我還想知道更多關於這個景點的資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "您可以在網路上查詢更多關於921地震教育園區的資訊。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的回覆，我會去查詢更多資訊。"
+                    }
+                ]
+            }
+        ]
+    }
+}

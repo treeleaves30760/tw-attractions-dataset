@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-132.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展現921地震的歷史和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址在台中市霧峰區光復新村"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展現921地震的歷史和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址在台中市霧峰區光復新村"
+                    }
+                ]
+            }
+        ]
+    }
+}

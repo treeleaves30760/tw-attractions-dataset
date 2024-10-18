@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-335.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是以教育和紀念為主題的空間"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築風格有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築風格是現代化的，前景為一面大型的圍牆，牆上掛著一幅展示聲波圖形的標板。標板上可見一些圖形，可能與地震活動相關的視覺資訊。牆的一側標示了“服務中心/售票處”，顯示這裡是一個公共設施，提供訪客註冊或購票的功能。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的背景中有什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "背景中有綠色植被，造景設計呈現出與自然和諧的感覺。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的功能是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要是提供教育和紀念的功能，同時也提供訪客註冊或購票的服務。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的在於什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的在於提高公眾對地震的認識和防範意識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的內容有什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的內容包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色有什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色包括現代化的建築風格，前景為一面大型的圍牆，牆上掛著一幅展示聲波圖形的標板。標板上可見一些圖形，可能與地震活動相關的視覺資訊。牆的一側標示了“服務中心/售票處”，顯示這裡是一個公共設施，提供訪客註冊或購票的功能。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-315.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個地點看起來很有意思，什麼樣的特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個地點以展示921地震的歷史和教學為主，還有許多有趣的活動和展覽，可以讓人們更好地了解地震的真實面貌"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，我想去參觀一下"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "非常歡迎您的訪問，希望您在參觀的過程中得到滿意的體驗"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了地震教育園區的建築和環境，展示了921地震的歷史和教學"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，很有興趣去參觀"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "非常歡迎您的訪問，希望您在參觀的過程中得到滿意的體驗"
+                    }
+                ]
+            }
+        ]
+    }
+}

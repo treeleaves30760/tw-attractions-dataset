@@ -1,0 +1,40 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與什麼相匹配?",
+            "answer": "這張圖片中的元素與921地震教育園區相匹配。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的特色是什麼?",
+            "answer": "921地震教育園區主要是針對921大地震進行教育與紀念，包含地震相關的展覽和戶外設施。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區主要是針對哪個事件進行教育與紀念？",
+            "answer": "921大地震"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的建築設計和展示內容是什麼？",
+            "answer": "建築設計以車籠埔斷層為基礎，展示內容包括地震科學、地震體驗與防災教育"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的開放時間和入場費用是什麼？",
+            "answer": "2004年9月21日開始對外開放參觀，入場費用不明"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區有哪些展館和展示主題？",
+            "answer": "斷層館、影像館、防災館、重建館"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區對於當地的文化和歷史有什麼樣的影響？",
+            "answer": "921地震教育園區成為紀念921大地震的重要地標，對於當地的文化和歷史有重要的貢獻"
+        }
+    ]
+}

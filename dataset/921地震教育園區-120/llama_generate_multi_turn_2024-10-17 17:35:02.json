@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-120.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您說的這個景點是什麼地方？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村，是一個地震博物館，展示地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您提到的地震博物館有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個博物館的特色之一是其建築設計，使用了預鑄預力混凝板，形成了曲線設計，展現了地震科學的創新。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個博物館還有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "博物館還有地震體驗館、防災教育館、重建記錄館等多個展區，提供參觀者多元的體驗和教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個博物館還有什麼活動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "博物館還有地震體驗劇場、真情劇場等活動，讓參觀者能夠更深入地了解地震的科學和社會影響。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展示了博物館的建築設計和展覽內容，提供了參觀者了解地震科學和教育的視覺體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個博物館還有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "博物館還有地震體驗館、防災教育館、重建記錄館等多個展區，提供參觀者多元的體驗和教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個博物館還有什麼活動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "博物館還有地震體驗劇場、真情劇場等活動，讓參觀者能夠更深入地了解地震的科學和社會影響。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與921地震教育園區的特色是什麼？",
+            "answer": "這張圖片顯示了一個小女孩正在參觀一個展示模型的展區。模型由多個黃色的架構組成，上面有幾個平台，似乎是用來模擬建築物在地震中的反應。旁邊有說明文字，可能是在解釋這些設施的目的或功能。背景中可以看到一些現代化的展覽設施和顯示屏。這些細節確實讓人聯想到921地震教育園區，它位於台灣，專門用於教育公眾了解地震和災害防救。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與921地震教育園區的特色是什麼？",
+            "answer": "921地震教育園區是一個教育園區，主要目的是教育公眾了解地震和災害防救。園區內設有多個展區，包括地震科學、地震體驗與防災教育等。這些展區通過現代化的展覽設施和顯示屏，提供給參觀者一個豐富的教育體驗。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的目的在於什麼?",
+            "answer": "921地震教育園區的目的在於教育公眾了解地震和災害防救。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的展覽內容包括哪些?",
+            "answer": "921地震教育園區的展覽內容包括地震科學、地震體驗與防災教育。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的建築風格是什麼?",
+            "answer": "921地震教育園區的建築風格是以震後地震遺址作為教材展示，結合了現代化的展覽設施。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的主要目標是什麼?",
+            "answer": "921地震教育園區的主要目標是幫助大眾建立正確的地震防災觀念。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的展覽內容包括哪些?",
+            "answer": "921地震教育園區的展覽內容包括地震科學、地震體驗與防災教育。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的建築風格是什麼?",
+            "answer": "921地震教育園區的建築風格是以震後地震遺址作為教材展示，結合了現代化的展覽設施。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的主要目標是什麼?",
+            "answer": "921地震教育園區的主要目標是幫助大眾建立正確的地震防災觀念。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的展覽內容包括哪些?",
+            "answer": "921地震教育園區的展覽內容包括地震科學、地震體驗與防災教育。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的建築風格是什麼?",
+            "answer": "921地震教育園區的建築風格是以震後地震遺址作為教材展示，結合了現代化的展覽設施。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的主要目標是什麼?",
+            "answer": "921地震教育園區的主要目標是幫助大眾建立正確的地震防災觀念。"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-146.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的主要功能是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要功能是教育大眾對地震的認知和防災意識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，還有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有許多特色，如地震體驗場次、斷層保存館、影像館、防災教育館、重建記錄館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了與921地震教育園區相關的資訊，包括時間卡和地震體驗場次的相關信息"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝"
+                    }
+                ]
+            }
+        ]
+    }
+}

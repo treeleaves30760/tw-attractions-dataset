@@ -1,0 +1,80 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素包括哪些？",
+            "answer": "這張圖片中的元素包括室內展覽空間、多種顏色的設計和資訊展示、以及一個小孩正在走動。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點與921地震教育園區相匹配的特色是什麼？",
+            "answer": "這個景點與921地震教育園區相匹配的特色是有多種顏色的設計和資訊展示、以及一個小孩正在走動。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的特色是什麼？",
+            "answer": "921地震教育園區的特色是有多種顏色的設計和資訊展示、以及一個小孩正在走動。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的內容包括哪些？",
+            "answer": "921地震教育園區的內容包括地震科學、地震體驗與防災教育。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的歷史是什麼？",
+            "answer": "921地震教育園區的歷史是從2001年2月13日定名為921地震教育園區開始，2004年9月21日開始對外開放參觀。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的場館包括哪些？",
+            "answer": "921地震教育園區的場館包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的車籠埔斷層保存館的特色是什麼？",
+            "answer": "921地震教育園區的車籠埔斷層保存館的特色是依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的地震工程教育館的特色是什麼？",
+            "answer": "921地震教育園區的地震工程教育館的特色是真實情境讓參觀者正視建築物結構與樓房安全的重要。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的影像館的特色是什麼？",
+            "answer": "921地震教育園區的影像館的特色是集結了921地震相關照片及影音資料。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的防災教育館的特色是什麼？",
+            "answer": "921地震教育園區的防災教育館的特色是可了解救災及避難知識建立正確的防災觀念。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "921地震教育園區的重建記錄館的特色是什麼？",
+            "answer": "921地震教育園區的重建記錄館的特色是記錄921地震災後的重建歷程。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的主要功能是什麼?",
+            "answer": "921地震教育園區是國立自然科學博物館的一個分館，主要功能是教育和科學研究，展示地震科學、地震體驗和防災教育。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的建築設計是什麼樣的?",
+            "answer": "921地震教育園區的建築設計是以車籠埔斷層為基礎，採用曲線設計，使用82根預鑄預力混凝板組成。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的展覽內容包括哪些項目?",
+            "answer": "921地震教育園區的展覽內容包括地震科學、地震體驗和防災教育，還有地震後留下的毀壞教室、斷層剖面等。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的目標是什麼?",
+            "answer": "921地震教育園區的目標是幫助大眾建立正確的地震防災觀念，讓人們能夠更好地理解和應對地震的風險。"
+        }
+    ]
+}

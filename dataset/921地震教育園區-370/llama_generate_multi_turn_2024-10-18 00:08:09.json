@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-370.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是921地震教育園區"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是為紀念1999年921大地震而設立的，展出許多有關地震的知識和教育資料，並保存了當時地震摧毀的建築物，讓遊客了解地震的影響"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示了一個被破壞的建築物，呈現出地震造成的損壞特徵。建築物的一部分倒塌，結構和陽台顯示出明顯的損傷，周圍有綠色的草地和幾棵棕櫚樹，並且有一個屋頂結構似乎是在提供保護。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這張照片看起來很像921地震教育園區"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "是的，你正確的，照片看起來很像921地震教育園區。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示了一個被破壞的建築物，呈現出地震造成的損壞特徵。建築物的一部分倒塌，結構和陽台顯示出明顯的損傷，周圍有綠色的草地和幾棵棕櫚樹，並且有一個屋頂結構似乎是在提供保護。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這張照片看起來很像921地震教育園區"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "是的，你正確的，照片看起來很像921地震教育園區。"
+                    }
+                ]
+            }
+        ]
+    }
+}

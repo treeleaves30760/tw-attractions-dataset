@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-305.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色有哪些?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色包括現代化的建築設計，具有曲線形狀的屋頂，採用玻璃和金屬材質，營造出開放且通透的空間，還有木材圓柱、綠色植栽和寬敞的步道等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，還有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有許多其他特色，例如其地震博物館的設計，展覽內容包括地震科學、地震體驗與防災教育等。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色包括現代化的建築設計，具有曲線形狀的屋頂，採用玻璃和金屬材質，營造出開放且通透的空間，還有木材圓柱、綠色植栽和寬敞的步道等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，還有什麼特色?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片還有許多其他特色，例如其地震博物館的設計，展覽內容包括地震科學、地震體驗與防災教育等。"
+                    }
+                ]
+            }
+        ]
+    }
+}

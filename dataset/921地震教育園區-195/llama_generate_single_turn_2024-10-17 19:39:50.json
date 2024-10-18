@@ -1,0 +1,15 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素與哪個景點相匹配？",
+            "answer": "這張圖片中的元素與921地震教育園區相匹配。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼？",
+            "answer": "這個景點的特色是展示921地震的災後情況，讓參觀者了解地震的影響以及防災的重要性。"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素是什麼?",
+            "answer": "這張圖片中的元素是921地震教育園區的道路，道路上有雙線，旁邊有樹木和電線桿。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點與之相匹配的特色是什麼?",
+            "answer": "這個景點與之相匹配的特色是地震教育園區，園區內有地震科學、地震體驗與防災教育的展示。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區是什麼樣的景點？",
+            "answer": "921地震教育園區是一座地震博物館，位於臺中市霧峰區光復新村，展示地震科學、地震體驗與防災教育，讓人們了解地震的威力並學習如何預防和應對地震災害。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的主要目的是什麼？",
+            "answer": "主要目的是教育大眾了解地震的威力，學習如何預防和應對地震災害，並讓人們了解地震科學和防災知識。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的展覽內容包括哪些？",
+            "answer": "展覽內容包括地震科學、地震體驗、防災教育、地震歷史紀實、地震體驗劇場等。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區有哪些特色建築？",
+            "answer": "有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等特色建築。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "921地震教育園區的開放時間和票價是什麼？",
+            "answer": "開放時間為每天09:00-17:00，票價為成人新台幣200元、學生新台幣100元。"
+        }
+    ]
+}

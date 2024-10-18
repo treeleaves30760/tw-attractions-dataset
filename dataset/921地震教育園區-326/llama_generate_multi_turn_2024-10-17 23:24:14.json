@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-326.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，包括地震科學、地震體驗與防災教育，還有許多紀念藝術品與教育設施，都是為了紀念1999年921大地震所造成的傷痛與教訓。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，包括地震科學、地震體驗與防災教育，還有許多紀念藝術品與教育設施，都是為了紀念1999年921大地震所造成的傷痛與教訓。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，包括地震科學、地震體驗與防災教育，還有許多紀念藝術品與教育設施，都是為了紀念1999年921大地震所造成的傷痛與教訓。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，包括地震科學、地震體驗與防災教育，還有許多紀念藝術品與教育設施，都是為了紀念1999年921大地震所造成的傷痛與教訓。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，包括地震科學、地震體驗與防災教育，還有許多紀念藝術品與教育設施，都是為了紀念1999年921大地震所造成的傷痛與教訓。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多特色，包括地震科學、地震體驗與防災教育，還有許多紀念藝術品與教育設施，都是為了紀念1999年921大地震所造成的傷痛與教訓。"
+                    }
+                ]
+            }
+        ]
+    }
+}

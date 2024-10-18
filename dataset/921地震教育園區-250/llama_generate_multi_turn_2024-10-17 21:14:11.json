@@ -1,0 +1,121 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-250.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼時候？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間為每天上午九點至下午五點半，除非特殊情況，否則不變"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的收費標準是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的收費標準為成人票100元、兒童票50元，同時提供優惠票、團體票等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色包括斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的交通工具有什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的交通工具包括公車、捷運、自行車等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點附近有什麼景點？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區附近有許多景點，包括國立自然科學博物館、車籠埔斷層保存園區等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的地址為臺中市霧峰區光復新村"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色包括斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片的拍攝位置是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的拍攝位置是921地震教育園區的斷層保存館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片的拍攝時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的拍攝時間是未知"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片的拍攝者是誰？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的拍攝者是未知"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片的拍攝工具是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的拍攝工具是未知"
+                    }
+                ]
+            }
+        ]
+    }
+}

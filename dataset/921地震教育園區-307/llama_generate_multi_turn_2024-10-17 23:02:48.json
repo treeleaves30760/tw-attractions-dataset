@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-307.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色包括獨特的建築設計、內部空間開放、採用大面積的玻璃窗等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的內部空間是什麼樣子的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的內部空間是開放的，採用大面積的玻璃窗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展示內容是什麼樣子的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的展示內容包括地震科學、地震體驗與防災教育等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的歷史是什麼樣子的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的歷史是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色包括獨特的建築設計、內部空間開放、採用大面積的玻璃窗等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的內部空間是什麼樣子的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的內部空間是開放的，採用大面積的玻璃窗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的展示內容是什麼樣子的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的展示內容包括地震科學、地震體驗與防災教育等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片的歷史是什麼樣子的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的歷史是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館。"
+                    }
+                ]
+            }
+        ]
+    }
+}

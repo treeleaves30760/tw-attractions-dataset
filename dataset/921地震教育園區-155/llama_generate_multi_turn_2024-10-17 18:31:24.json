@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-155.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要展示921地震的相關資料，包括地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主要目的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要目的在於教育公眾關於921地震的影響、救援過程及相關知識。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展示了921地震教育園區的內部景觀，包括長廊、牆壁上的照片和資訊面板，還有上方的顯示器。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築風格"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築風格是簡潔且教育性的，整體環境感覺整潔且具有教育性。"
+                    }
+                ]
+            }
+        ]
+    }
+}

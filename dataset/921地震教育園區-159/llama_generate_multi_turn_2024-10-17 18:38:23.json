@@ -1,0 +1,137 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-159.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示921地震相關的資料和教學"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展示內容包括什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "國立自然科學博物館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "每日09:00-17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的電話是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "04-2358-1977"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的網站是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "https://www.npm.gov.tw/zh-tw/attraction/921"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示921地震相關的資料和教學"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展示內容包括什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "國立自然科學博物館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "每日09:00-17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的電話是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "04-2358-1977"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的網站是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "https://www.npm.gov.tw/zh-tw/attraction/921"
+                    }
+                ]
+            }
+        ]
+    }
+}

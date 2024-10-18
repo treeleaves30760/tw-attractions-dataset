@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-172.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多展覽館，包括斷層館、工程館、影像館、防災館、重建館等，讓人們能夠了解地震的科學知識、體驗地震的恐懼以及學習防災的重要性。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是其獨特的建築設計，沿著車籠埔斷層建造，讓人們能夠親身體驗地震的威力。另外，園區內還有許多實景教室和斷層展示區，讓人們能夠深入了解地震的科學知識。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了園區內的建築設計和斷層展示區，讓人們能夠看到地震的威力和科學知識。另外，照片中的人們在觀看和體驗地震的科學知識，展現了園區的教育目的。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天9:00-17:00，歡迎大家來訪問。"
+                    }
+                ]
+            }
+        ]
+    }
+}

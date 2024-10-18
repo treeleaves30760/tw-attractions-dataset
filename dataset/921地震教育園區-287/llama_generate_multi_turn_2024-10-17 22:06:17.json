@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-287.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是展示了921地震的歷史遺跡，並提供了防災教育和體驗。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的介紹"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "歡迎！"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的建築結構和紀念設施，包括了斷層剖面和毀壞教室等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的介紹"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "歡迎！"
+                    }
+                ]
+            }
+        ]
+    }
+}

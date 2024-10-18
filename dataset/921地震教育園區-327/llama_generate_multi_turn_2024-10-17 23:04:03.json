@@ -1,0 +1,105 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-327.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了921地震的遺址，展現了地震的破壞和重建的過程。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的體驗呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供了地震的體驗，讓參觀者可以體驗到地震的威力和重建的過程。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼樣的展覽呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有許多展覽，包括地震的科學、地震的體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼樣的活動呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供了許多活動，包括地震的體驗、防災教育和重建的展示。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼樣的資源呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點提供了許多資源，包括地震的資料、地震的照片和地震的影音資料。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中顯示了921地震教育園區的建築物和遺址。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼樣的展覽呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中顯示了地震的科學、地震的體驗和防災教育的展覽。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼樣的活動呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中顯示了地震的體驗、防災教育和重建的展示活動。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "圖片中有什麼樣的資源呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "圖片中顯示了地震的資料、地震的照片和地震的影音資料。"
+                    }
+                ]
+            }
+        ]
+    }
+}

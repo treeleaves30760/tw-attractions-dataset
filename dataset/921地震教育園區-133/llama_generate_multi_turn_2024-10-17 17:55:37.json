@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-133.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於台中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主要功能是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要功能是教育公眾有關1999年921大地震的事件和其影響"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築設計很特別，什麼樣的設計"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築設計是流線型設計"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有地震科學、地震體驗與防災教育等展覽"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了一個現代化的室內空間，牆面呈現流線型設計，天花板的結構也很有特色"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片還有什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片還有展示了與地震相關的資訊和圖片"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片還有什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片還有觀眾在參觀"
+                    }
+                ]
+            }
+        ]
+    }
+}

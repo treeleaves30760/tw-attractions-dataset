@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-131.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主題是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主題是地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣子的"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個地震博物館，包含斷層館、工程館、影像館、防災館、重建館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片是展示了921地震教育園區的內部場景"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片中有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片中有地震震測儀的模型、地形圖等展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片中有什麼人"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片中有個小女孩正在觀察展覽"
+                    }
+                ]
+            }
+        ]
+    }
+}

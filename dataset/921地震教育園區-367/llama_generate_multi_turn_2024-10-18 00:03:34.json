@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-367.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是它是由國立自然科學博物館設立的教育園區，展示了921地震的歷史和教學內容，包括地震科學、地震體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的地是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的地是為了讓人們了解和體驗地震的影響和防災的重要性，讓人們能夠更好地準備和應對地震的風險。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是它是由國立自然科學博物館設立的教育園區，展示了921地震的歷史和教學內容，包括地震科學、地震體驗和防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的地是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的地是為了讓人們了解和體驗地震的影響和防災的重要性，讓人們能夠更好地準備和應對地震的風險。"
+                    }
+                ]
+            }
+        ]
+    }
+}

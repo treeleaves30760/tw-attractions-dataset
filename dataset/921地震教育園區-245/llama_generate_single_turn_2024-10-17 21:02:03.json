@@ -1,0 +1,20 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中的元素是什麼？",
+            "answer": "這張圖片中的元素是大型的遮陽篷，呈現一種現代化的建築風格。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點與哪些特色相匹配？",
+            "answer": "這個景點與地震教育、防災宣導、現代化建築風格等特色相匹配。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個景點在當地的文化和歷史中扮演了什麼樣的角色?",
+            "answer": "921地震教育園區是為了紀念1999年921大地震而建立的，目的是進行地震教育和防災宣導。它是一個重要的重點地區，讓民眾了解地震的影響及防災措施，並提升國人的防災意識和知識。"
+        }
+    ]
+}

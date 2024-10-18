@@ -1,0 +1,57 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-105.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問921地震教育園區有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區主要以震後地震遺址之保存為主，提供參觀者以震後地震遺址為主題的體驗，讓參觀者能夠更深刻的體會921地震的影響，了解地震的危害，同時也提供參觀者了解地震防災知識的機會。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝！請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片是921地震教育園區的建築物，建築物的傾斜和破損的結構表明它可能與921地震有關，該地震發生於1999年，是台灣歷史上最嚴重的地震之一。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問921地震教育園區有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區主要以震後地震遺址之保存為主，提供參觀者以震後地震遺址為主題的體驗，讓參觀者能夠更深刻的體會921地震的影響，了解地震的危害，同時也提供參觀者了解地震防災知識的機會。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝！請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片是921地震教育園區的建築物，建築物的傾斜和破損的結構表明它可能與921地震有關，該地震發生於1999年，是台灣歷史上最嚴重的地震之一。"
+                    }
+                ]
+            }
+        ]
+    }
+}

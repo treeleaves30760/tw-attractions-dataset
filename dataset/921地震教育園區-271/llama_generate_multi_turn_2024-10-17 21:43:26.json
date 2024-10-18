@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-271.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點特色之一就是它的建築設計，整個建築都依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "園區內有哪些展覽呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "園區內有許多展覽，包括地震科學、地震體驗與防災教育，讓參觀者正視建築物結構與樓房安全的重要，還有照片紀實、蓋亞劇場等展覽。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色之一就是它的建築設計，整個建築都依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "園區內有哪些展覽呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "園區內有許多展覽，包括地震科學、地震體驗與防災教育，讓參觀者正視建築物結構與樓房安全的重要，還有照片紀實、蓋亞劇場等展覽。"
+                    }
+                ]
+            }
+        ]
+    }
+}

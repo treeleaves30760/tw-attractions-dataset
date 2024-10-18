@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-260.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點保存了地震遺址，還有地震科學、地震體驗與防災教育等展示內容"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間和門票價格是多少"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每天上午9點至下午5點，門票價格是成人新臺幣80元，兒童新臺幣40元"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你對我的問題進行了詳細回答"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了地震教育園區內的車籠埔斷層保存館，展現了地震的威力和人類對地震的抗爭精神"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你對我的問題進行了詳細回答"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-375.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "那麼這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是其特殊的建築設計，使用了82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，我想知道更多關於這個景點的資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有其他特色呢？"
+                    },
+                    {
+                        "role": "user",
+                        "content": "您可以提供更多資訊嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有許多展覽館，如地震工程教育館、影像館、防災教育館、重建記錄館等，提供參觀者了解地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，我覺得這個景點很有意思。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是其特殊的建築設計，使用了82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，我想知道更多關於這個景點的資訊。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有許多展覽館，如地震工程教育館、影像館、防災教育館、重建記錄館等，提供參觀者了解地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝您的介紹，我覺得這個景點很有意思。"
+                    }
+                ]
+            }
+        ]
+    }
+}

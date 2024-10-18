@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-280.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你認為這個景點適合哪些人去參觀？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "適合各種年齡段的人去參觀，尤其是對地震防災感興趣的人"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "特色包括地震科學、地震體驗與防災教育"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "特色包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築風格是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "建築風格是現代化的室內空間"
+                    }
+                ]
+            }
+        ]
+    }
+}

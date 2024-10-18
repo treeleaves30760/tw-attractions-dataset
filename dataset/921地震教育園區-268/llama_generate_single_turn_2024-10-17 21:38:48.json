@@ -1,0 +1,30 @@
+{
+    "image_path": "",
+    "qa_pairs": [
+        {
+            "question_type": "detailed_explanation",
+            "question": "這張圖片中顯示的建築物殘骸是什麼?",
+            "answer": "這張圖片顯示的建築物殘骸是921地震教育園區的一部分，展示了地震造成的災害和破壞。"
+        },
+        {
+            "question_type": "detailed_explanation",
+            "question": "這個景點的特色是什麼?",
+            "answer": "這個景點的特色是展示了921地震的影響和重要性，讓訪客了解地震的科學原理和防災措施。"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這張照片顯示的建築物殘骸可能是哪個地震教育園區的一部分？",
+            "answer": "921地震教育園區"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個地震教育園區是為了紀念哪個地震事件而設立的？",
+            "answer": "1999年921大地震"
+        },
+        {
+            "question_type": "complex_reasoning",
+            "question": "這個地震教育園區的建築物殘骸是如何保存的？",
+            "answer": "部分建築物殘骸被用作教材展示，部分建築物殘骸進行結構性補強"
+        }
+    ]
+}

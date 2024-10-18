@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-208.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主要目的什麼呢?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的主要目的在於紀念1999年921大地震，並展示地震對建築和生活的影響"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點還有什麼特色呢?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等特色"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點還有什麼活動呢?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點還有地震體驗劇場、蓋亞劇場等活動"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片顯示了這個景點受損的建築物，包括破裂的牆面和倒塌的地板"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片還有什麼特色呢?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片還有說明牌，顯示了這個景點的歷史和地理位置"
+                    }
+                ]
+            }
+        ]
+    }
+}

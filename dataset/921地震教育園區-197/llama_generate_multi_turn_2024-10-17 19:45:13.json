@@ -1,0 +1,193 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-197.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以地震科學、地震體驗與防災教育為主題，展示主題包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的歷史是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是為了紀念1999年921地震而設立的，包括一些與地震相關的教育展示和紀念設施。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築以現代化的建築結構為主，前景是一條寬闊的樓梯，通往一個入口。建築的屋頂設計獨特，具現代感，似乎延伸到周圍的環境中。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間為每天上午9時至下午5時，周末和假日不休息。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的地址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的地址為臺中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的電話號碼是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的電話號碼為04-2564-3111。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的網址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的網址為https://www.npm.gov.tw/921/"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的交通資訊是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的交通資訊為可乘坐臺中市公車或是開車前往。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的景點內容是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的景點內容包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的相關資訊是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的相關資訊包括921地震教育園區的歷史、建築、開放時間、地址、電話號碼、網址和交通資訊。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是建築的屋頂設計獨特，具現代感，似乎延伸到周圍的環境中。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以地震科學、地震體驗與防災教育為主題，展示主題包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的建築是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築以現代化的建築結構為主，前景是一條寬闊的樓梯，通往一個入口。建築的屋頂設計獨特，具現代感，似乎延伸到周圍的環境中。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間為每天上午9時至下午5時，周末和假日不休息。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的地址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的地址為臺中市霧峰區光復新村。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的電話號碼是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的電話號碼為04-2564-3111。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的網址是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的網址為https://www.npm.gov.tw/921/"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的交通資訊是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的交通資訊為可乘坐臺中市公車或是開車前往。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的景點內容是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的景點內容包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的相關資訊是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的相關資訊包括921地震教育園區的歷史、建築、開放時間、地址、電話號碼、網址和交通資訊。"
+                    }
+                ]
+            }
+        ]
+    }
+}

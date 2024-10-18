@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-376.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的地是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的地是921大地震的紀念地"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是保存了921大地震的遺址"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展示內容是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的展示內容包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展示館有哪些"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的展示館包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921大地震的遺址"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的歷史是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的歷史是921大地震的紀念地"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的目的地是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的目的地是921大地震的紀念地"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是保存了921大地震的遺址"
+                    }
+                ]
+            }
+        ]
+    }
+}

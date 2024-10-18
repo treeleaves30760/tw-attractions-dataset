@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-166.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以921地震為主題，展示地震的歷史、科學、體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點位於臺中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有斷層館、影像館、防災館、重建館等展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每周二至日，9:00至17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的票價"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的票價是成人新臺幣一百元，兒童及學生半價"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的建築和展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的開放時間"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是每周二至日，9:00至17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的票價"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的票價是成人新臺幣一百元，兒童及學生半價"
+                    }
+                ]
+            }
+        ]
+    }
+}

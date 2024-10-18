@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-205.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館設在臺中市霧峰區光復新村的地震博物館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是國立自然科學博物館？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "國立自然科學博物館是一座自然科學博物館，位於臺灣臺中市，成立於1986年，主要收藏和展示臺灣自然科學相關的文物和資料"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是光復新村？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "光復新村是臺中市霧峰區的一個新村，成立於1951年，主要是為了安置來自中國大陸的難民"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是車籠埔斷層？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "車籠埔斷層是位於臺灣中部的一條斷層，長度約50公里，斷層的活動導致了921地震的發生"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是展示了921地震教育園區的建築設計和內部設施"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是921地震教育園區的建築設計？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的建築設計是以斷層為主題，建築物的設計和結構都是根據斷層的特點和地震的規律進行的"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是斷層？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "斷層是指地面上的岩層或土壤受到地震或其他外力影響，導致岩層或土壤的斷裂和移動"
+                    }
+                ]
+            }
+        ]
+    }
+}

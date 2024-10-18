@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-14.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區是什麼嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是由國立自然科學博物館於2004年9月21日開放的，主要是為了紀念1999年9月21日發生的921大地震，並且以地震科學、地震體驗與防災教育為主題。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區有哪些展館嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等五個展館。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區有哪些展館嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館等五個展館。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你知道921地震教育園區的地址嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村，地址是921地震教育園區光復新村霧峰區臺中市霧峰區光復新村。"
+                    }
+                ]
+            }
+        ]
+    }
+}

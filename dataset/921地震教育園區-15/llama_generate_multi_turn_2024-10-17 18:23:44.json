@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-15.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼地方"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於台中市霧峰區光復新村，是國立自然科學博物館的一部分"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是921地震教育園區"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個教育園區，主要用於提供有關1999年921大地震的教育與紀念"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片顯示了一個白色的建築物，旁邊有一個綠色的植物帶，建築物上面有標誌寫著 \"九二一地震教育園區\"。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼地方可以參觀"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區有多個展館，包括斷層館、影像館、防災教育館和重建記錄館等"
+                    }
+                ]
+            }
+        ]
+    }
+}

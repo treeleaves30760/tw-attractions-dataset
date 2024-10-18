@@ -1,0 +1,89 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-144.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你們是什麼時候開始營運的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "2004年9月21日"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你們有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "園區第一期工程由TVBS關懷台灣文教基金會認養規劃興建，國立自然科學博物館負責之後的規劃與營運。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你們的建築物有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你們的展館有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "全館座落地震遺址之上，沿斷層而建，以充滿特色的建築與遺址做藝術化的結合；並將部分地震後留下的毀壞教室、斷層剖面完好如初地作為教材展示，教室進行結構性補強。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是有個小孩正在玩耍，旁邊有個大型的建築物，建築物的外觀很特別，似乎是用來展示什麼樣的內容"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你們的展館內容有什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "展示內容包括地震科學、地震體驗與防災教育，做為以後專家研究跟教學使用，及幫助大眾建立正確的地震防災觀念。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你們的館內有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館"
+                    }
+                ]
+            }
+        ]
+    }
+}

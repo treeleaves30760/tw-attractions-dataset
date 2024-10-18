@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-107.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你能告訴我921地震教育園區的開放時間嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間為每日上午9:00至下午5:00，若您想進入園區，建議您提前一小時抵達，進行安全教育及入園登記"
+                    },
+                    {
+                        "role": "user",
+                        "content": "我想了解更多關於921地震教育園區的資訊，能否提供給我更多資訊？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區設有多個展館，包括斷層館、影像館、防災館和重建館，提供關於921大地震的資訊，還有體驗館讓您體驗地震的感受，還有其他相關資訊"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的幫助！"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "你能告訴我921地震教育園區的開放時間嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的開放時間為每日上午9:00至下午5:00，若您想進入園區，建議您提前一小時抵達，進行安全教育及入園登記"
+                    },
+                    {
+                        "role": "user",
+                        "content": "我想了解更多關於921地震教育園區的資訊，能否提供給我更多資訊？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區設有多個展館，包括斷層館、影像館、防災館和重建館，提供關於921大地震的資訊，還有體驗館讓您體驗地震的感受，還有其他相關資訊"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你的幫助！"
+                    }
+                ]
+            }
+        ]
+    }
+}

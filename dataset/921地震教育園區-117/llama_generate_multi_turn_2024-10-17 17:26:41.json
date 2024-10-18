@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-117.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要展示921地震的相關資料，包括地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "有什麼特別的展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等展覽。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "有什麼特別的建築？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築是依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要展示921地震的相關資料，包括地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "有什麼特別的展覽？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等展覽。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "有什麼特別的建築？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築是依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-345.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主要功能是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要功能是地震教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的設計與建築有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "設計與建築特色是以車籠埔斷層保存館為主，依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有哪些展覽館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "有斷層館、影像館、防災館、重建館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主要展覽內容是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要展覽內容是地震科學、地震體驗與防災教育"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "照片中顯示的是一座建築模型，可能是一個與地震工程相關的展示品。模型底部支撐著幾根圓柱形的基礎，並且上方有平坦的結構，側面有透明的圍擋。該模型周圍擺放著一些標籤，可能用來說明模型的功能或結構特性。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的設計與建築有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "設計與建築特色是以車籠埔斷層保存館為主，依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有哪些展覽館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "有斷層館、影像館、防災館、重建館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主要展覽內容是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主要展覽內容是地震科學、地震體驗與防災教育"
+                    }
+                ]
+            }
+        ]
+    }
+}

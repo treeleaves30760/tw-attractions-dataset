@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-149.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點是什麼樣的呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個以地震教育為主題的景點，內容包括地震科學、地震體驗與防災教育，旨在幫助大眾建立正確的地震防災觀念。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館等五個展館，展示了921地震的歷史、地震科學、防災教育等多個方面。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展現了921地震教育園區的建築外觀，包括玻璃和鋼結構的設計，以及周圍的植物和長椅等景觀。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片還有什麼特別之處嗎？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片還展現了921地震教育園區的建築設計與環境協調，為參觀者提供了一個舒適和教育性的體驗。"
+                    }
+                ]
+            }
+        ]
+    }
+}

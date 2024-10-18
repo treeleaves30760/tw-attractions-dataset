@@ -1,0 +1,169 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-311.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是921地震教育園區"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是為了紀念1999年的921大地震而設立的，旨在提高公眾對地震的認識和防災知識"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是921大地震"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921大地震是指1999年9月21日發生的台中地震，造成大規模的破壞和傷亡"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921大地震發生在哪裡"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921大地震發生在台灣中部，主要影響地區包括台中市、南投縣等地"
+                    },
+                    {
+                        "role": "user",
+                        "content": "921地震教育園區的目的是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的目的是為了教育公眾對地震的認識和防災知識，讓大家能夠了解和預防地震的風險"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是車籠埔斷層保存館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "車籠埔斷層保存館是921地震教育園區的一個展覽館，展示了921大地震時期的斷層和地震相關的資料"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是地震工程教育館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "地震工程教育館是921地震教育園區的一個展覽館，展示了地震工程學的知識和實踐"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是影像館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "影像館是921地震教育園區的一個展覽館，展示了921大地震的照片和影音資料"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是防災教育館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "防災教育館是921地震教育園區的一個展覽館，展示了防災的知識和實踐"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是重建記錄館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "重建記錄館是921地震教育園區的一個展覽館，展示了921大地震後的重建歷程"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是國立自然科學博物館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "國立自然科學博物館是台中的一個博物館，收藏了許多自然科學的展覽品"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的建築和環境"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是車籠埔斷層保存館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "車籠埔斷層保存館是921地震教育園區的一個展覽館，展示了921大地震時期的斷層和地震相關的資料"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是地震工程教育館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "地震工程教育館是921地震教育園區的一個展覽館，展示了地震工程學的知識和實踐"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是影像館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "影像館是921地震教育園區的一個展覽館，展示了921大地震的照片和影音資料"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是防災教育館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "防災教育館是921地震教育園區的一個展覽館，展示了防災的知識和實踐"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是重建記錄館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "重建記錄館是921地震教育園區的一個展覽館，展示了921大地震後的重建歷程"
+                    },
+                    {
+                        "role": "user",
+                        "content": "什麼是國立自然科學博物館"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "國立自然科學博物館是台中的一個博物館，收藏了許多自然科學的展覽品"
+                    }
+                ]
+            }
+        ]
+    }
+}

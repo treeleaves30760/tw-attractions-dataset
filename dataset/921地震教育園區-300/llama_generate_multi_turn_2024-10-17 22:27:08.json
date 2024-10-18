@@ -1,0 +1,81 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-300.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的設計風格是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的設計風格是現代和未來感的設計，具有流線型的結構和鋼筋混凝土的細節，整體顏色主要以灰色和橙色為主，地面是光滑的樹脂系材料。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的主要展示內容是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的主要展示內容包括地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的設計理念是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的設計理念是以充滿特色的建築與遺址做藝術化的結合，教室進行結構性補強，保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是具有現代和未來感的設計，具有流線型的結構和鋼筋混凝土的細節，整體顏色主要以灰色和橙色為主，地面是光滑的樹脂系材料。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的展示內容是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的展示內容包括地震科學、地震體驗與防災教育。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的設計理念是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的設計理念是以充滿特色的建築與遺址做藝術化的結合，教室進行結構性補強，保存震後地震遺址及蒐集相關文物、圖像、圖書等資料，作為認識、暸解及體驗大自然力量的活教材。"
+                    }
+                ]
+            }
+        ]
+    }
+}

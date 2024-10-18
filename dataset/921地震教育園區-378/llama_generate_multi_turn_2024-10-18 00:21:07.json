@@ -1,0 +1,97 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-378.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是，展示了921大地震的影響和地震相關的教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築設計有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築設計是以車籠埔斷層保存館為主體，依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有多個展覽，包括地震科學、地震體驗與防災教育，展示主題 — 「地球科學」、「車籠埔斷層」、「地震科學」、「照片紀實」、「蓋亞劇場」"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是9:00-17:00，周一至周日"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片的特色是，展示了921大地震的影響和地震相關的教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的建築設計有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築設計是以車籠埔斷層保存館為主體，依附著原操場興建，全館沒有樑、柱系統，以82根全長12公尺、寬2.4公尺、重約10噸的預鑄預力混凝板組成，整體為曲線設計，組成複雜，其特殊性及困難度均屬國內外首見"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有什麼展覽"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有多個展覽，包括地震科學、地震體驗與防災教育，展示主題 — 「地球科學」、「車籠埔斷層」、「地震科學」、「照片紀實」、「蓋亞劇場」"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的開放時間是9:00-17:00，周一至周日"
+                    }
+                ]
+            }
+        ]
+    }
+}

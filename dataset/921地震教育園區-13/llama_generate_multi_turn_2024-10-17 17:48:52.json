@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-13.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道更多關於這個景點的資訊"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是一個教育園區，主要展示921地震的相關資料，包括地震科學、地震體驗與防災教育等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以車籠埔斷層保存館為主，展現地震的實景，另外還有地震工程教育館、影像館、防災教育館和重建記錄館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的地址"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的特色是以車籠埔斷層保存館為主，展現地震的實景，另外還有地震工程教育館、影像館、防災教育館和重建記錄館等"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝，我想知道這個景點的地址"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的地址是臺中市霧峰區光復新村"
+                    }
+                ]
+            }
+        ]
+    }
+}

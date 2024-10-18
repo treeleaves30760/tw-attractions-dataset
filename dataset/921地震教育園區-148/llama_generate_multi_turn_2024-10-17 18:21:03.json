@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-148.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個地震教育園區是什麼樣的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區是國立自然科學博物館的一個分館，位於台中市霧峰區光復新村，是一個專門用來進行地震相關教育和普及活動的場所。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個地震教育園區的特色是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區的特色包括其獨特的建築設計，使用了預鑄預力混凝板組成的曲線設計，展現了地震科學和工程技術的創新。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個地震教育園區有哪些展覽館？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區共有五個展覽館：車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展現了921地震教育園區的內部景觀，包括了桌子、椅子和白板等設施，讓人感受到這個地震教育園區的活躍和多樣化的活動。"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-31.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的主要功能是什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點主要功能是教育和防災"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特色？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點特色是地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣的建築？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點的建築是現代化的建築設計，具有獨特的弧形結構"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點的內容有什麼？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點內容包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼展覽或展示？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有地震體驗劇場、地震調查局、重建記錄館等展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼遊戲或互動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有地震體驗劇場、防災魔法學校等遊戲"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點有什麼特別的活動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點有洪災審判庭-環境變遷·防洪思維特展、防災魔法學校-921地震防災特展等活動"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片特色是地震教育園區的建築設計"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼內容？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片內容包括地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼展覽或展示？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片有地震體驗劇場、地震調查局、重建記錄館等展覽"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼遊戲或互動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片有地震體驗劇場、防災魔法學校等遊戲"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特別的活動？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片有洪災審判庭-環境變遷·防洪思維特展、防災魔法學校-921地震防災特展等活動"
+                    }
+                ]
+            }
+        ]
+    }
+}

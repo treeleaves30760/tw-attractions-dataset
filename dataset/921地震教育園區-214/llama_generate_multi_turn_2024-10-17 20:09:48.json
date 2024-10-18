@@ -1,0 +1,65 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-214.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個景點是什麼樣的？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是一個教育園區，展示了921地震的相關資料和教學內容，包括地震科學、地震體驗和防災教育等。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展現了921地震教育園區內的一個毀壞教室，教室內的建築物和牆壁都受到了地震的破壞，照片中還有幾位遊客在走道上行走，似乎是在觀賞這個地點。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你們的解釋，能夠幫助我了解更多關於921地震教育園區的資訊。"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這張照片展現了921地震教育園區內的一個毀壞教室，教室內的建築物和牆壁都受到了地震的破壞，照片中還有幾位遊客在走道上行走，似乎是在觀賞這個地點。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "謝謝你們的解釋，能夠幫助我了解更多關於921地震教育園區的資訊。"
+                    }
+                ]
+            }
+        ]
+    }
+}

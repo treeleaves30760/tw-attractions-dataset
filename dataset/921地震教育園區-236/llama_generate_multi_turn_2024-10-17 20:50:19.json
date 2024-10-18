@@ -1,0 +1,73 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-236.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點在哪裡?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的主題是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "主題是地震科學、地震體驗與防災教育"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點有哪些展覽館?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "有車籠埔斷層保存館、地震工程教育館、影像館、防災教育館、重建記錄館"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "請問這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了921地震教育園區的現代感建築風格，採用流線型的結構設計，並且有大面積的玻璃窗，讓自然光充足進入。內部有多個展示區域，展示了地震相關的知識和歷史，這些展示品可能包括地震模型或多媒體互動裝置。"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼?"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "每日開放時間為09:00-17:00，周一休館"
+                    }
+                ]
+            }
+        ]
+    }
+}

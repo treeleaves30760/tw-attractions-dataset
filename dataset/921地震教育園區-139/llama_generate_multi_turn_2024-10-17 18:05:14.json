@@ -1,0 +1,113 @@
+{
+    "multi_turn": {
+        "image_path": "/media/Pluto/stanley_hsu/TW_attraction/input_image/921地震教育園區/921地震教育園區-139.jpg",
+        "qa_pairs": [
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問這是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點在哪裡呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "921地震教育園區位於臺中市霧峰區光復新村內"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以地震科學、地震體驗與防災教育為主題，讓參觀者了解地震的知識和體驗"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的展覽內容是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "展覽內容包括地震科學、地震體驗與防災教育，展示主題包括「地球科學」、「車籠埔斷層」、「地震科學」、「照片紀實」、「蓋亞劇場」"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "開放時間為每週日至週四，10:00-17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的票價是多少呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "票價為成人新台幣 200元，學生新台幣 100元"
+                    }
+                ]
+            },
+            {
+                "question_type": "multi_turn",
+                "conversation": [
+                    {
+                        "role": "user",
+                        "content": "請問圖片中是什麼景點，請簡短介紹一下。"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點是921地震教育園區"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個照片有什麼特色"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個照片展示了地震教育園區的展示結構，包括不同顏色的鋼筋和標示牌，強調抗震的重要性"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的設施是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "設施包括車籠埔斷層保存館、地震工程教育館、影像館、防災教育館和重建記錄館"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的特色是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "這個景點以地震科學、地震體驗與防災教育為主題，讓參觀者了解地震的知識和體驗"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的開放時間是什麼呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "開放時間為每週日至週四，10:00-17:00"
+                    },
+                    {
+                        "role": "user",
+                        "content": "這個景點的票價是多少呢？"
+                    },
+                    {
+                        "role": "assistant",
+                        "content": "票價為成人新台幣 200元，學生新台幣 100元"
+                    }
+                ]
+            }
+        ]
+    }
+}
