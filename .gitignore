@@ -3,3 +3,5 @@
 .conda/
 
 .DS_Store
+
+.log
