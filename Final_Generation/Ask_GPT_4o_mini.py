@@ -9,72 +9,77 @@ import time
 import random
 import uuid
 import tiktoken
+import requests
+import wikipedia
+from typing import Dict, List, Any, Tuple
+import logging
+import regex
 
-# 載入環境變數
-load_dotenv()
+class TaiwanLandmarkDatasetGenerator:
+    def __init__(self):
+        # Load environment variables
+        load_dotenv()
+        
+        # Configuration
+        self.input_folder = os.path.abspath('/media/Pluto/stanley_hsu/TW_attraction/images/TW_Attractions')
+        self.output_folder = 'dataset'
+        self.model_name = 'gpt-4o-mini'
+        self.better_model_name = 'gpt-4o'
+        self.api_key = os.getenv('OPENAI_API_KEY')
+        self.max_retries = 3
+        self.confidence_threshold = 0.7
+        
+        # Initialize OpenAI client
+        self.client = OpenAI(api_key=self.api_key)
+        
+        # Setup logging
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s - %(levelname)s - %(message)s',
+            handlers=[
+                logging.FileHandler('dataset_generation.log'),
+                logging.StreamHandler()
+            ]
+        )
+        self.logger = logging.getLogger(__name__)
+        
+        # Create output directory if it doesn't exist
+        os.makedirs(self.output_folder, exist_ok=True)
 
-# 配置
-INPUT_FOLDER = 'input_image'
-OUTPUT_FOLDER = 'dataset'
-MODEL_NAME = 'gpt-4o-mini'
-API_KEY = os.getenv('OPENAI_API_KEY')
-MAX_RETRIES = 3
-ITERATIONS_PER_TYPE = 3  # 每種類型問題重複的次數
+    def encode_image(self, image_path: str) -> str:
+        """Encode image to base64 string."""
+        with open(image_path, "rb") as image_file:
+            return base64.b64encode(image_file.read()).decode('utf-8')
 
-# 初始化 OpenAI 客戶端
-client = OpenAI(api_key=API_KEY)
-
-# 初始化 tiktoken 編碼器
-encoding = tiktoken.encoding_for_model(MODEL_NAME)
-
-# 定義問題集
-QUESTIONS = [
-    {
-        "question_type": "conversation",
-        "questions": [
-            "請問圖片中是台灣哪一個景點？請簡短介紹一下。",
-            "請問圖片中的景點有什麼特色？可以進行哪些活動？",
-            "請問圖片中的景點在不同季節有什麼變化？哪個季節最適合參觀？"
-        ]
-    },
-    {
-        "question_type": "detailed_description",
-        "questions": [
-            "請詳細描述圖片中的台灣景點的視覺特徵、歷史背景和文化意義。",
-            "圖片中的這個景點有哪些著名的地標或建築？它們有什麼特殊之處？"
-        ]
-    },
-    {
-        "question_type": "complex_reasoning",
-        "questions": [
-            "比較圖片中的這個景點與台灣其他類似景點的異同。有什麼獨特之處？",
-            "分析圖片中的這個景點對當地經濟和文化的影響。它如何促進了當地發展？",
-        ]
-    }
-]
-
-
-def encode_image(image_path):
-    with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode('utf-8')
-
-
-def count_tokens(text):
-    return len(encoding.encode(text))
-
-
-def query_gpt4(image_path, prompt):
-    base64_image = encode_image(image_path)
-    for _ in range(MAX_RETRIES):
+    def get_wiki_content(self, landmark_name: str) -> str:
+        """Fetch content from Wikipedia in Traditional Chinese."""
+        wikipedia.set_lang("zh-tw")
         try:
-            response = client.chat.completions.create(
-                model=MODEL_NAME,
+            page = wikipedia.page(landmark_name)
+            return page.content
+        except Exception as e:
+            self.logger.error(f"Error fetching Wikipedia content for {landmark_name}: {e}")
+            return ""
+
+    def generate_initial_description(self, image_path: str, landmark_name: str) -> str:
+        """Generate initial description using GPT-4o."""
+        try:
+            base64_image = self.encode_image(image_path)
+            
+            response = self.client.chat.completions.create(
+                model=self.better_model_name,
                 messages=[
+                    {
+                        "role": "system",
+                        "content": "你是一個專業的圖像描述與台灣景點專家。請使用繁體中文，詳細描述圖片中的景點，包含其特色、建築風格、周圍環境等細節。請使用結構化的方式描述。給的景點資訊可能會出錯，請以圖片為主，有錯誤請指出。"
+                    },
                     {
                         "role": "user",
                         "content": [
-                            {"type": "text",
-                                "text": f"{prompt}"},
+                            {
+                                "type": "text",
+                                "text": f"這張圖片可能是台灣的{landmark_name}。請詳細描述圖片中的細節，並確認這是否確實為{landmark_name}。如果不是，請指出實際的景點名稱。。"
+                            },
                             {
                                 "type": "image_url",
                                 "image_url": {
@@ -84,89 +89,260 @@ def query_gpt4(image_path, prompt):
                         ]
                     }
                 ],
-                max_tokens=500
+                max_tokens=1000
             )
-            answer = response.choices[0].message.content
-
-            # 計算tokens
-            input_tokens = count_tokens(prompt)
-            output_tokens = count_tokens(answer)
-
-            return answer, input_tokens, output_tokens
+            
+            return response.choices[0].message.content
+        
         except Exception as e:
-            print(f"Error occurred: {e}. Retrying...")
-            time.sleep(5)
-    raise Exception("Max retries reached. Failed to get response from GPT-4.")
+            self.logger.error(f"Error generating initial description: {e}")
+            return ""
+    
+    def extract_json(self, text):
+        """從文本中提取 JSON 字串"""
+        # 使用 regex 模組的遞歸匹配功能
+        json_match = regex.search(r'\{(?:[^{}]+|(?R))*\}', text, regex.DOTALL)
+        if json_match:
+            return json_match.group(0)
+        else:
+            return ""
+    
+    def generate_conversations(self, image_path: str, description: str, wiki_content: str) -> Dict:
+        """Generate various types of conversations using GPT-4o-mini."""
+        prompt_templates = {
+    "multi_turn": """你是一個專業的導覽AI助理，也是一個專業的提示詞生成者，請根據以下資訊，生成多組自然的多輪對話。
 
+思考步驟：
+1. 場景分析：
+   - 分析圖片中景點的獨特視覺特徵
+   - 確認景點的地理位置和周邊環境
+   - 思考這個景點可能引發的不同類型問題
 
-def process_image(image_path, output_folder):
-    image_name = os.path.splitext(os.path.basename(image_path))[0]
-    image_output_folder = os.path.join(output_folder, image_name)
-    os.makedirs(image_output_folder, exist_ok=True)
+2. 對話規劃：
+   - 設計不同背景遊客可能的問題（例如：歷史愛好者、建築迷、一般觀光客、攝影玩家等）
+   - 規劃從簡單到深入的問題順序
+   - 考慮不同時間點的變化（例如：白天/夜晚、四季變化）
 
-    total_input_tokens = 0
-    total_output_tokens = 0
+3. 知識整合：
+   - 結合圖片描述中的視覺元素
+   - 融入維基百科的歷史和文化背景
+   - 加入在地特色和趣聞軼事
 
-    for question_set in QUESTIONS:
-        question_type = question_set["question_type"]
-        for iteration in range(ITERATIONS_PER_TYPE):
-            data = {
-                "image_path": image_path,
-                "qa_pairs": []
-            }
+圖片描述：
+{description}
 
-            for question in question_set["questions"]:
-                random_seed = uuid.uuid4().hex
-                modified_question = f"{question}\n\nRandom seed: {random_seed}"
-                answer, input_tokens, output_tokens = query_gpt4(
-                    image_path, modified_question)
-                data["qa_pairs"].append({
-                    "question_type": question_type,  # 添加問題類型
-                    "question": question,
-                    "answer": answer
-                })
-                total_input_tokens += input_tokens
-                total_output_tokens += output_tokens
+維基百科內容：
+{wiki_content}
 
-            output_file = os.path.join(
-                image_output_folder, f'{image_name}_{question_type}_{iteration+1}.json')
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
-            print(
-                f"Processed {image_path}, {question_type} iteration {iteration+1}, saved to {output_file}")
+請生成三組不同情境的對話，每組至少5輪，符合以下JSON格式：
+{{
+    "qa_pairs": [
+        {{
+            "conversation": [
+                {{"role": "user", "content": "<使用者問題>"}},
+                {{"role": "assistant", "content": "<助理回答>"}},
+                // 更多對話輪次...
+            ]
+        }},
+        // 更多樣化的對話...
+    ]
+}}
 
-    # 保存token使用統計
-    usage_stats = {
-        "image_path": image_path,
-        "total_input_tokens": total_input_tokens,
-        "total_output_tokens": total_output_tokens,
-        "total_tokens": total_input_tokens + total_output_tokens
-    }
-    usage_file = os.path.join(
-        image_output_folder, f"{image_name}_token_usage_stats.json")
-    with open(usage_file, 'w', encoding='utf-8') as f:
-        json.dump(usage_stats, f, ensure_ascii=False, indent=4)
-    print(f"Token usage statistics for {image_path} saved to {usage_file}")
+要求：
+1. 對話要自然流暢，避免生硬的問答
+2. 每組對話要有不同的重點和深度
+3. 回答要結合圖片特徵和歷史資訊
+4. 使用繁體中文，口語要自然親切
+5. 只輸出符合要求的JSON格式""",
 
+    "detailed_info": """你是一個專業的文史研究員，請根據提供的資訊，生成關於這個景點的深入分析對話。
 
-def process_images():
-    global total_input_tokens, total_output_tokens
-    for root, dirs, files in os.walk(INPUT_FOLDER):
-        for file in files:
-            if file.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp')):
-                image_path = os.path.join(root, file)
-                relative_path = os.path.relpath(root, INPUT_FOLDER)
-                output_folder = os.path.join(OUTPUT_FOLDER, relative_path)
-                os.makedirs(output_folder, exist_ok=True)
-                process_image(image_path, output_folder)
+思考步驟：
+1. 景點辨識：
+   - 分析圖片中的建築特徵和標誌性元素
+   - 對照維基百科資訊確認景點身份
+   - 列出能確定是該景點的關鍵證據
 
+2. 資訊組織：
+   - 整理景點的基本資料（位置、創建時間、規模等）
+   - 歸納建築特色和藝術價值
+   - 梳理歷史沿革和重要事件
+   - 整理文化意義和社會影響
+
+3. 內容轉換：
+   - 將專業資訊轉換為易懂的對話形式
+   - 設計循序漸進的問答結構
+   - 加入適當的解釋和舉例
+
+圖片描述：
+{description}
+
+維基百科內容：
+{wiki_content}
+
+請生成以下JSON格式的深入分析對話，請使用繁體中文，如果維基百科內容或圖片沒有對應的資料且無法推測，請生成「我很抱歉，我還不清楚這部分的資訊」：
+{{
+    "qa_pairs": [
+        {{
+            "question_type": "basic_info",
+            "question": "這個景點的基本資訊是什麼？包含位置、建立時間等。",
+            "answer": "<回答此問題的思考過程並給出包涵整理基本資訊回答>",
+        }},
+        {{
+            "question_type": "architectural_features",
+            "question": "從建築特色來看，這個景點有什麼獨特之處？",
+            "answer": "<回答此問題的思考過程並給出包涵整理基本資訊回答>",
+        }},
+        {{
+            "question_type": "historical_significance",
+            "question": "這個景點在歷史上有什麼重要意義？",
+            "answer": "<回答此問題的思考過程並給出歷史意義回答>",
+        }},
+        {{
+            "question_type": "cultural_impact",
+            "question": "這個景點對當地文化有什麼影響？",
+            "answer": "<回答此問題的思考過程並給出文化影響回答>",
+        }},
+        {{
+            "question_type": "current_status",
+            "question": "目前這個景點的保存狀況和使用情況如何？",
+            "answer": "<回答此問題的思考過程並給出現況描述回答>",
+        }},
+        {{
+            "question_type": "visual_features",
+            "question": "從圖片中可以觀察到哪些特別的元素？",
+            "answer": "<回答此問題的思考過程並給出圖片特徵分析回答>",
+        }},
+        {{
+            "question_type": "tourist_information",
+            "question": "對想要參觀這個景點的遊客，有什麼特別的建議？",
+            "answer": "<回答此問題的思考過程並給出旅遊建議回答>",
+        }}
+    ]
+}}
+
+要求：
+1. 每個回答都要包含具體且詳實的資訊
+2. 回答要結合圖片特徵和歷史資料
+3. 使用親切易懂的語氣，但保持專業性
+4. 每個回答都要有明確的邏輯推理過程
+5. 使用繁體中文
+6. 回答長度要適中，避免過於冗長或過於簡短
+7. 確保回答中包含足夠的細節和例證
+8. 只輸出符合要求的JSON格式"""
+}
+
+        results = {}
+        for conv_type, prompt in prompt_templates.items():
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model_name,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "你是一個專業的導遊兼歷史學家，擅長介紹台灣的景點。"
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt.format(
+                                description=description,
+                                wiki_content=wiki_content
+                            )
+                        }
+                    ],
+                    temperature=0.7
+                )
+                
+                content = response.choices[0].message.content
+                results[conv_type] = json.loads(self.extract_json(content))
+                
+            except Exception as e:
+                self.logger.error(f"Error generating {conv_type} conversation: {e}\nThe output content is: {content}\n\nAfter JSON extraction: {self.extract_json(content)}")
+                results[conv_type] = None
+
+        return results
+
+    def evaluate_content(self, content: Dict) -> bool:
+        """Evaluate generated content using GPT-4 mini."""
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model_name,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "你是一個內容品質評估專家。請評估生成內容的品質、準確性和自然度。"
+                    },
+                    {
+                        "role": "user",
+                        "content": f"請評估以下內容的品質：\n{json.dumps(content, ensure_ascii=False, indent=2)}"
+                    }
+                ]
+            )
+            
+            # Extract confidence score from the content
+            confidence_score = content.get('confidence_score', 0)
+            return confidence_score >= self.confidence_threshold
+            
+        except Exception as e:
+            self.logger.error(f"Error evaluating content: {e}")
+            return False
+
+    def save_dataset(self, landmark_name: str, data: Dict):
+        """Save generated dataset to JSON file."""
+        output_path = os.path.join(
+            self.output_folder,landmark_name,
+            f"{landmark_name}_{uuid.uuid4().hex[:8]}.json"
+        )
+        
+        try:
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            self.logger.info(f"Dataset saved to {output_path}")
+        except Exception as e:
+            self.logger.error(f"Error saving dataset: {e}")
+
+    def process_landmark(self, image_path: str, landmark_name: str, landmark_info: str):
+        """Process a single landmark image."""
+        
+        # Generate initial description
+        description = self.generate_initial_description(image_path, landmark_name)
+        if not description:
+            return
+        
+        # Generate conversations
+        conversations = self.generate_conversations(image_path, description, landmark_info)
+        
+        # Evaluate and filter content
+        filtered_data = {
+            'landmark_name': landmark_name,
+            'image_path': image_path,
+            'description': description,
+            'conversations': {}
+        }
+        
+        for conv_type, content in conversations.items():
+            filtered_data['conversations'][conv_type] = content
+            # if content and self.evaluate_content(content):
+                # filtered_data['conversations'][conv_type] = content
+        
+        # Save dataset if it contains valid conversations
+        if filtered_data['conversations']:
+            self.save_dataset(landmark_name, filtered_data)
+
+    def generate_dataset(self):
+        """Generate dataset for all landmarks in the input folder."""
+        print(f'self.input_folder: {self.input_folder}')
+        for landmark_name in os.listdir(self.input_folder):
+            self.logger.info(f"Processing {landmark_name}")
+            landmark_info = self.get_wiki_content(landmark_name)
+            landmark_path = os.path.join(self.input_folder, landmark_name)
+            for image in os.listdir(landmark_path):
+                image_path = os.path.join(landmark_path, image)
+                self.process_landmark(image_path, landmark_name, landmark_info)
+
+def main():
+    generator = TaiwanLandmarkDatasetGenerator()
+    generator.generate_dataset()
 
 if __name__ == "__main__":
-    # 指定要處理的單張圖片
-    single_image_path = "/media/Pluto/stanley_hsu/TW_attraction/input_image/台北小巨蛋/台北小巨蛋-37.jpg"
-
-    if os.path.exists(single_image_path):
-        process_image(single_image_path, OUTPUT_FOLDER)
-    else:
-        print(f"Image not found: {single_image_path}")
-    # process_images()
+    main()
