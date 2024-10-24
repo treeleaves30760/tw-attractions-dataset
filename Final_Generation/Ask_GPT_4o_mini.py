@@ -32,6 +32,10 @@ class TaiwanLandmarkDatasetGenerator:
         # Initialize OpenAI client
         self.client = OpenAI(api_key=self.api_key)
         
+        # Initialize tokenizer
+        self.tokenizer_mini = tiktoken.encoding_for_model(self.model_name)
+        self.tokenizer_better = tiktoken.encoding_for_model(self.better_model_name)
+        
         # Setup logging
         logging.basicConfig(
             level=logging.INFO,
@@ -45,6 +49,11 @@ class TaiwanLandmarkDatasetGenerator:
         
         # Create output directory if it doesn't exist
         os.makedirs(self.output_folder, exist_ok=True)
+
+    def count_tokens(self, text: str, model: str) -> int:
+        """Count tokens for a given text using the appropriate tokenizer."""
+        tokenizer = self.tokenizer_mini if model == self.model_name else self.tokenizer_better
+        return len(tokenizer.encode(text))
 
     def encode_image(self, image_path: str) -> str:
         """Encode image to base64 string."""
@@ -61,43 +70,44 @@ class TaiwanLandmarkDatasetGenerator:
             self.logger.error(f"Error fetching Wikipedia content for {landmark_name}: {e}")
             return ""
 
-    def generate_initial_description(self, image_path: str, landmark_name: str) -> str:
-        """Generate initial description using GPT-4o."""
+    def generate_initial_description(self, image_path: str, landmark_name: str) -> Tuple[str, Dict]:
+        """生成初始描述並追蹤token使用量"""
         try:
             base64_image = self.encode_image(image_path)
+            
+            system_prompt = "你是一個專業的圖像描述與台灣景點專家。請使用繁體中文，詳細描述圖片中的景點，包含其特色、建築風格、周圍環境等細節。請使用結構化的方式描述。給的景點資訊可能會出錯，請以圖片為主，有錯誤請指出。"
+            user_prompt = f"這張圖片可能是台灣的{landmark_name}。請詳細描述圖片中的細節，並確認這是否確實為{landmark_name}。如果不是，請指出實際的景點名稱。"
+            
+            # 記錄輸入token
+            input_tokens = self.count_tokens(system_prompt + user_prompt, self.better_model_name)
             
             response = self.client.chat.completions.create(
                 model=self.better_model_name,
                 messages=[
-                    {
-                        "role": "system",
-                        "content": "你是一個專業的圖像描述與台灣景點專家。請使用繁體中文，詳細描述圖片中的景點，包含其特色、建築風格、周圍環境等細節。請使用結構化的方式描述。給的景點資訊可能會出錯，請以圖片為主，有錯誤請指出。"
-                    },
-                    {
-                        "role": "user",
-                        "content": [
-                            {
-                                "type": "text",
-                                "text": f"這張圖片可能是台灣的{landmark_name}。請詳細描述圖片中的細節，並確認這是否確實為{landmark_name}。如果不是，請指出實際的景點名稱。。"
-                            },
-                            {
-                                "type": "image_url",
-                                "image_url": {
-                                    "url": f"data:image/jpeg;base64,{base64_image}"
-                                }
-                            }
-                        ]
-                    }
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": [
+                        {"type": "text", "text": user_prompt},
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
+                    ]}
                 ],
                 max_tokens=1000
             )
             
-            return response.choices[0].message.content
-        
+            output_content = response.choices[0].message.content
+            output_tokens = self.count_tokens(output_content, self.better_model_name)
+            
+            tokens = {
+                "input_tokens": input_tokens,
+                "output_tokens": output_tokens,
+                "total_tokens": input_tokens + output_tokens
+            }
+            
+            return output_content, tokens
+            
         except Exception as e:
             self.logger.error(f"Error generating initial description: {e}")
-            return ""
-    
+            return "", {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
+        
     def extract_json(self, text):
         """從文本中提取 JSON 字串"""
         # 使用 regex 模組的遞歸匹配功能
@@ -134,7 +144,7 @@ class TaiwanLandmarkDatasetGenerator:
 維基百科內容：
 {wiki_content}
 
-請生成三組不同情境的對話，每組至少5輪，符合以下JSON格式：
+請生成三組不同情境的對話，每組至少5輪，每一輪對話的回答需要足夠豐富且詳細，符合以下JSON格式：
 {{
     "qa_pairs": [
         {{
@@ -152,8 +162,9 @@ class TaiwanLandmarkDatasetGenerator:
 1. 對話要自然流暢，避免生硬的問答
 2. 每組對話要有不同的重點和深度
 3. 回答要結合圖片特徵和歷史資訊
-4. 使用繁體中文，口語要自然親切
-5. 只輸出符合要求的JSON格式""",
+4. 回答要足夠詳細且豐富，不要過於簡短
+5. 使用繁體中文，口語要自然親切
+6. 只輸出符合要求的JSON格式""",
 
     "detailed_info": """你是一個專業的文史研究員，請根據提供的資訊，生成關於這個景點的深入分析對話。
 
@@ -233,34 +244,50 @@ class TaiwanLandmarkDatasetGenerator:
 }
 
         results = {}
+        token_usage = {}
+        
         for conv_type, prompt in prompt_templates.items():
             try:
+                system_message = "你是一個專業的導遊兼歷史學家，擅長介紹台灣的景點。"
+                formatted_prompt = prompt.format(
+                    description=description,
+                    wiki_content=wiki_content
+                )
+                input_text = system_message + formatted_prompt
+                
+                # 記錄輸入token
+                input_tokens = self.count_tokens(input_text, self.model_name)
+                
                 response = self.client.chat.completions.create(
                     model=self.model_name,
                     messages=[
                         {
                             "role": "system",
-                            "content": "你是一個專業的導遊兼歷史學家，擅長介紹台灣的景點。"
+                            "content": system_message
                         },
                         {
                             "role": "user",
-                            "content": prompt.format(
-                                description=description,
-                                wiki_content=wiki_content
-                            )
+                            "content": formatted_prompt
                         }
                     ],
                     temperature=0.7
                 )
                 
-                content = response.choices[0].message.content
-                results[conv_type] = json.loads(self.extract_json(content))
+                output_content = response.choices[0].message.content
+                output_tokens = self.count_tokens(output_content, self.model_name)
+                results[conv_type] = json.loads(self.extract_json(output_content))
+                
+                token_usage[conv_type] = {
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens,
+                    "total_tokens": input_tokens + output_tokens
+                }
                 
             except Exception as e:
-                self.logger.error(f"Error generating {conv_type} conversation: {e}\nThe output content is: {content}\n\nAfter JSON extraction: {self.extract_json(content)}")
+                self.logger.error(f"Error generating {conv_type} conversation: {e}\nThe output content is: {output_content}\n\nAfter JSON extraction: {self.extract_json(content)}")
                 results[conv_type] = None
 
-        return results
+        return results, token_usage
 
     def evaluate_content(self, content: Dict) -> bool:
         """Evaluate generated content using GPT-4 mini."""
@@ -289,45 +316,77 @@ class TaiwanLandmarkDatasetGenerator:
 
     def save_dataset(self, landmark_name: str, data: Dict):
         """Save generated dataset to JSON file."""
+        # 創建landmark特定的目錄路徑
+        landmark_dir = os.path.join(self.output_folder, landmark_name)
+        os.makedirs(landmark_dir, exist_ok=True)
+        
         output_path = os.path.join(
-            self.output_folder,landmark_name,
+            landmark_dir,
             f"{landmark_name}_{uuid.uuid4().hex[:8]}.json"
         )
         
         try:
+            # 確保目錄存在
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
             self.logger.info(f"Dataset saved to {output_path}")
         except Exception as e:
             self.logger.error(f"Error saving dataset: {e}")
-
+            raise  # 重新拋出異常以便追蹤問題
+    
     def process_landmark(self, image_path: str, landmark_name: str, landmark_info: str):
-        """Process a single landmark image."""
+        """處理單個景點圖片，並追蹤所有token使用量"""
         
-        # Generate initial description
-        description = self.generate_initial_description(image_path, landmark_name)
+        # 生成初始描述
+        description, description_tokens = self.generate_initial_description(image_path, landmark_name)
         if not description:
             return
         
-        # Generate conversations
-        conversations = self.generate_conversations(image_path, description, landmark_info)
+        # 生成對話
+        conversations, conversation_tokens = self.generate_conversations(image_path, description, landmark_info)
         
-        # Evaluate and filter content
+        # 計算總token使用量
+        total_tokens = {
+            "input_tokens": description_tokens["input_tokens"] + 
+                sum(usage["input_tokens"] for usage in conversation_tokens.values()),
+            "output_tokens": description_tokens["output_tokens"] + 
+                sum(usage["output_tokens"] for usage in conversation_tokens.values()),
+            "total_tokens": description_tokens["total_tokens"] + 
+                sum(usage["total_tokens"] for usage in conversation_tokens.values())
+        }
+        
+        # 準備輸出數據
         filtered_data = {
             'landmark_name': landmark_name,
             'image_path': image_path,
             'description': description,
-            'conversations': {}
+            'conversations': conversations,
+            'token_usage': {
+                'description': {
+                    'model': self.better_model_name,
+                    'usage': description_tokens
+                },
+                'conversations': {
+                    'model': self.model_name,
+                    'usage_by_type': conversation_tokens
+                },
+                'total': total_tokens
+            }
         }
         
-        for conv_type, content in conversations.items():
-            filtered_data['conversations'][conv_type] = content
-            # if content and self.evaluate_content(content):
-                # filtered_data['conversations'][conv_type] = content
-        
-        # Save dataset if it contains valid conversations
+        # 如果包含有效對話就保存數據集
         if filtered_data['conversations']:
             self.save_dataset(landmark_name, filtered_data)
+            
+            # 記錄token使用情況到日誌
+            self.logger.info(f"""
+Token usage for image {os.path.basename(image_path)}:
+Description ({self.better_model_name}): {description_tokens['total_tokens']} tokens
+Conversations ({self.model_name}): {sum(usage['total_tokens'] for usage in conversation_tokens.values())} tokens
+Total: {total_tokens['total_tokens']} tokens
+""")
 
     def generate_dataset(self):
         """Generate dataset for all landmarks in the input folder."""
