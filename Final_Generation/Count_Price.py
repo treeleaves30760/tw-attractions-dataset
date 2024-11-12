@@ -97,6 +97,7 @@ def main():
     
     # Print results
     print(f"\nTotal Dataset Cost: ${results['total_dataset_cost']:.4f}")
+    print(f"Average Cost per File: ${results['total_dataset_cost'] / len(results['file_costs']):.4f}")
     print("\nBreakdown by file:")
     for file_cost in results['file_costs']:
         print(f"\nFile: {file_cost['file']}")

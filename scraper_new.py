@@ -11,9 +11,13 @@ KEY = os.getenv('FLICKER_API_KEY')
 SECRET = os.getenv('FLICKER_API_SECRET')
 
 
-def download_images(category ,searchword, limitnum=50):
+def download_images(category, searchword, limitnum=50):
     flickr = flickrapi.FlickrAPI(
         api_key=KEY, secret=SECRET, format='parsed-json')
+    
+    if os.path.exists(f'/media/Pluto/stanley_hsu/TW_attraction/images/{category}/{searchword}'):
+        print(f"Images for {searchword} already exist")
+        return
 
     os.makedirs(f'/media/Pluto/stanley_hsu/TW_attraction/images/{category}/{searchword}', exist_ok=True)
 

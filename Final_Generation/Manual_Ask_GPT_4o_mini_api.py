@@ -17,7 +17,7 @@ import regex
 import argparse
 
 class TaiwanLandmarkDatasetGenerator:
-    def __init__(self, base_folder: str = '/media/Pluto/stanley_hsu/TW_attraction/images/TW_Attractions'):
+    def __init__(self, api_key: str, base_folder: str = '/media/Pluto/stanley_hsu/TW_attraction/images/TW_Attractions'):
         # Load environment variables
         load_dotenv()
         
@@ -26,7 +26,7 @@ class TaiwanLandmarkDatasetGenerator:
         self.output_folder = 'dataset'
         self.model_name = 'gpt-4o-mini'
         self.better_model_name = 'gpt-4o'
-        self.api_key = os.getenv('SELF_OPENAI_API_KEY_2')
+        self.api_key = api_key
         self.max_retries = 10
         
         # Initialize OpenAI client
@@ -41,7 +41,7 @@ class TaiwanLandmarkDatasetGenerator:
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
             handlers=[
-                logging.FileHandler(f'logs/dataset_generation_{time.time()}.log'),
+                logging.FileHandler(f'logs/manual_dataset_generation_{time.time()}.log'),
                 logging.StreamHandler()
             ]
         )
@@ -285,9 +285,9 @@ class TaiwanLandmarkDatasetGenerator:
                 
             except Exception as e:
                 self.logger.error(f"Error generating {conv_type} conversation: {e}\n")
-                # if output_content:
-                #     self.logger.error(f"Output content: {output_content}\n")
-                #     self.logger.error(f"After JSON extraction: {self.extract_json(output_content)}\n")
+                if output_content:
+                    self.logger.error(f"Output content: {output_content}\n")
+                    self.logger.error(f"After JSON extraction: {self.extract_json(output_content)}\n")
                 results[conv_type] = None
 
         return results, token_usage
@@ -413,9 +413,13 @@ def main():
     parser.add_argument('--landmark', 
                        type=str,
                        help='Specific landmark folder to process (optional). If not provided, will process all landmarks.')
+    parser.add_argument('--api-key',
+                        type=str,
+                        default=os.getenv('SELF_OPENAI_API_KEY'),
+                        help='OpenAI API key')
     args = parser.parse_args()
 
-    generator = TaiwanLandmarkDatasetGenerator(base_folder=args.base_folder)
+    generator = TaiwanLandmarkDatasetGenerator(base_folder=args.base_folder, api_key=args.api_key)
     generator.generate_dataset(args.landmark)
 
 if __name__ == "__main__":
